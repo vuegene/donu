@@ -3,7 +3,7 @@
     <name>AddressBookPage</name>
     <message>
         <source>Right-click to edit address or label</source>
-        <translation>$Right-click to edit address or label</translation>
+        <translation>Кликните правой кнопкой для редактирования адреса или метки</translation>
     </message>
     <message>
         <source>Create a new address</source>
@@ -22,7 +22,7 @@
         <translation>Копировать</translation>
     </message>
     <message>
-        <source>C&amp;lose</source>
+        <source>C&amp;Close</source>
         <translation>&amp;Закрыть</translation>
     </message>
     <message>
@@ -50,8 +50,8 @@
         <translation>Выбрать адрес для получения монет</translation>
     </message>
     <message>
-        <source>C&amp;hoose</source>
-        <translation>В&amp;ыбрать</translation>
+        <source>C&amp;Choose</source>
+        <translation>В&amp;Выбрать</translation>
     </message>
     <message>
         <source>Sending addresses</source>
@@ -63,11 +63,11 @@
     </message>
     <message>
         <source>These are your Donu addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Это ваши пиркойн адреса для отправки платежа. Всегда проверяйте сумму и адрес получателя перед отправкой платежа.</translation>
+        <translation>Это ваши Donu-адреса для отправки платежа. Всегда проверяйте сумму и адрес получателя перед отправкой платежа.</translation>
     </message>
     <message>
         <source>These are your Donu addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Это ваши пиркойн адреса для получения платежей. Настоятельно рекомендуем использовать новые адреса для получения каждой транзакции.</translation>
+        <translation>Это ваши Donu-адреса для получения платежей. Настоятельно рекомендуем использовать новые адреса для получения каждой транзакции.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -75,7 +75,7 @@
     </message>
     <message>
         <source>Copy &amp;Label</source>
-        <translation>Копировать &amp;метку</translation>
+        <translation>Копировать &amp;ярлык</translation>
     </message>
     <message>
         <source>&amp;Edit</source>
@@ -91,14 +91,14 @@
     </message>
     <message>
         <source>There was an error trying to save the address list to %1. Please try again.</source>
-        <translation>Произошла ошибка при попытке сохранения списка адресов в %1. Пожалуйста попробуйте позже.</translation>
+        <translation>Произошла ошибка при попытке сохранения списка адресов в %1. Пожалуйста, попробуйте позже.</translation>
     </message>
 </context>
 <context>
     <name>AddressTableModel</name>
     <message>
         <source>Label</source>
-        <translation>Метка</translation>
+        <translation>Ярлык</translation>
     </message>
     <message>
         <source>Address</source>
@@ -106,7 +106,7 @@
     </message>
     <message>
         <source>(no label)</source>
-        <translation>(нет метки)</translation>
+        <translation>(нет ярлыка)</translation>
     </message>
 </context>
 <context>
@@ -133,19 +133,19 @@
     </message>
     <message>
         <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;ten or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
-        <translation>Введите новый пароль для кошелька.&lt;br/&gt; Пожалуйста используйте пароль из &lt;b&gt; десяти или более произвольных символов&lt;/b&gt;, или &lt;b&gt;восемь или боле слов&lt;/b&gt;</translation>
+        <translation>Введите новый пароль для кошелька.&lt;br/&gt; Пожалуйста, используйте пароль из &lt;b&gt; десяти или более символов&lt;/b&gt; или &lt;b&gt;восьми или более слов&lt;/b&gt;</translation>
     </message>
     <message>
         <source>Encrypt wallet</source>
-        <translation>Зашифровать бумажник</translation>
+        <translation>Зашифровать кошелек</translation>
     </message>
     <message>
         <source>This operation needs your wallet passphrase to unlock the wallet.</source>
-        <translation>Эта операция требует вашего пароля для разблокировки бумажника</translation>
+        <translation>Эта операция требует вашего пароля для разблокировки кошелька</translation>
     </message>
     <message>
         <source>Unlock wallet</source>
-        <translation>Разблокировать бумажник</translation>
+        <translation>Разблокировать кошелек</translation>
     </message>
     <message>
         <source>This operation needs your wallet passphrase to decrypt the wallet.</source>
@@ -153,7 +153,7 @@
     </message>
     <message>
         <source>Decrypt wallet</source>
-        <translation>Расшифровать бумажник</translation>
+        <translation>Расшифровать кошелек</translation>
     </message>
     <message>
         <source>Change passphrase</source>
@@ -165,27 +165,27 @@
     </message>
     <message>
         <source>Confirm wallet encryption</source>
-        <translation>Подтвердите шифрование бумажника</translation>
+        <translation>Подтвердите шифрование кошелька</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BITCOINS&lt;/b&gt;!</source>
-        <translation>Внимание: если вы зашифруете ваш кошелек и потеряете ваш пароль, то вы &lt;b&gt;ПОТЕРЯЕТЕ ВСЕ ВАШИ БИТКОЙНЫ&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR DONU&lt;/b&gt;!</source>
+        <translation>Внимание: если вы зашифруете ваш кошелек и потеряете ваш пароль, то вы &lt;b&gt;ПОТЕРЯЕТЕ ВСЕ ВАШИ DONU&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
-        <translation>Вы уверены, что вы хотите зашифровать ваш кошелек?</translation>
+        <translation>Вы уверены, что хотите зашифровать ваш кошелек?</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
-        <translation>Бумажник зашифрован</translation>
+        <translation>Кошелек зашифрован</translation>
     </message>
     <message>
         <source>%1 will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your donus from being stolen by malware infecting your computer.</source>
-        <translation>%1 закроется сейчас для завершения процесса шифрования. Запомните что шифрование вашего кошелька не сможет полностью защитить ваши пиркойны от кражи при помощи вредоносного ПО, заразившего ваш компьютер.</translation>
+        <translation>%1 закроется сейчас для завершения процесса шифрования. Запомните, что шифрование вашего кошелька не сможет полностью защитить ваши Donu от кражи при помощи вредоносного ПО, заразившего ваш компьютер.</translation>
     </message>
     <message>
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
-        <translation>ВАЖНО: любые предыдущие резервные копия вашего кошелька, выполненные вами, необходимо заменить новым сгенерированным, зашифрованным файлом кошелька. В целях безопасности, предыдущие резервные копии незашифрованного файла кошелька утратят пригодность после начала использования нового зашифрованного кошелька.</translation>
+        <translation>ВАЖНО: любые предыдущие резервные копии вашего кошелька необходимо заменить новым сгенерированным зашифрованным файлом кошелька. В целях безопасности предыдущие резервные копии незашифрованного файла кошелька утратят пригодность после начала использования нового зашифрованного кошелька.</translation>
     </message>
     <message>
         <source>Wallet encryption failed</source>
@@ -201,7 +201,7 @@
     </message>
     <message>
         <source>The passphrase entered for the wallet decryption was incorrect.</source>
-        <translation>Пароль, введенный при шифровании кошелька, некорректен.</translation>
+        <translation>Пароль, введенный для расшифрования кошелька, некорректен.</translation>
     </message>
     <message>
         <source>Wallet decryption failed</source>
@@ -220,11 +220,11 @@
     <name>BanTableModel</name>
     <message>
         <source>IP/Netmask</source>
-        <translation>IP / маска подсети</translation>
+        <translation>IP/маска подсети</translation>
     </message>
     <message>
         <source>Banned Until</source>
-        <translation>Заблокировано до</translation>
+        <translation>Заблокировано</translation>
     </message>
 </context>
 <context>
@@ -291,11 +291,11 @@
     </message>
     <message>
         <source>&amp;Encrypt Wallet...</source>
-        <translation>&amp;Зашифровать кошелёк</translation>
+        <translation>&amp;Зашифровать кошелек</translation>
     </message>
     <message>
         <source>&amp;Backup Wallet...</source>
-        <translation>&amp;Создать резервную копию бумажника</translation>
+        <translation>&amp;Создать резервную копию кошелька</translation>
     </message>
     <message>
         <source>&amp;Change Passphrase...</source>
@@ -335,7 +335,7 @@
     </message>
     <message>
         <source>Send coins to a Donu address</source>
-        <translation>Послать средства на пиркойн адрес</translation>
+        <translation>Отправить средства на Donu-адрес</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -359,7 +359,7 @@
     </message>
     <message>
         <source>Donu</source>
-        <translation>Donu Core</translation>
+        <translation>Donu</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -375,7 +375,7 @@
     </message>
     <message>
         <source>&amp;Show / Hide</source>
-        <translation>&amp;Показать / Спрятать</translation>
+        <translation>&amp;Показать / Скрыть</translation>
     </message>
     <message>
         <source>Show or hide the main Window</source>
@@ -383,7 +383,7 @@
     </message>
     <message>
         <source>Encrypt the private keys that belong to your wallet</source>
-        <translation>Зашифровать приватные ключи, принадлежащие вашему кошельку</translation>
+        <translation>Зашифровать приватные ключи от кошелька</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -403,11 +403,11 @@
     </message>
     <message>
         <source>Indexing blocks on disk...</source>
-        <translation>Выполняется индексирование блоков на диске...</translation>
+        <translation>Индексирование блоков на диске...</translation>
     </message>
     <message>
         <source>Processing blocks on disk...</source>
-        <translation>Выполняется обработка блоков на диске...</translation>
+        <translation>Обработка блоков на диске...</translation>
     </message>
     <message>
         <source>%1 behind</source>
@@ -431,7 +431,7 @@
     </message>
     <message>
         <source>Up to date</source>
-        <translation>Готов</translation>
+        <translation>Готово</translation>
     </message>
     <message>
         <source>Connecting to peers...</source>
@@ -446,7 +446,7 @@
     <message>
         <source>Amount: %1
 </source>
-        <translation>Объем: %1
+        <translation>Количество: %1
 </translation>
     </message>
     <message>
@@ -467,15 +467,15 @@
     </message>
     <message>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt;</source>
-        <translation>Кошелек &lt;b&gt;зашифрован&lt;/b&gt; и сейчас &lt;b&gt;разблокирован&lt;/b&gt;</translation>
+        <translation>Кошелек &lt;b&gt;зашифрован&lt;/b&gt; и &lt;b&gt;разблокирован&lt;/b&gt;</translation>
     </message>
     <message>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</source>
-        <translation>Кошелек &lt;b&gt;зашифрован&lt;/b&gt; и сейчас &lt;b&gt;заблокирован&lt;/b&gt;</translation>
+        <translation>Кошелек &lt;b&gt;зашифрован&lt;/b&gt; и &lt;b&gt;заблокирован&lt;/b&gt;</translation>
     </message>
     <message>
         <source>A fatal error occurred. Donu can no longer continue safely and will quit.</source>
-        <translation>Произошла критическая ошибка. Donu больше не может продолжать безопасную работу и будет закрыт.</translation>
+        <translation>Произошла критическая ошибка. Кошелек больше не может продолжать безопасную работу и будет закрыт.</translation>
     </message>
 </context>
 <context>
@@ -518,7 +518,7 @@
     </message>
     <message>
         <source>Copy label</source>
-        <translation>Копировать метку</translation>
+        <translation>Копировать ярлык</translation>
     </message>
     <message>
         <source>Copy amount</source>
@@ -542,14 +542,14 @@
     </message>
     <message>
         <source>(no label)</source>
-        <translation>(нет метки)</translation>
+        <translation>(нет ярлыка)</translation>
     </message>
     </context>
 <context>
     <name>EditAddressDialog</name>
     <message>
         <source>Edit Address</source>
-        <translation>Изменить адрес</translation>
+        <translation>Редактировать адрес</translation>
     </message>
     <message>
         <source>&amp;Address</source>
@@ -565,11 +565,11 @@
     </message>
     <message>
         <source>Edit receiving address</source>
-        <translation>Изменить адрес получения</translation>
+        <translation>Редактировать адрес получения</translation>
     </message>
     <message>
         <source>Edit sending address</source>
-        <translation>Изменить адрес отправки</translation>
+        <translation>Редактировать адрес отправки</translation>
     </message>
     <message>
         <source>Could not unlock wallet.</source>
@@ -615,7 +615,7 @@
     </message>
     <message>
         <source>Set language, for example "de_DE" (default: system locale)</source>
-        <translation>Задать язык, к примеру, "de_DE" (по умолчанию: язык системы)</translation>
+        <translation>Задать язык, к примеру, "ru_RU" (по умолчанию: язык системы)</translation>
     </message>
     <message>
         <source>Start minimized</source>
@@ -623,11 +623,11 @@
     </message>
     <message>
         <source>Show splash screen on startup (default: %u)</source>
-        <translation>Отображать начальный экран во время запуска (значение по умолчанию: %u)</translation>
+        <translation>Отображать заставку во время запуска (значение по умолчанию: %u)</translation>
     </message>
     <message>
         <source>Reset all settings changed in the GUI</source>
-        <translation>Выполнить сброс всех измененных настроек в GUI-интерфейсе</translation>
+        <translation>Выполнить сброс всех измененных настроек в интерфейсе</translation>
     </message>
 </context>
 <context>
@@ -650,11 +650,11 @@
     </message>
     <message>
         <source>Donu</source>
-        <translation>Donu Core</translation>
+        <translation>Donu</translation>
     </message>
     <message>
         <source>At least %1 GB of data will be stored in this directory, and it will grow over time.</source>
-        <translation>Как минимум %1 ГБ данных будет сохранен в эту директорию. Со временем размер будет увеличиваться.</translation>
+        <translation>Как минимум, %1 ГБ данных будет сохранен в эту директорию. Со временем размер будет увеличиваться.</translation>
     </message>
     <message>
         <source>Approximately %1 GB of data will be stored in this directory.</source>
@@ -689,7 +689,7 @@
     </message>
     <message>
         <source>calculating...</source>
-        <translation>выполняется вычисление...</translation>
+        <translation>вычисление...</translation>
     </message>
     <message>
         <source>Estimated time left until synced</source>
@@ -697,7 +697,7 @@
     </message>
     <message>
         <source>Hide</source>
-        <translation>Спрятать</translation>
+        <translation>Скрыть</translation>
     </message>
     </context>
 <context>
@@ -723,7 +723,7 @@
     </message>
     <message>
         <source>Size of &amp;database cache</source>
-        <translation>Размер кеша &amp;базы данных</translation>
+        <translation>Размер кэша &amp;базы данных</translation>
     </message>
     <message>
         <source>MB</source>
@@ -731,15 +731,15 @@
     </message>
     <message>
         <source>IP address of the proxy (e.g. IPv4: 127.0.0.1 / IPv6: ::1)</source>
-        <translation>IP-адрес прокси-сервера (к примеру, IPv4: 127.0.0.1 / IPv6: ::1)</translation>
+        <translation>IP-адрес прокси-сервера (например: IPv4: 127.0.0.1 / IPv6: ::1)</translation>
     </message>
     <message>
         <source>Hide the icon from the system tray.</source>
-        <translation>Убрать значок с области уведомлений.</translation>
+        <translation>Убрать иконку из области уведомлений.</translation>
     </message>
     <message>
         <source>&amp;Hide tray icon</source>
-        <translation>&amp;Спрятать иконку в трее</translation>
+        <translation>&amp;Скрыть иконку в трее</translation>
     </message>
     <message>
         <source>Open Configuration File</source>
@@ -747,7 +747,7 @@
     </message>
     <message>
         <source>Reset all client options to default.</source>
-        <translation>Сбросить все опции клиента к значениям по умолчанию.</translation>
+        <translation>Сбросить все опции к значениям по умолчанию.</translation>
     </message>
     <message>
         <source>&amp;Reset Options</source>
@@ -759,7 +759,7 @@
     </message>
     <message>
         <source>W&amp;allet</source>
-        <translation>К&amp;ошелёк</translation>
+        <translation>К&amp;ошелек</translation>
     </message>
     <message>
         <source>Expert</source>
@@ -771,11 +771,11 @@
     </message>
     <message>
         <source>Connect to the Donu network through a SOCKS5 proxy.</source>
-        <translation>Подключится к сети Donu через SOCKS5 прокси.</translation>
+        <translation>Подключиться к сети Donu через прокси SOCKS5.</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
-        <translation>&amp;Выполнить подключение через прокси-сервер SOCKS5 (прокси-сервер по умолчанию):</translation>
+        <translation>&amp;Подключиться через прокси SOCKS5 (прокси по умолчанию):</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
@@ -787,7 +787,7 @@
     </message>
     <message>
         <source>Port of the proxy (e.g. 9050)</source>
-        <translation>Порт прокси: (напр. 9050)</translation>
+        <translation>Порт прокси: (например: 9050)</translation>
     </message>
     <message>
         <source>IPv4</source>
@@ -807,7 +807,7 @@
     </message>
     <message>
         <source>Show only a tray icon after minimizing the window.</source>
-        <translation>Отобразить только значок в области уведомлений после сворачивания окна.</translation>
+        <translation>Отображать только иконку в области уведомлений после сворачивания окна.</translation>
     </message>
     <message>
         <source>&amp;OK</source>
@@ -823,11 +823,11 @@
     </message>
     <message>
         <source>Client restart required to activate changes.</source>
-        <translation>Для активации изменений необходим перезапуск клиента.</translation>
+        <translation>Для активации изменений необходим перезапуск кошелька.</translation>
     </message>
     <message>
         <source>Client will be shut down. Do you want to proceed?</source>
-        <translation>Клиент будет закрыт. Продолжить далее?</translation>
+        <translation>Кошелек будет закрыт. Продолжить далее?</translation>
     </message>
     <message>
         <source>Configuration options</source>
@@ -843,7 +843,7 @@
     </message>
     <message>
         <source>This change would require a client restart.</source>
-        <translation>Это изменение потребует перезапуск клиента.</translation>
+        <translation>Это изменение потребует перезапуск кошелька.</translation>
     </message>
     <message>
         <source>The supplied proxy address is invalid.</source>
@@ -866,11 +866,11 @@
     </message>
     <message>
         <source>Your current total balance</source>
-        <translation>Ваш текущий баланс:</translation>
+        <translation>Ваш текущий общий баланс:</translation>
     </message>
     <message>
         <source>Your current balance in watch-only addresses</source>
-        <translation>Ваш текущий баланс (только чтение):</translation>
+        <translation>Ваш текущий баланс на адресах 'watch-only':</translation>
     </message>
     <message>
         <source>Recent transactions</source>
@@ -885,18 +885,18 @@
     </message>
     <message>
         <source>Bad response from server %1</source>
-        <translation>Неправильный ответ от сервера %1</translation>
+        <translation>Плохая связь с сервером %1</translation>
     </message>
     <message>
         <source>Payment acknowledged</source>
-        <translation>Оплата подтверждена</translation>
+        <translation>Платеж подтвержден</translation>
     </message>
 </context>
 <context>
     <name>PeerTableModel</name>
     <message>
         <source>Node/Service</source>
-        <translation>Узел/служба</translation>
+        <translation>Узел/Служба</translation>
     </message>
     <message>
         <source>Sent</source>
