@@ -299,71 +299,71 @@
     </message>
     <message>
         <source>&amp;Encrypt Wallet...</source>
-        <translation>Wallet &amp;verschlüsseln...</translation>
+        <translation>&amp;Зашифровать кошелёк</translation>
     </message>
     <message>
         <source>&amp;Backup Wallet...</source>
-        <translation>Wallet &amp;sichern...</translation>
+        <translation>&amp;Создать резервную копию кошелька</translation>
     </message>
     <message>
         <source>&amp;Change Passphrase...</source>
-        <translation>Passphrase &amp;ändern...</translation>
+        <translation>&amp;Изменить пароль</translation>
     </message>
     <message>
         <source>&amp;Sending addresses...</source>
-        <translation>&amp;Zahlungsadressen...</translation>
+        <translation>&amp;Адреса для отправки</translation>
     </message>
     <message>
         <source>&amp;Receiving addresses...</source>
-        <translation>&amp;Empfangsadressen...</translation>
+        <translation>&amp;Адреса для получения</translation>
     </message>
     <message>
         <source>Open &amp;URI...</source>
-        <translation>&amp;URI öffnen...</translation>
+        <translation>Открыть &amp;URI</translation>
     </message>
     <message>
         <source>Click to disable network activity.</source>
-        <translation>Klicken zum Deaktivieren der Netzwerkaktivität.</translation>
+        <translation>Кликните для отключения взаимодействия с сетью</translation>
     </message>
     <message>
         <source>Network activity disabled.</source>
-        <translation>Netzwerkaktivität deaktiviert.</translation>
+        <translation>Взаимодействие с сетью отключено</translation>
     </message>
     <message>
         <source>Click to enable network activity again.</source>
-        <translation>Klicken zum Aktivieren der Netzwerkaktivität.</translation>
+        <translation>Кликните для включения взаимодействия с сетью</translation>
     </message>
     <message>
         <source>Syncing Headers (%1%)...</source>
-        <translation>Kopfdaten werden synchronisiert (%1%)...</translation>
+        <translation>Синхронизация заголовков (%1%)...</translation>
     </message>
     <message>
         <source>Reindexing blocks on disk...</source>
-        <translation>Reindiziere Blöcke auf Datenträger...</translation>
+        <translation>Реиндексация блоков на диске...</translation>
     </message>
     <message>
         <source>Send coins to a Donu address</source>
-        <translation>Donus an eine Donu-Adresse überweisen</translation>
+        <translation>Отправить средства на Donu-адрес</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
-        <translation>Eine Wallet-Sicherungskopie erstellen und abspeichern</translation>
+        <translation>Выполнить резервное копирование кошелька в другое место расположения</translation>
     </message>
     <message>
         <source>Change the passphrase used for wallet encryption</source>
-        <translation>Ändert die Passphrase, die für die Wallet-Verschlüsselung benutzt wird</translation>
+        <translation>Изменить пароль для шифрования кошелька</translation>
     </message>
     <message>
         <source>&amp;Debug window</source>
-        <translation>&amp;Debugfenster</translation>
+        <translation>&amp;Окно отладки</translation>
     </message>
     <message>
         <source>Open debugging and diagnostic console</source>
-        <translation>Debugging- und Diagnosekonsole öffnen</translation>
+        <translation>Открыть консоль отладки и диагностики</translation>
     </message>
     <message>
         <source>&amp;Verify message...</source>
-        <translation>Nachricht &amp;verifizieren...</translation>
+        <translation>&amp;Проверить сообщение</translation>
     </message>
     <message>
         <source>Donu</source>
@@ -371,79 +371,78 @@
     </message>
     <message>
         <source>Wallet</source>
-        <translation>Wallet</translation>
+        <translation>Кошелёк</translation>
     </message>
     <message>
         <source>&amp;Send</source>
-        <translation>&amp;Überweisen</translation>
+        <translation>&amp;Отправить</translation>
     </message>
     <message>
         <source>&amp;Receive</source>
-        <translation>&amp;Empfangen</translation>
+        <translation>&amp;Получить</translation>
     </message>
     <message>
         <source>&amp;Show / Hide</source>
-        <translation>&amp;Anzeigen / Verstecken</translation>
+        <translation>&amp;Показать/Скрыть</translation>
     </message>
     <message>
         <source>Show or hide the main Window</source>
-        <translation>Das Hauptfenster anzeigen oder verstecken</translation>
+        <translation>Показать или скрыть главное окно</translation>
     </message>
     <message>
         <source>Encrypt the private keys that belong to your wallet</source>
-        <translation>Verschlüsselt die zu Ihrer Wallet gehörenden privaten Schlüssel</translation>
+        <translation>Зашифровать приватные ключи кошелька</translation>
     </message>
     <message>
         <source>Sign messages with your Donu addresses to prove you own them</source>
-        <translation>Nachrichten signieren, um den Besitz Ihrer Donu-Adressen zu beweisen</translation>
+        <translation>Подписать сообщения для доказательства владения вашими Donu-адресами</translation>
     </message>
     <message>
         <source>Verify messages to ensure they were signed with specified Donu addresses</source>
-        <translation>Nachrichten verifizieren, um sicherzustellen, dass diese mit den angegebenen Donu-Adressen signiert wurden</translation>
+        <translation>Проверить сообщения на предмет их подписания указанными Donu-адресами</translation>
     </message>
     <message>
         <source>&amp;File</source>
-        <translation>&amp;Datei</translation>
+        <translation>&amp;Файл</translation>
     </message>
     <message>
         <source>&amp;Settings</source>
-        <translation>&amp;Einstellungen</translation>
+        <translation>&amp;Настройки</translation>
     </message>
     <message>
         <source>&amp;Help</source>
-        <translation>&amp;Hilfe</translation>
+        <translation>&amp;Помощь</translation>
     </message>
     <message>
         <source>Tabs toolbar</source>
-        <translation>Registerkartenleiste</translation>
+        <translation>Паель инструментов</translation>
     </message>
     <message>
         <source>Request payments (generates QR codes and donu: URIs)</source>
-        <translation>Zahlungen anfordern (erzeugt QR-Codes und "donu:"-URIs)</translation>
+        <translation>Запрос платежей (генерация QR-кодов и URI)</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
-        <translation>Liste verwendeter Zahlungsadressen und Bezeichnungen anzeigen</translation>
+        <translation>Показать список использованных ранее адресов для отправки платежей</translation>
     </message>
     <message>
         <source>Show the list of used receiving addresses and labels</source>
-        <translation>Liste verwendeter Empfangsadressen und Bezeichnungen anzeigen</translation>
+        <translation>Показать список использованных ранее адресов для получения платежей</translation>
     </message>
     <message>
         <source>Open a donu: URI or payment request</source>
-        <translation>Eine "donu:"-URI oder Zahlungsanforderung öffnen</translation>
+        <translation>Открыть Donu: URI или запрос платежа</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
-        <translation>&amp;Kommandozeilenoptionen</translation>
+        <translation>&amp;Опции командной строки</translation>
     </message>
-    <message numerus="yes">
         <source>%n active connection(s) to Donu network</source>
-        <translation><numerusform>%n aktive Verbindung zum Donu-Netzwerk</numerusform><numerusform>%n aktive Verbindungen zum Donu-Netzwerk</numerusform></translation>
+        <translation>%n активных подключений к сети Donu</translation>
     </message>
     <message>
         <source>Indexing blocks on disk...</source>
-        <translation>Indiziere Blöcke auf Datenträger...</translation>
+        <translation>Выполняется индексирование блоков на диске...</translation>
     </message>
     <message>
         <source>Processing blocks on disk...</source>
