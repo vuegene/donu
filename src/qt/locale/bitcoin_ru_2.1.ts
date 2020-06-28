@@ -446,256 +446,245 @@
     </message>
     <message>
         <source>Processing blocks on disk...</source>
-        <translation>Verarbeite Blöcke auf Datenträger...</translation>
+        <translation>Выполняется обработка блоков на диске...</translation>
     </message>
-    <message numerus="yes">
         <source>Processed %n block(s) of transaction history.</source>
-        <translation><numerusform>%n Block des Transaktionsverlaufs verarbeitet.</numerusform><numerusform>%n Blöcke des Transaktionsverlaufs verarbeitet.</numerusform></translation>
+        <translation>%n блок(-а, -ов) обработано</translation>
     </message>
     <message>
         <source>%1 behind</source>
-        <translation>%1 im Rückstand</translation>
+        <translation>Выполнено %1</translation>
     </message>
     <message>
         <source>Last received block was generated %1 ago.</source>
-        <translation>Der letzte empfangene Block ist %1 alt.</translation>
+        <translation>Последний полученный блок был сгенерирован %1 назад</translation>
     </message>
     <message>
         <source>Transactions after this will not yet be visible.</source>
-        <translation>Transaktionen hiernach werden noch nicht angezeigt.</translation>
+        <translation>Дальнейшие транзакции пока не отображаются</translation>
     </message>
     <message>
         <source>Error</source>
-        <translation>Fehler</translation>
+        <translation>Ошибка</translation>
     </message>
     <message>
         <source>Warning</source>
-        <translation>Warnung</translation>
+        <translation>Предупреждение</translation>
     </message>
     <message>
         <source>Information</source>
-        <translation>Hinweis</translation>
+        <translation>Информация</translation>
     </message>
     <message>
         <source>Up to date</source>
-        <translation>Auf aktuellem Stand</translation>
+        <translation>Выполнено</translation>
     </message>
     <message>
         <source>Show the %1 help message to get a list with possible Donu command-line options</source>
-        <translation>Zeige den "%1"-Hilfetext, um eine Liste mit möglichen Kommandozeilenoptionen zu erhalten</translation>
+        <translation>Показать подсказку со списком возможных опций командой строки</translation>
     </message>
     <message>
         <source>%1 client</source>
-        <translation>%1 Client</translation>
+        <translation>%1 клиент</translation>
     </message>
     <message>
         <source>Connecting to peers...</source>
-        <translation>Verbinde mit Netzwerk...</translation>
+        <translation>Подключение к пирам...</translation>
     </message>
     <message>
         <source>Catching up...</source>
-        <translation>Hole auf...</translation>
+        <translation>Выполняется...</translation>
     </message>
     <message>
-        <source>Date: %1
-</source>
-        <translation>Datum: %1
-</translation>
+        <source>Date: %1</source>
+        <translation>Дата: %1</translation>
     </message>
     <message>
-        <source>Amount: %1
-</source>
-        <translation>Betrag: %1
-</translation>
+        <source>Amount: %1</source>
+        <translation>Сумма: %1</translation>
     </message>
     <message>
-        <source>Type: %1
-</source>
-        <translation>Typ: %1
-</translation>
+        <source>Type: %1</source>
+        <translation>Тип: %1</translation>
     </message>
     <message>
-        <source>Label: %1
-</source>
-        <translation>Bezeichnung: %1
-</translation>
+        <source>Label: %1</source>
+        <translation>Метка: %1</translation>
     </message>
     <message>
-        <source>Address: %1
-</source>
-        <translation>Adresse: %1
-</translation>
+        <source>Address: %1</source>
+        <translation>Адрес: %1</translation>
     </message>
     <message>
         <source>Sent transaction</source>
-        <translation>Gesendete Transaktion</translation>
+        <translation>Исходящая транзакция</translation>
     </message>
     <message>
         <source>Incoming transaction</source>
-        <translation>Eingehende Transaktion</translation>
+        <translation>Входящая транзакция</translation>
     </message>
     <message>
         <source>HD key generation is &lt;b&gt;enabled&lt;/b&gt;</source>
-        <translation>HD Schlüssel Generierung ist &lt;b&gt;aktiviert&lt;/b&gt;</translation>
+        <translation>Генерация HD-ключа &lt;b&gt;доступна&lt;/b&gt;</translation>
     </message>
     <message>
         <source>HD key generation is &lt;b&gt;disabled&lt;/b&gt;</source>
-        <translation>HD Schlüssel Generierung ist &lt;b&gt;deaktiviert&lt;/b&gt;</translation>
+        <translation>Генерация HD-ключа &lt;b&gt;недоступна&lt;/b&gt;</translation>
     </message>
     <message>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt;</source>
-        <translation>Wallet ist &lt;b&gt;verschlüsselt&lt;/b&gt; und aktuell &lt;b&gt;entsperrt&lt;/b&gt;</translation>
+        <translation>Кошелёк &lt;b&gt;зашифрован&lt;/b&gt; и &lt;b&gt;разблокирован&lt;/b&gt;</translation>
     </message>
     <message>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</source>
-        <translation>Wallet ist &lt;b&gt;verschlüsselt&lt;/b&gt; und aktuell &lt;b&gt;gesperrt&lt;/b&gt;</translation>
+        <translation>Кошелёк &lt;b&gt;зашифрован&lt;/b&gt; и &lt;b&gt;заблокирован&lt;/b&gt;</translation>
     </message>
     <message>
         <source>A fatal error occurred. Donu can no longer continue safely and will quit.</source>
-        <translation>Ein schwerer Fehler ist aufgetreten. Donu kann nicht stabil weiter ausgeführt werden und wird beendet.</translation>
+        <translation>Произошла критическая ошибка. Кошелёк больше не может продолжать безопасную работу и будет закрыт</translation>
     </message>
 </context>
 <context>
     <name>CoinControlDialog</name>
     <message>
         <source>Coin Selection</source>
-        <translation>Münzauswahl ("Coin Control")</translation>
+        <translation>Выбор монет</translation>
     </message>
     <message>
         <source>Quantity:</source>
-        <translation>Anzahl:</translation>
+        <translation>Количество:</translation>
     </message>
     <message>
         <source>Bytes:</source>
-        <translation>Byte:</translation>
+        <translation>Байтов:</translation>
     </message>
     <message>
         <source>Amount:</source>
-        <translation>Betrag:</translation>
+        <translation>Сумма:</translation>
     </message>
     <message>
         <source>Fee:</source>
-        <translation>Gebühr:</translation>
+        <translation>Комиссия:</translation>
     </message>
     <message>
         <source>Dust:</source>
-        <translation>"Dust":</translation>
+        <translation>«Пыль»:</translation>
     </message>
     <message>
         <source>After Fee:</source>
-        <translation>Abzüglich Gebühr:</translation>
+        <translation>После комиссии:</translation>
     </message>
     <message>
         <source>Change:</source>
-        <translation>Wechselgeld:</translation>
+        <translation>Мелочь:</translation>
     </message>
     <message>
         <source>(un)select all</source>
-        <translation>Alles (de)selektieren</translation>
+        <translation>Выбрать все</translation>
     </message>
     <message>
         <source>Tree mode</source>
-        <translation>Baumansicht</translation>
+        <translation>дерево</translation>
     </message>
     <message>
         <source>List mode</source>
-        <translation>Listenansicht</translation>
+        <translation>список</translation>
     </message>
     <message>
         <source>Amount</source>
-        <translation>Betrag</translation>
+        <translation>Сумма</translation>
     </message>
     <message>
         <source>Received with label</source>
-        <translation>Empfangen über Bezeichnung</translation>
+        <translation>Метка</translation>
     </message>
     <message>
         <source>Received with address</source>
-        <translation>Empfangen über Adresse</translation>
+        <translation>Адрес</translation>
     </message>
     <message>
         <source>Date</source>
-        <translation>Datum</translation>
+        <translation>Дата</translation>
     </message>
     <message>
         <source>Confirmations</source>
-        <translation>Bestätigungen</translation>
+        <translation>Подтверждения</translation>
     </message>
     <message>
         <source>Confirmed</source>
-        <translation>Bestätigt</translation>
+        <translation>Подтверждено</translation>
     </message>
     <message>
         <source>Copy address</source>
-        <translation>Adresse kopieren</translation>
+        <translation>Копировать адрес</translation>
     </message>
     <message>
         <source>Copy label</source>
-        <translation>Bezeichnung kopieren</translation>
+        <translation>Копировать метку</translation>
     </message>
     <message>
         <source>Copy amount</source>
-        <translation>Betrag kopieren</translation>
+        <translation>Копировать сумму</translation>
     </message>
     <message>
         <source>Copy transaction ID</source>
-        <translation>Transaktionskennung kopieren</translation>
+        <translation>Копировать ID транзакции</translation>
     </message>
     <message>
         <source>Lock unspent</source>
-        <translation>Nicht ausgegebenen Betrag sperren</translation>
+        <translation>Запретить отправку</translation>
     </message>
     <message>
         <source>Unlock unspent</source>
-        <translation>Nicht ausgegebenen Betrag entsperren</translation>
+        <translation>Разрешить отправку</translation>
     </message>
     <message>
         <source>Copy quantity</source>
-        <translation>Anzahl kopieren</translation>
+        <translation>Копировать количество</translation>
     </message>
     <message>
         <source>Copy fee</source>
-        <translation>Gebühr kopieren</translation>
+        <translation>Копировать значение</translation>
     </message>
     <message>
         <source>Copy after fee</source>
-        <translation>Abzüglich Gebühr kopieren</translation>
+        <translation>Копировать значение</translation>
     </message>
     <message>
         <source>Copy bytes</source>
-        <translation>Byte kopieren</translation>
+        <translation>Копировать значение</translation>
     </message>
     <message>
         <source>Copy dust</source>
-        <translation>"Staub" kopieren</translation>
+        <translation>Копировать значение</translation>
     </message>
     <message>
         <source>Copy change</source>
-        <translation>Wechselgeld kopieren</translation>
+        <translation>Копировать значение</translation>
     </message>
     <message>
         <source>(%1 locked)</source>
-        <translation>(%1 gesperrt)</translation>
+        <translation>(%1 заблокировано)</translation>
     </message>
     <message>
         <source>yes</source>
-        <translation>ja</translation>
+        <translation>да</translation>
     </message>
     <message>
         <source>no</source>
-        <translation>nein</translation>
+        <translation>нет</translation>
     </message>
     <message>
         <source>This label turns red if any recipient receives an amount smaller than the current dust threshold.</source>
-        <translation>Diese Bezeichnung wird rot, wenn irgendein Empfänger einen Betrag kleiner als die derzeitige "Staubgrenze" erhält.</translation>
+        <translation>Эта метка становится красной при получении «пыли»</translation>
     </message>
     <message>
         <source>Can vary +/- %1 satoshi(s) per input.</source>
-        <translation>Kann pro Eingabe um +/- %1 Satoshi(s) abweichen.</translation>
+        <translation>+/- %1 сатоши.</translation>
     </message>
     <message>
         <source>(no label)</source>
-        <translation>(keine Bezeichnung)</translation>
+        <translation>(нет метки)</translation>
     </message>
     <message>
         <source>change from %1 (%2)</source>
