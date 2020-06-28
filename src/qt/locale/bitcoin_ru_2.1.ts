@@ -173,129 +173,129 @@
     </message>
     <message>
         <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BITCOINS&lt;/b&gt;!</source>
-        <translation>Warnung: Wenn Sie Ihre Brieftasche verschlüsseln und Ihre Passphrase verlieren, werden Sie &lt;b&gt;alle Ihre Donus verlieren&lt;/b&gt;!</translation>
+        <translation>Внимание: если вы зашифруете кошелёк и потеряете пароль, вы &lt;b&gt;ПОТЕРЯЕТЕ ВСЕ ВАШИ DONU&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
-        <translation>Sind Sie sich sicher, dass Sie Ihre Brieftasche verschlüsseln möchten?</translation>
+        <translation>Вы уверены, что хотите зашифровать кошелёк?</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
-        <translation>Brieftasche verschlüsselt</translation>
+        <translation>Кошелёк зашифрован</translation>
     </message>
     <message>
         <source>%1 will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your DONU from being stolen by malware infecting your computer.</source>
-        <translation>%1 wird jetzt beendet, um den Verschlüsselungsprozess abzuschließen. Bitte beachten Sie, dass die Brieftaschen-Verschlüsselung nicht vollständig vor Diebstahl Ihrer Donus durch Schadprogramme schützt, die Ihren Computer befällt.</translation>
+        <translation>%1 сейчас закроется  для завершения процесса шифрования. Запомните, что шифрование кошелька не сможет полностью защитить ваши Donu от кражи при помощи вредоносного ПО, заразившего ваш компьютер</translation>
     </message>
     <message>
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
-        <translation>WICHTIG: Alle vorherigen Brieftaschen-Sicherungen sollten durch die neu erzeugte, verschlüsselte Brieftasche ersetzt werden. Aus Sicherheitsgründen werden vorherige Sicherungen der unverschlüsselten Brieftasche nutzlos, sobald Sie die neue, verschlüsselte Brieftasche verwenden.</translation>
+        <translation>ВАЖНО: любые предыдущие резервные копии вашего кошелька, необходимо заменить новым сгенерированным зашифрованным файлом. В целях безопасности предыдущие резервные копии незашифрованного файла кошелька утратят пригодность после начала использования нового зашифрованного кошелька</translation>
     </message>
     <message>
         <source>Wallet encryption failed</source>
-        <translation>Brieftaschen-Verschlüsselung fehlgeschlagen</translation>
+        <translation>Шифрование кошелька завершилось неудачно</translation>
     </message>
     <message>
         <source>Wallet encryption failed due to an internal error. Your wallet was not encrypted.</source>
-        <translation>Die Brieftaschen-Verschlüsselung ist aufgrund eines internen Fehlers fehlgeschlagen. Ihre Brieftasche wurde nicht verschlüsselt.</translation>
+        <translation>Шифрование кошелька завершилось неудачно из-за внутренней ошибки. Ваш кошелек не был зашифрован</translation>
     </message>
     <message>
         <source>The supplied passphrases do not match.</source>
-        <translation>Die eingegebenen Passphrasen stimmen nicht überein.</translation>
+        <translation>Введённые пароли не совпадают</translation>
     </message>
     <message>
         <source>Wallet unlock failed</source>
-        <translation>Brieftaschen-Entsperrung fehlgeschlagen</translation>
+        <translation>Разблокировка кошелька завершилась неудачно</translation>
     </message>
     <message>
         <source>The passphrase entered for the wallet decryption was incorrect.</source>
-        <translation>Die eingegebene Passphrase zur Brieftaschen-Entschlüsselung war nicht korrekt.</translation>
+        <translation>Некорректный пароль для расшифрования кошелька</translation>
     </message>
     <message>
         <source>Wallet decryption failed</source>
-        <translation>Brieftaschen-Entschlüsselung fehlgeschlagen</translation>
+        <translation>Расшифровка кошелька завершилась неудачно</translation>
     </message>
     <message>
         <source>Wallet passphrase was successfully changed.</source>
-        <translation>Die Brieftaschen-Passphrase wurde erfolgreich geändert.</translation>
+        <translation>Пароль для кошелька успешно изменен</translation>
     </message>
     <message>
         <source>Warning: The Caps Lock key is on!</source>
-        <translation>Warnung: Die Feststelltaste ist aktiviert!</translation>
+        <translation>Warnung: Внимание: клавиша CapsLock включена!</translation>
     </message>
 </context>
 <context>
     <name>BanTableModel</name>
     <message>
         <source>IP/Netmask</source>
-        <translation>IP/Netzmaske</translation>
+        <translation>IP/маска подсети</translation>
     </message>
     <message>
         <source>Banned Until</source>
-        <translation>Gesperrt bis</translation>
+        <translation>Заблокировано</translation>
     </message>
 </context>
 <context>
     <name>BitcoinGUI</name>
     <message>
         <source>Sign &amp;message...</source>
-        <translation>Nachricht s&amp;ignieren...</translation>
+        <translation>Подписать &amp;сообщение</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
-        <translation>Synchronisiere mit Netzwerk...</translation>
+        <translation>Синхронизация с сетью...</translation>
     </message>
     <message>
         <source>&amp;Overview</source>
-        <translation>&amp;Übersicht</translation>
+        <translation>&amp;Обзор</translation>
     </message>
     <message>
         <source>Node</source>
-        <translation>Knoten</translation>
+        <translation>Узел</translation>
     </message>
     <message>
         <source>Show general overview of wallet</source>
-        <translation>Allgemeine Wallet-Übersicht anzeigen</translation>
+        <translation>Отобразить общую информацию</translation>
     </message>
     <message>
         <source>&amp;Transactions</source>
-        <translation>&amp;Transaktionen</translation>
+        <translation>&amp;Транзакции</translation>
     </message>
     <message>
         <source>Browse transaction history</source>
-        <translation>Transaktionsverlauf durchsehen</translation>
+        <translation>Просмотреть историю транзакций</translation>
     </message>
     <message>
         <source>E&amp;xit</source>
-        <translation>&amp;Beenden</translation>
+        <translation>В&amp;ыход</translation>
     </message>
     <message>
         <source>Quit application</source>
-        <translation>Anwendung beenden</translation>
+        <translation>Выйти</translation>
     </message>
     <message>
         <source>&amp;About %1</source>
-        <translation>Über %1</translation>
+        <translation>О программе %1</translation>
     </message>
     <message>
         <source>Show information about %1</source>
-        <translation>Informationen über %1 anzeigen</translation>
+        <translation>Показать информацию о %1</translation>
     </message>
     <message>
         <source>About &amp;Qt</source>
-        <translation>Über &amp;Qt</translation>
+        <translation>О библиотеке &amp;Qt</translation>
     </message>
     <message>
         <source>Show information about Qt</source>
-        <translation>Informationen über Qt anzeigen</translation>
+        <translation>Показать информацию о библиотеке Qt</translation>
     </message>
     <message>
         <source>&amp;Options...</source>
-        <translation>&amp;Konfiguration...</translation>
+        <translation>&amp;Опции</translation>
     </message>
     <message>
         <source>Modify configuration options for %1</source>
-        <translation>Konfiguration von %1 bearbeiten</translation>
+        <translation>Изменить конфигурации для %1</translation>
     </message>
     <message>
         <source>&amp;Encrypt Wallet...</source>
