@@ -901,62 +901,62 @@
     <name>ModalOverlay</name>
     <message>
         <source>Form</source>
-        <translation>Formular</translation>
+        <translation>Форма</translation>
     </message>
     <message>
         <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the donu network, as detailed below.</source>
-        <translation>Neueste Transaktionen werden eventuell noch nicht angezeigt, daher könnte Ihr Kontostand veraltet sein. Er wird korrigiert, sobald Ihr Wallet die Synchronisation mit dem Donu-Netzwerk erfolgreich abgeschlossen hat. Details dazu finden sich weiter unten.</translation>
+        <translation>Последние транзакции могут не отображаться, а баланс вашего кошелька может быть некорректным. Данные сведения актуализируются, как только кошелёк полностью синхронизируется с сетью Donu, как описано ниже</translation>
     </message>
     <message>
         <source>Attempting to spend DONU that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
-        <translation>Versuche, Donus aus noch nicht angezeigten Transaktionen auszugeben, werden vom Netzwerk nicht akzeptiert.</translation>
+        <translation>Операции со средствами, вовлеченными в еще не отображаемые транзакции, сетью не обрабатываются</translation>
     </message>
     <message>
         <source>Number of blocks left</source>
-        <translation>Anzahl verbleibender Blöcke</translation>
+        <translation>Количество оставшихся блоков</translation>
     </message>
     <message>
         <source>Unknown...</source>
-        <translation>Unbekannt...</translation>
+        <translation>Неизвестно...</translation>
     </message>
     <message>
         <source>Last block time</source>
-        <translation>Letzte Blockzeit</translation>
+        <translation>Время последнего блока</translation>
     </message>
     <message>
         <source>Progress</source>
-        <translation>Fortschritt</translation>
+        <translation>Прогресс</translation>
     </message>
     <message>
         <source>Progress increase per hour</source>
-        <translation>Fortschritt pro Stunde</translation>
+        <translation>Увеличение прогресса в час</translation>
     </message>
     <message>
         <source>calculating...</source>
-        <translation>berechne...</translation>
+        <translation>идёт вычисление...</translation>
     </message>
     <message>
         <source>Estimated time left until synced</source>
-        <translation>Abschätzung der verbleibenden Zeit bis synchronisiert</translation>
+        <translation>Расчетное время до полной синхронизации</translation>
     </message>
     <message>
         <source>Hide</source>
-        <translation>Ausblenden</translation>
+        <translation>Скрыть</translation>
     </message>
     <message>
         <source>Unknown. Syncing Headers (%1)...</source>
-        <translation>Unbekannt. Synchronisiere Headers (%1)...</translation>
+        <translation>Неизвестно. Синхронизациия заголовок (%1)...</translation>
     </message>
 </context>
 <context>
     <name>OpenURIDialog</name>
     <message>
         <source>Open URI</source>
-        <translation>URI öffnen</translation>
+        <translation>Открыть URI</translation>
     </message>
     <message>
         <source>Open payment request from URI or file</source>
-        <translation>Zahlungsanforderung über URI oder aus Datei öffnen</translation>
+        <translation>Открыть запрос платежа из URI или файла</translation>
     </message>
     <message>
         <source>URI:</source>
@@ -964,62 +964,62 @@
     </message>
     <message>
         <source>Select payment request file</source>
-        <translation>Zahlungsanforderungsdatei auswählen</translation>
+        <translation>Выбрать файл запроса платежа</translation>
     </message>
     <message>
         <source>Select payment request file to open</source>
-        <translation>Zu öffnende Zahlungsanforderungsdatei auswählen</translation>
+        <translation>Выбрать файл запроса платежа для открытия</translation>
     </message>
 </context>
 <context>
     <name>OptionsDialog</name>
     <message>
         <source>Options</source>
-        <translation>Konfiguration</translation>
+        <translation>Опции</translation>
     </message>
     <message>
         <source>&amp;Main</source>
-        <translation>&amp;Allgemein</translation>
+        <translation>&amp;Главное</translation>
     </message>
     <message>
         <source>Automatically start %1 after logging in to the system.</source>
-        <translation>%1 nach der Anmeldung am System automatisch ausführen.</translation>
+        <translation>Автоматически запускать %1 после входа в систему</translation>
     </message>
     <message>
         <source>&amp;Start %1 on system login</source>
-        <translation>&amp;Starte %1 nach Systemanmeldung</translation>
+        <translation>&amp;Запускать %1 при входе в систему</translation>
     </message>
     <message>
         <source>Size of &amp;database cache</source>
-        <translation>Größe des &amp;Datenbankcaches</translation>
+        <translation>Размер кэша &amp;базы данных</translation>
     </message>
     <message>
         <source>MB</source>
-        <translation>MB</translation>
+        <translation>МБ</translation>
     </message>
     <message>
         <source>Number of script &amp;verification threads</source>
-        <translation>Anzahl an Skript-&amp;Verifizierungs-Threads</translation>
+        <translation>Число потоков &amp;верификации</translation>
     </message>
     <message>
         <source>IP address of the proxy (e.g. IPv4: 127.0.0.1 / IPv6: ::1)</source>
-        <translation>IP-Adresse des Proxies (z.B. IPv4: 127.0.0.1 / IPv6: ::1)</translation>
+        <translation>IP-адрес прокси-сервера (например, IPv4: 127.0.0.1 / IPv6: ::1)</translation>
     </message>
     <message>
         <source>Shows if the supplied default SOCKS5 proxy is used to reach peers via this network type.</source>
-        <translation>Zeigt an, ob der gelieferte Standard SOCKS5 Proxy verwendet wurde, um die Peers mit diesem Netzwerktyp zu erreichen.</translation>
+        <translation>Показывает, используется ли предоставленный по умолчанию SOCKS5 прокси-сервер для подключения к пирам через этот тип сети</translation>
     </message>
     <message>
         <source>Use separate SOCKS&amp;5 proxy to reach peers via Tor hidden services:</source>
-        <translation>Separaten SOCKS5-Proxy verwenden, um Gegenstellen über versteckte Tor-Dienste zu erreichen:</translation>
+        <translation>Использовать отдельный SOCKS5 прокси-сервер для подключения к пирам через Tor:</translation>
     </message>
     <message>
         <source>Hide the icon from the system tray.</source>
-        <translation>Verstecke das Icon von der Statusleiste.</translation>
+        <translation>Скрыть иконку в области уведомлений</translation>
     </message>
     <message>
         <source>&amp;Hide tray icon</source>
-        <translation>&amp;Verstecke Statusleistensymbol</translation>
+        <translation>&amp;Скрыть иконку в трее</translation>
     </message>
     <message>
         <source>Minimize instead of exit the application when the window is closed. When this option is enabled, the application will be closed only after selecting Exit in the menu.</source>
