@@ -1167,11 +1167,11 @@
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
-        <translation>Legt fest, ob die "Coin Control"-Funktionen angezeigt werden.</translation>
+        <translation>Показывать или скрывать панель управления монетами</translation>
     </message>
     <message>
         <source>&amp;Third party transaction URLs</source>
-        <translation>&amp;Externe Transaktions-URLs</translation>
+        <translation>&amp;URL сторонних транзакций</translation>
     </message>
     <message>
         <source>&amp;OK</source>
@@ -1179,51 +1179,51 @@
     </message>
     <message>
         <source>&amp;Cancel</source>
-        <translation>A&amp;bbrechen</translation>
+        <translation>&amp;Отменить</translation>
     </message>
     <message>
         <source>default</source>
-        <translation>Standard</translation>
+        <translation>по умолчанию</translation>
     </message>
     <message>
         <source>none</source>
-        <translation>keine</translation>
+        <translation>нет</translation>
     </message>
     <message>
         <source>Confirm options reset</source>
-        <translation>Zurücksetzen der Konfiguration bestätigen</translation>
+        <translation>Подтвердить сброс настроек</translation>
     </message>
     <message>
         <source>Client restart required to activate changes.</source>
-        <translation>Clientneustart nötig, um die Änderungen zu aktivieren.</translation>
+        <translation>Для активации изменений требуется перезапуск кошелька</translation>
     </message>
     <message>
         <source>Client will be shut down. Do you want to proceed?</source>
-        <translation>Client wird beendet. Möchten Sie den Vorgang fortsetzen?</translation>
+        <translation>Кошелёк будет закрыт. Продолжить?</translation>
     </message>
     <message>
         <source>Configuration options</source>
-        <translation>Konfigurationsoptionen</translation>
+        <translation>Настройки конфигурации</translation>
     </message>
     <message>
         <source>The configuration file is used to specify advanced user options which override GUI settings. Additionally, any command-line options will override this configuration file.</source>
-        <translation>Die Konfigurationsdatei wird verwendet, um erweiterte Benutzeroptionen festzulegen, die die GUI-Einstellungen überschreiben. Darüber hinaus werden alle Befehlszeilenoptionen diese Konfigurationsdatei überschreiben.</translation>
+        <translation>Файл конфигурации используется для расширенных настроек, которые отменяют настройки GUI-интерфейса. Вместе с тем, любые настройки командной строки будут отменять настройки файла конфигурации</translation>
     </message>
     <message>
         <source>Error</source>
-        <translation>Fehler</translation>
+        <translation>Ошибка</translation>
     </message>
     <message>
         <source>The configuration file could not be opened.</source>
-        <translation>Die Konfigurationsdatei konnte nicht geöffnet werden.</translation>
+        <translation>Невозможно открыть файл конфигурации</translation>
     </message>
     <message>
         <source>This change would require a client restart.</source>
-        <translation>Diese Änderung würde einen Clientneustart benötigen.</translation>
+        <translation>Это изменение потребует перезапуск кошелька</translation>
     </message>
     <message>
         <source>The supplied proxy address is invalid.</source>
-        <translation>Die eingegebene Proxyadresse ist ungültig.</translation>
+        <translation>Введённый адрес прокси-сервера недействителен</translation>
     </message>
 </context>
 <context>
