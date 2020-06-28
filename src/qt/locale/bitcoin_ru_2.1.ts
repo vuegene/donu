@@ -1007,11 +1007,11 @@
     </message>
     <message>
         <source>Shows if the supplied default SOCKS5 proxy is used to reach peers via this network type.</source>
-        <translation>Показывает, используется ли предоставленный по умолчанию SOCKS5 прокси-сервер для подключения к пирам через этот тип сети</translation>
+        <translation>Показывает, используется ли предоставленный по умолчанию прокси-сервер SOCKS5 для подключения к пирам через этот тип сети</translation>
     </message>
     <message>
         <source>Use separate SOCKS&amp;5 proxy to reach peers via Tor hidden services:</source>
-        <translation>Использовать отдельный SOCKS5 прокси-сервер для подключения к пирам через Tor:</translation>
+        <translation>Использовать отдельный прокси-сервер SOCKS5 для подключения к пирам через Tor:</translation>
     </message>
     <message>
         <source>Hide the icon from the system tray.</source>
@@ -1023,95 +1023,95 @@
     </message>
     <message>
         <source>Minimize instead of exit the application when the window is closed. When this option is enabled, the application will be closed only after selecting Exit in the menu.</source>
-        <translation>Minimiert die Anwendung anstatt sie zu beenden wenn das Fenster geschlossen wird. Wenn dies aktiviert ist, müssen Sie die Anwendung über "Beenden" im Menü schließen.</translation>
+        <translation>При включении данной опции закрытие окна приложения будет приводить только к его сворачиванию. Для закрытия приложения необходимо будет нажать «Выход» в меню кошелька</translation>
     </message>
     <message>
         <source>Third party URLs (e.g. a block explorer) that appear in the transactions tab as context menu items. %s in the URL is replaced by transaction hash. Multiple URLs are separated by vertical bar |.</source>
-        <translation>Externe URLs (z.B. ein Block-Explorer), die im Kontextmenü des Transaktionsverlaufs eingefügt werden. In der URL wird %s durch den Transaktionshash ersetzt. Bei Angabe mehrerer URLs müssen diese durch "|" voneinander getrennt werden.</translation>
+        <translation>Сторонние URL (например, URL обозревателя блоков), которые отображаются на вкладке транзакций в качестве элементов контекстного меню. %s в URL заменяются хэшем транзакции. Несколько URL разделяются вертикальной чертой «|»</translation>
     </message>
     <message>
         <source>Active command-line options that override above options:</source>
-        <translation>Aktive Kommandozeilenoptionen, die obige Konfiguration überschreiben:</translation>
+        <translation>Активные опции командной строки, которые отменяют вышеуказанные опции:</translation>
     </message>
     <message>
         <source>Open Configuration File</source>
-        <translation>Konfigurationsdatei öffnen</translation>
+        <translation>Открыть файл конфигурации</translation>
     </message>
     <message>
         <source>Reset all client options to default.</source>
-        <translation>Setzt die Clientkonfiguration auf Standardwerte zurück.</translation>
+        <translation>Сбросить все опции к значениям по умолчанию</translation>
     </message>
     <message>
         <source>&amp;Reset Options</source>
-        <translation>Konfiguration &amp;zurücksetzen</translation>
+        <translation>&amp;Сбросить опции</translation>
     </message>
     <message>
         <source>&amp;Network</source>
-        <translation>&amp;Netzwerk</translation>
+        <translation>&amp;Сеть</translation>
     </message>
     <message>
         <source>(0 = auto, &lt;0 = leave that many cores free)</source>
-        <translation>(0 = automatisch, &lt;0 = so viele Kerne frei lassen)</translation>
+        <translation>(0 = автоматически, &lt;0 = столько ядер оставить свободными)</translation>
     </message>
     <message>
         <source>W&amp;allet</source>
-        <translation>W&amp;allet</translation>
+        <translation>К&amp;ошелёк</translation>
     </message>
     <message>
         <source>Expert</source>
-        <translation>Erweiterte Wallet-Optionen</translation>
+        <translation>Расширенные настройки</translation>
     </message>
     <message>
         <source>Enable coin &amp;control features</source>
-        <translation>"&amp;Coin Control"-Funktionen aktivieren</translation>
+        <translation>Активировать панель управления монетами</translation>
     </message>
     <message>
         <source>If you disable the spending of unconfirmed change, the change from a transaction cannot be used until that transaction has at least one confirmation. This also affects how your balance is computed.</source>
-        <translation>Wenn Sie das Ausgeben von unbestätigtem Wechselgeld deaktivieren, kann das Wechselgeld einer Transaktion nicht verwendet werden, bis es mindestens eine Bestätigung erhalten hat. Dies wirkt sich auf die Berechnung des Kontostands aus.</translation>
+        <translation>При запрете траты неподтверждённой сдачи она не может быть использована, пока транзакция, к которой она относится, не получит хотя бы одно подтверждение. Это также влияет на подсчёт вашего баланса</translation>
     </message>
     <message>
-        <source>&amp;Spend unconfirmed change</source>
+        <source>&amp;Тратить неподтверждённую сдачу</source>
         <translation>&amp;Unbestätigtes Wechselgeld darf ausgegeben werden</translation>
     </message>
     <message>
         <source>Automatically open the Donu client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Automatisch den Donu-Clientport auf dem Router öffnen. Dies funktioniert nur, wenn Ihr Router UPnP unterstützt und dies aktiviert ist.</translation>
+        <translation>Автоматически открывать клиентский порт Donu на маршрутизаторе. Для этого ваш маршрутизатор должен поддерживать UPnP</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
-        <translation>Portweiterleitung via &amp;UPnP</translation>
+        <translation>Пробросить порт через &amp;UPnP</translation>
     </message>
     <message>
         <source>Accept connections from outside.</source>
-        <translation>Akzeptiere Verbindungen von außerhalb.</translation>
+        <translation>Принимать подключения извне</translation>
     </message>
     <message>
         <source>Allow incomin&amp;g connections</source>
-        <translation>Erlaube eingehende Verbindungen</translation>
+        <translation>Разрешить входящие подключения</translation>
     </message>
     <message>
         <source>Connect to the Donu network through a SOCKS5 proxy.</source>
-        <translation>Über einen SOCKS5-Proxy mit dem Donu-Netzwerk verbinden.</translation>
+        <translation>Подключиться к сети Donu через прокси-сервер SOCKS5</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
-        <translation>Über einen SOCKS5-Proxy &amp;verbinden (Standardproxy):</translation>
+        <translation>Подключиться через прокси-сервер SOCKS5 (прокси-сервер по умолчанию):</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
-        <translation>Proxy-&amp;IP:</translation>
+        <translation>IP &amp;прокси:</translation>
     </message>
     <message>
         <source>&amp;Port:</source>
-        <translation>&amp;Port:</translation>
+        <translation>&amp;Порт:</translation>
     </message>
     <message>
         <source>Port of the proxy (e.g. 9050)</source>
-        <translation>Port des Proxies (z.B. 9050)</translation>
+        <translation>Порт прокси: (напр. 9050)</translation>
     </message>
     <message>
         <source>Used for reaching peers via:</source>
-        <translation>Benutzt um Gegenstellen zu erreichen über:</translation>
+        <translation>Используется для подключения к пирам через:</translation>
     </message>
     <message>
         <source>IPv4</source>
@@ -1131,39 +1131,39 @@
     </message>
     <message>
         <source>&amp;Window</source>
-        <translation>&amp;Programmfenster</translation>
+        <translation>&amp;Окно</translation>
     </message>
     <message>
         <source>Show only a tray icon after minimizing the window.</source>
-        <translation>Nur ein Symbol im Infobereich anzeigen, nachdem das Programmfenster minimiert wurde.</translation>
+        <translation>При сворачивании окна отображать только иконку в трее</translation>
     </message>
     <message>
         <source>&amp;Minimize to the tray instead of the taskbar</source>
-        <translation>In den Infobereich anstatt in die Taskleiste &amp;minimieren</translation>
+        <translation>Сворачивать в трей вместо панели задач</translation>
     </message>
     <message>
         <source>M&amp;inimize on close</source>
-        <translation>Beim Schließen m&amp;inimieren</translation>
+        <translation>При закрытии сворачивать</translation>
     </message>
     <message>
         <source>&amp;Display</source>
-        <translation>Anzei&amp;ge</translation>
+        <translation>&amp;Отобразить</translation>
     </message>
     <message>
         <source>User Interface &amp;language:</source>
-        <translation>&amp;Sprache der Benutzeroberfläche:</translation>
+        <translation>&amp;Язык интерфейса:</translation>
     </message>
     <message>
         <source>The user interface language can be set here. This setting will take effect after restarting %1.</source>
-        <translation>Die Benutzeroberflächensprache kann hier festgelegt werden. Diese Einstellung wird nach einem Neustart von %1 wirksam werden.</translation>
+        <translation>Здесь можно установить язык интерфейса. Настройки вступят в силу после перезапуска %1</translation>
     </message>
     <message>
         <source>&amp;Unit to show amounts in:</source>
-        <translation>&amp;Einheit der Beträge:</translation>
+        <translation>&amp;Единица измерения средств:</translation>
     </message>
     <message>
         <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
-        <translation>Wählen Sie die standardmäßige Untereinheit, die in der Benutzeroberfläche und beim Überweisen von Donus angezeigt werden soll.</translation>
+        <translation>Выбрать единицу измерения по умолчанию для отображения балансов и отправки платежей</translation>
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
