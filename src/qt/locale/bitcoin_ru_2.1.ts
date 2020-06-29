@@ -2058,171 +2058,171 @@
     </message>
     <message>
         <source>Using the fallbackfee can result in sending a transaction that will take several hours or days (or never) to confirm. Consider choosing your fee manually or wait until you have validated the complete chain.</source>
-        <translation>Bei Benutzung der Fallbackfee kann es dazu kommen, dass es bei einer Transaktion mehrere Stunden oder Tage dauern kann, um bestätigt zu werden (oder niemals bestätigt wird). Erwägen Sie, Ihre Gebühr manuell zu wählen oder zu warten, bis Sie die komplette Kette validiert haben.</translation>
+        <translation>В данной ситуации рекомендуется дождаться полной валидации цепи или установить размер комиссии вручную, иначе подтверждение транзакции может занять несколько часов или дней или вовсе не состояться</translation>
     </message>
     <message>
         <source>Warning: Fee estimation is currently not possible.</source>
-        <translation>Achtung: Berechnung der Gebühr ist momentan nicht möglich.</translation>
+        <translation>Внимание: в настоящий момент расчёт размера комиссии невозможен</translation>
     </message>
     <message>
         <source>collapse fee-settings</source>
-        <translation>Transaktionsgebühreneinstellungen ausblenden</translation>
+        <translation>Скрыть настройки комиссии</translation>
     </message>
     <message>
         <source>per kilobyte</source>
-        <translation>pro Kilobyte</translation>
+        <translation>за килобайт</translation>
     </message>
     <message>
         <source>If the custom fee is set to 1000 satoshis and the transaction is only 250 bytes, then "per kilobyte" only pays 250 satoshis in fee, while "total at least" pays 1000 satoshis. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>Wenn die benutzerdefinierte Gebühr 1000 Satoshis beträgt und die Transaktion nur 250 Byte groß ist, wird bei Auswahl von "pro Kilobyte" eine Gebühr in Höhe von 250 Satoshis, bei Auswahl von "Mindestbetrag" eine Gebühr in Höhe von 1000 Satoshis bezahlt. Bei Transaktionen die Größer als ein Kilobyte sind, werden bei beiden Optionen die Gebühren pro Kilobyte bezahlt.</translation>
+        <translation>В качестве комиссии за транзакцию вы можете указать точное количество Donu «за килобайт». Для транзакций размером менее 1 килобайта комиссия будет пропорционально уменьшена (например, для транзакции в 0,5 килобайта комиссия составит половину от заданной суммы)</translation>
     </message>
     <message>
         <source>Hide</source>
-        <translation>Ausblenden</translation>
+        <translation>Скрыть</translation>
     </message>
     <message>
         <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for donu transactions than the network can process.</source>
-        <translation>Nur die minimale Gebühr zu bezahlen ist so lange in Ordnung, wie weniger Transaktionsvolumen als Platz in den Blöcken vorhanden ist. Aber Vorsicht, diese Option kann dazu führen, dass Transaktionen nicht bestätigt werden, wenn mehr Bedarf an Donu-Transaktionen besteht als das Netzwerk verarbeiten kann.</translation>
+        <translation>Выбор минимальной комиссии - это нормально, если объём транзакций меньше, чем места в блоках. Однако это может привести к тому, что транзакция никогда не будет подтверждена, если спрос на транзакции будет больше, чем может обработать сеть</translation>
     </message>
     <message>
         <source>(read the tooltip)</source>
-        <translation>(den Hinweistext lesen)</translation>
+        <translation>(прочитать подсказку)</translation>
     </message>
     <message>
         <source>Recommended:</source>
-        <translation>Empfehlungen:</translation>
+        <translation>Стандартная:</translation>
     </message>
     <message>
         <source>Custom:</source>
-        <translation>Benutzerdefiniert:</translation>
+        <translation>Особая:</translation>
     </message>
     <message>
         <source>(Smart fee not initialized yet. This usually takes a few blocks...)</source>
-        <translation>(Intelligente Gebührenlogik ist noch nicht verfügbar. Normalerweise dauert dies einige Blöcke lang...)</translation>
+        <translation>(Смарт-комиссия пока не успела активироваться)</translation>
     </message>
     <message>
         <source>Send to multiple recipients at once</source>
-        <translation>An mehrere Empfänger auf einmal überweisen</translation>
+        <translation>Отправить нескольким получателям сразу</translation>
     </message>
     <message>
         <source>Add &amp;Recipient</source>
-        <translation>Empfänger &amp;hinzufügen</translation>
+        <translation>Добавить &amp;получателя</translation>
     </message>
     <message>
         <source>Clear all fields of the form.</source>
-        <translation>Alle Formularfelder zurücksetzen.</translation>
+        <translation>Очистить все поля формы</translation>
     </message>
     <message>
         <source>Dust:</source>
-        <translation>"Dust":</translation>
+        <translation>«Пыль»:</translation>
     </message>
     <message>
         <source>Confirmation time target:</source>
-        <translation>Bestätigungsziel:</translation>
+        <translation>Начать подтверждение течение:</translation>
     </message>
     <message>
         <source>Enable Replace-By-Fee</source>
-        <translation>Aktiviere Replace-By-Fee</translation>
+        <translation>Активировать Replace-By-Fee</translation>
     </message>
     <message>
         <source>With Replace-By-Fee (BIP-125) you can increase a transaction's fee after it is sent. Without this, a higher fee may be recommended to compensate for increased transaction delay risk.</source>
-        <translation>Mit Replace-By-Fee (BIP-125) kann die Transaktionsgebühr nach dem Senden erhöht werden. Ohne dies wird eine höhere Gebühr empfohlen, um das Risiko einer hohen Transaktionszeit zu reduzieren.</translation>
+        <translation>С помощью Replace-By-Fee (BIP-125) вы можете увеличить комиссию за транзакцию уже после отправки, что позволяет ускорить её подтверждение</translation>
     </message>
     <message>
         <source>Clear &amp;All</source>
-        <translation>&amp;Zurücksetzen</translation>
+        <translation>Очистить &amp;всё</translation>
     </message>
     <message>
         <source>Balance:</source>
-        <translation>Kontostand:</translation>
+        <translation>Баланс:</translation>
     </message>
     <message>
         <source>Confirm the send action</source>
-        <translation>Überweisung bestätigen</translation>
+        <translation>Подтвердите отправку</translation>
     </message>
     <message>
         <source>S&amp;end</source>
-        <translation>&amp;Überweisen</translation>
+        <translation>&amp;Отправить</translation>
     </message>
     <message>
         <source>Copy quantity</source>
-        <translation>Anzahl kopieren</translation>
+        <translation>Копировать количество</translation>
     </message>
     <message>
         <source>Copy amount</source>
-        <translation>Betrag kopieren</translation>
+        <translation>Копировать сумму</translation>
     </message>
     <message>
         <source>Copy fee</source>
-        <translation>Gebühr kopieren</translation>
+        <translation>Копировать значение</translation>
     </message>
     <message>
         <source>Copy after fee</source>
-        <translation>Abzüglich Gebühr kopieren</translation>
+        <translation>Копировать значение</translation>
     </message>
     <message>
         <source>Copy bytes</source>
-        <translation>Byte kopieren</translation>
+        <translation>Копировать значение</translation>
     </message>
     <message>
         <source>Copy dust</source>
-        <translation>"Staub" kopieren</translation>
+        <translation>Копировать значение</translation>
     </message>
     <message>
         <source>Copy change</source>
-        <translation>Wechselgeld kopieren</translation>
+        <translation>Копировать значение</translation>
     </message>
     <message>
         <source>%1 (%2 blocks)</source>
-        <translation>%1 (%2 Blöcke)</translation>
+        <translation>%1 (%2 блоков)</translation>
     </message>
     <message>
         <source>%1 to %2</source>
-        <translation>%1 an %2</translation>
+        <translation>%1 к %2</translation>
     </message>
     <message>
         <source>Are you sure you want to send?</source>
-        <translation>Wollen Sie die Überweisung ausführen?</translation>
+        <translation>Вы действительно хотите выполнить отправку?</translation>
     </message>
     <message>
         <source>added as transaction fee</source>
-        <translation>als Transaktionsgebühr hinzugefügt</translation>
+        <translation>добавлено в качестве комиссии</translation>
     </message>
     <message>
         <source>Total Amount %1</source>
-        <translation>Gesamtbetrag %1</translation>
+        <translation>Общая сумма %1</translation>
     </message>
     <message>
         <source>or</source>
-        <translation>oder</translation>
+        <translation>или</translation>
     </message>
     <message>
         <source>You can increase the fee later (signals Replace-By-Fee, BIP-125).</source>
-        <translation>Du kannst die Gebühr später erhöhen (Zeigt Replace-By-Fee, BIP-125).</translation>
+        <translation>Вы сможете увеличить комиссию после отправки (присутствует Replace-By-Fee, BIP-125)</translation>
     </message>
     <message>
         <source>Not signalling Replace-By-Fee, BIP-125.</source>
-        <translation>Replace-By-Fee, BIP-125 wird nicht angezeigt.</translation>
+        <translation>Отсутствует Replace-By-Fee, BIP-125</translation>
     </message>
     <message>
         <source>Confirm send coins</source>
-        <translation>Überweisung bestätigen</translation>
+        <translation>Подтвердить отправку монет</translation>
     </message>
     <message>
         <source>The recipient address is not valid. Please recheck.</source>
-        <translation>Die Zahlungsadresse ist ungültig, bitte nochmals überprüfen.</translation>
+        <translation>Убедитесь, что адрес получателя введён верно</translation>
     </message>
     <message>
         <source>The amount to pay must be larger than 0.</source>
-        <translation>Der zu zahlende Betrag muss größer als 0 sein.</translation>
+        <translation>Сумма платежа должна быть больше 0</translation>
     </message>
     <message>
         <source>The amount exceeds your balance.</source>
-        <translation>Der angegebene Betrag übersteigt Ihren Kontostand.</translation>
+        <translation>Сумма платежа превышает ваш баланс</translation>
     </message>
     <message>
         <source>The total exceeds your balance when the %1 transaction fee is included.</source>
-        <translation>Der angegebene Betrag übersteigt aufgrund der Transaktionsgebühr in Höhe von %1 Ihren Kontostand.</translation>
+        <translation>Сумма платежа превысит ваш баланс с учётом %1 в качестве комиссии</translation>
     </message>
     <message>
         <source>Duplicate address found: addresses should only be used once each.</source>
