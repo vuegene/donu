@@ -2042,7 +2042,7 @@
     </message>
     <message>
         <source>If this is activated, but the change address is empty or invalid, change will be sent to a newly generated address.</source>
-        <translation>Wenn dies aktivert, und die Wechselgeld-Adresse leer oder ungültig ist, wird das Wechselgeld einer neu erzeugten Adresse gutgeschrieben.</translation>
+        <translation>Если при активации данной функции будет неверно указан адрес для сдачи или поле останется пустым, сдача по умолчанию будет отправлена на новый адрес</translation>
     </message>
     <message>
         <source>Custom change address</source>
@@ -2050,11 +2050,11 @@
     </message>
     <message>
         <source>Transaction Fee:</source>
-        <translation>Transaktionsgebühr:</translation>
+        <translation>Комиссия за транзакцию:</translation>
     </message>
     <message>
         <source>Choose...</source>
-        <translation>Auswählen...</translation>
+        <translation>Выбрать...</translation>
     </message>
     <message>
         <source>Using the fallbackfee can result in sending a transaction that will take several hours or days (or never) to confirm. Consider choosing your fee manually or wait until you have validated the complete chain.</source>
