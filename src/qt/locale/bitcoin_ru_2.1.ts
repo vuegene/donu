@@ -1396,7 +1396,7 @@
     <name>PeerTableModel</name>
     <message>
         <source>User Agent</source>
-        <translation>Юзер-агент</translation>
+        <translation>Клиент</translation>
     </message>
     <message>
         <source>Node/Service</source>
@@ -1451,334 +1451,330 @@
     </message>
     <message>
         <source>N/A</source>
-        <translation>Нет данных</translation>
+        <translation>Н/Д</translation>
     </message>
     <message>
         <source>%1 ms</source>
         <translation>%1 мс</translation>
     </message>
         <source>%n second(s)</source>
-        <translation>%n сек</translation>
+        <translation>%n секунд(-а, -ы)</translation>
     </message>
         <source>%n minute(s)</source>
-        <translation>%n мин</translation>
+        <translation>%n минут(-а, -ы)</translation>
     </message>
-    <message numerus="yes">
         <source>%n hour(s)</source>
-        <translation><numerusform>%n Stunde</numerusform><numerusform>%n Stunden</numerusform></translation>
+        <translation>%n час(-а, -ов)</translation>
     </message>
-    <message numerus="yes">
         <source>%n day(s)</source>
-        <translation><numerusform>%n Tag</numerusform><numerusform>%n Tage</numerusform></translation>
+        <translation>%n суток</translation>
     </message>
-    <message numerus="yes">
         <source>%n week(s)</source>
-        <translation><numerusform>%n Woche</numerusform><numerusform>%n Wochen</numerusform></translation>
+        <translation>%n недел(-я, -и, -ь)</translation>
     </message>
     <message>
         <source>%1 and %2</source>
-        <translation>%1 und %2</translation>
+        <translation>%1 и %2</translation>
     </message>
-    <message numerus="yes">
         <source>%n year(s)</source>
-        <translation><numerusform>%n Jahr</numerusform><numerusform>%n Jahre</numerusform></translation>
+        <translation>%n год(-а)</translation>
     </message>
     <message>
         <source>%1 B</source>
-        <translation>%1 B</translation>
+        <translation>%1 Б</translation>
     </message>
     <message>
         <source>%1 KB</source>
-        <translation>%1 KB</translation>
+        <translation>%1 КБ</translation>
     </message>
     <message>
         <source>%1 MB</source>
-        <translation>%1 MB</translation>
+        <translation>%1 МБ</translation>
     </message>
     <message>
         <source>%1 GB</source>
-        <translation>%1 GB</translation>
+        <translation>%1 ГБ</translation>
     </message>
     <message>
         <source>%1 didn't yet exit safely...</source>
-        <translation>%1 wurde noch nicht sicher beendet...</translation>
+        <translation>%1 выполняет безопасный выход...</translation>
     </message>
     <message>
         <source>unknown</source>
-        <translation>unbekannt</translation>
+        <translation>неизвестно</translation>
     </message>
 </context>
 <context>
     <name>QObject::QObject</name>
     <message>
         <source>Error: Specified data directory "%1" does not exist.</source>
-        <translation>Fehler: Angegebenes Datenverzeichnis "%1" existiert nicht.</translation>
+        <translation>Ошибка: указанная директория данных "%1" не существует</translation>
     </message>
     <message>
         <source>Error: Cannot parse configuration file: %1. Only use key=value syntax.</source>
-        <translation>Fehler: Konfigurationsdatei kann nicht analysiert werden: %1. Bitte nur "Schlüssel=Wert"-Syntax verwenden.</translation>
+        <translation>Ошибка: не удаётся прочитать файл конфигурации: %1</translation>
     </message>
     <message>
         <source>Error: %1</source>
-        <translation>Fehler: %1</translation>
+        <translation>Ошибка: %1</translation>
     </message>
 </context>
 <context>
     <name>QRImageWidget</name>
     <message>
         <source>&amp;Save Image...</source>
-        <translation>Grafik &amp;speichern...</translation>
+        <translation>&amp;Сохранить изображение</translation>
     </message>
     <message>
         <source>&amp;Copy Image</source>
-        <translation>Grafik &amp;kopieren</translation>
+        <translation>&amp;Копировать изображение</translation>
     </message>
     <message>
         <source>Save QR Code</source>
-        <translation>QR-Code speichern</translation>
+        <translation>Сохранить QR-код</translation>
     </message>
     <message>
         <source>PNG Image (*.png)</source>
-        <translation>PNG-Grafik (*.png)</translation>
+        <translation>PNG-изображение (*.png)</translation>
     </message>
 </context>
 <context>
     <name>RPCConsole</name>
     <message>
         <source>N/A</source>
-        <translation>k.A.</translation>
+        <translation>Н/Д</translation>
     </message>
     <message>
         <source>Client version</source>
-        <translation>Clientversion</translation>
+        <translation>Версия клиента</translation>
     </message>
     <message>
         <source>&amp;Information</source>
-        <translation>Hinweis</translation>
+        <translation>Информация</translation>
     </message>
     <message>
         <source>Debug window</source>
-        <translation>Debugfenster</translation>
+        <translation>Окно отладки</translation>
     </message>
     <message>
         <source>General</source>
-        <translation>Allgemein</translation>
+        <translation>Основное</translation>
     </message>
     <message>
         <source>Using BerkeleyDB version</source>
-        <translation>Verwendete BerkeleyDB-Version</translation>
+        <translation>Используемая BerkeleyDB-версия</translation>
     </message>
     <message>
         <source>Datadir</source>
-        <translation>Datenverzeichnis</translation>
+        <translation>Директория данных</translation>
     </message>
     <message>
         <source>Startup time</source>
-        <translation>Startzeit</translation>
+        <translation>Время запуска</translation>
     </message>
     <message>
         <source>Network</source>
-        <translation>Netzwerk</translation>
+        <translation>Сеть</translation>
     </message>
     <message>
         <source>Name</source>
-        <translation>Name</translation>
+        <translation>Имя</translation>
     </message>
     <message>
         <source>Number of connections</source>
-        <translation>Anzahl Verbindungen</translation>
+        <translation>Количество соединений</translation>
     </message>
     <message>
         <source>Block chain</source>
-        <translation>Blockkette</translation>
+        <translation>Блокчейн</translation>
     </message>
     <message>
         <source>Current number of blocks</source>
-        <translation>Aktuelle Anzahl Blöcke</translation>
+        <translation>Текущее количество блоков</translation>
     </message>
     <message>
         <source>Memory Pool</source>
-        <translation>Speicherpool</translation>
+        <translation>Пул памяти</translation>
     </message>
     <message>
         <source>Current number of transactions</source>
-        <translation>Aktuelle Anzahl der Transaktionen</translation>
+        <translation>Текущее количество транзакций</translation>
     </message>
     <message>
         <source>Memory usage</source>
-        <translation>Speichernutzung</translation>
+        <translation>Использование памяти</translation>
     </message>
     <message>
         <source>&amp;Reset</source>
-        <translation>&amp;Zurücksetzen</translation>
+        <translation>&amp;Сбросить</translation>
     </message>
     <message>
         <source>Received</source>
-        <translation>Empfangen</translation>
+        <translation>Получено</translation>
     </message>
     <message>
         <source>Sent</source>
-        <translation>Übertragen</translation>
+        <translation>Отправлено</translation>
     </message>
     <message>
         <source>&amp;Peers</source>
-        <translation>&amp;Gegenstellen</translation>
+        <translation>&amp;Пиры</translation>
     </message>
     <message>
         <source>Banned peers</source>
-        <translation>Gesperrte Peers</translation>
+        <translation>Заблокированные пиры</translation>
     </message>
     <message>
         <source>Select a peer to view detailed information.</source>
-        <translation>Gegenstelle auswählen, um detaillierte Informationen zu erhalten.</translation>
+        <translation>Выберите пир для просмотра подробной информации</translation>
     </message>
     <message>
         <source>Whitelisted</source>
-        <translation>Zugelassene</translation>
+        <translation>Доверенные</translation>
     </message>
     <message>
         <source>Direction</source>
-        <translation>Richtung</translation>
+        <translation>Директория</translation>
     </message>
     <message>
         <source>Version</source>
-        <translation>Version</translation>
+        <translation>Версия</translation>
     </message>
     <message>
         <source>Starting Block</source>
-        <translation>Start Block</translation>
+        <translation>Стартовый блок</translation>
     </message>
     <message>
         <source>Synced Headers</source>
-        <translation>Synchronisierte Kopfdaten</translation>
+        <translation>Синхронизированные заголовки</translation>
     </message>
     <message>
         <source>Synced Blocks</source>
-        <translation>Synchronisierte Blöcke</translation>
+        <translation>Синхронизированные блоки</translation>
     </message>
     <message>
         <source>User Agent</source>
-        <translation>User-Agent</translation>
+        <translation>Клиент</translation>
     </message>
     <message>
         <source>Open the %1 debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Öffnet die %1-Debugprotokolldatei aus dem aktuellen Datenverzeichnis. Dies kann bei großen Protokolldateien einige Sekunden dauern.</translation>
+        <translation>Открыть журнал отладки %1 из текущей директории данных. Для больших журналов это может занять несколько секунд</translation>
     </message>
     <message>
         <source>Decrease font size</source>
-        <translation>Schrift verkleinern</translation>
+        <translation>Уменьшить размер шрифта</translation>
     </message>
     <message>
         <source>Increase font size</source>
-        <translation>Schrift vergrößern</translation>
+        <translation>Увеличить размер шрифта</translation>
     </message>
     <message>
         <source>Services</source>
-        <translation>Dienste</translation>
+        <translation>Службы</translation>
     </message>
     <message>
         <source>Ban Score</source>
-        <translation>Sperrpunktzahl</translation>
+        <translation>Счёт блокировки</translation>
     </message>
     <message>
         <source>Connection Time</source>
-        <translation>Verbindungsdauer</translation>
+        <translation>Время соединения</translation>
     </message>
     <message>
         <source>Last Send</source>
-        <translation>Letzte Übertragung</translation>
+        <translation>Последнее отправленное</translation>
     </message>
     <message>
         <source>Last Receive</source>
-        <translation>Letzter Empfang</translation>
+        <translation>Последнее полученное</translation>
     </message>
     <message>
         <source>Ping Time</source>
-        <translation>Pingzeit</translation>
+        <translation>Время пинга</translation>
     </message>
     <message>
         <source>The duration of a currently outstanding ping.</source>
-        <translation>Die Laufzeit eines aktuell ausstehenden Ping.</translation>
+        <translation>Продолжительность текущего пинга</translation>
     </message>
     <message>
         <source>Ping Wait</source>
-        <translation>Ping Wartezeit</translation>
+        <translation>Ожидание пинга</translation>
     </message>
     <message>
         <source>Min Ping</source>
-        <translation>Minimaler Ping</translation>
+        <translation>Минимальный пинг</translation>
     </message>
     <message>
         <source>Time Offset</source>
-        <translation>Zeitversatz</translation>
+        <translation>Смещение времени</translation>
     </message>
     <message>
         <source>Last block time</source>
-        <translation>Letzte Blockzeit</translation>
+        <translation>Время последнего блока</translation>
     </message>
     <message>
         <source>&amp;Open</source>
-        <translation>&amp;Öffnen</translation>
+        <translation>&amp;Открыть</translation>
     </message>
     <message>
         <source>&amp;Console</source>
-        <translation>&amp;Konsole</translation>
+        <translation>&amp;Консоль</translation>
     </message>
     <message>
         <source>&amp;Network Traffic</source>
-        <translation>&amp;Netzwerkauslastung</translation>
+        <translation>&amp;Трафик сети</translation>
     </message>
     <message>
         <source>Totals</source>
-        <translation>Gesamtbetrag:</translation>
+        <translation>Итоги:</translation>
     </message>
     <message>
         <source>In:</source>
-        <translation>eingehend:</translation>
+        <translation>Входящий:</translation>
     </message>
     <message>
         <source>Out:</source>
-        <translation>ausgehend:</translation>
+        <translation>Исходящий:</translation>
     </message>
     <message>
         <source>Debug log file</source>
-        <translation>Debugprotokolldatei</translation>
+        <translation>Журнал отладки</translation>
     </message>
     <message>
         <source>Clear console</source>
-        <translation>Konsole zurücksetzen</translation>
+        <translation>Очистить консоль</translation>
     </message>
     <message>
         <source>1 &amp;hour</source>
-        <translation>1 &amp;Stunde</translation>
+        <translation>1 &amp;час</translation>
     </message>
     <message>
         <source>1 &amp;day</source>
-        <translation>1 &amp;Tag</translation>
+        <translation>1 &amp;день</translation>
     </message>
     <message>
         <source>1 &amp;week</source>
-        <translation>1 &amp;Woche</translation>
+        <translation>1 &amp;неделя</translation>
     </message>
     <message>
         <source>1 &amp;year</source>
-        <translation>1 &amp;Jahr</translation>
+        <translation>1 &amp;год</translation>
     </message>
     <message>
         <source>&amp;Disconnect</source>
-        <translation>&amp;Trennen</translation>
+        <translation>&amp;Отключить соединение</translation>
     </message>
     <message>
         <source>Ban for</source>
-        <translation>Banne für</translation>
+        <translation>Заблокировать</translation>
     </message>
     <message>
         <source>&amp;Unban</source>
-        <translation>&amp;Node entsperren</translation>
+        <translation>&amp;Разблокировать</translation>
     </message>
     <message>
         <source>Welcome to the %1 RPC console.</source>
-        <translation>Willkommen in der %1 RPC Konsole.</translation>
+        <translation>Добро пожаловать в %1 RPC-консоль</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and %1 to clear screen.</source>
