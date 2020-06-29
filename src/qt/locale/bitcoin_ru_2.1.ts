@@ -1230,240 +1230,238 @@
     <name>OverviewPage</name>
     <message>
         <source>Form</source>
-        <translation>Formular</translation>
+        <translation>Форма</translation>
     </message>
     <message>
         <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Donu network after a connection is established, but this process has not completed yet.</source>
-        <translation>Die angezeigten Informationen sind möglicherweise nicht mehr aktuell. Ihre Wallet wird automatisch synchronisiert, nachdem eine Verbindung zum Donu-Netzwerk hergestellt wurde. Dieser Prozess ist jedoch derzeit noch nicht abgeschlossen.</translation>
+        <translation>Отображаемая информация может быть неактуальной. Дождитесь полной синхронизации кошелька с сетью Donu</translation>
     </message>
     <message>
         <source>Watch-only:</source>
-        <translation>Beobachtet:</translation>
+        <translation>Сторонние адреса (watch-only):</translation>
     </message>
     <message>
         <source>Available:</source>
-        <translation>Verfügbar:</translation>
+        <translation>Доступно:</translation>
     </message>
     <message>
         <source>Your current spendable balance</source>
-        <translation>Ihr aktuell verfügbarer Kontostand</translation>
+        <translation>Ваш текущий доступный к расходу баланс</translation>
     </message>
     <message>
         <source>Pending:</source>
-        <translation>Ausstehend:</translation>
+        <translation>На подтверждении:</translation>
     </message>
     <message>
-        <source>Total of transactions that have yet to be confirmed, and do not yet count toward the spendable balance</source>
+        <source>Транзакции, находящиеся в процессе подтверждения и пока недоступные к расходу</source>
         <translation>Betrag aus unbestätigten Transaktionen, der noch nicht im aktuell verfügbaren Kontostand enthalten ist</translation>
     </message>
     <message>
         <source>Immature:</source>
-        <translation>Unreif:</translation>
+        <translation>Незрелая:</translation>
     </message>
     <message>
         <source>Mined balance that has not yet matured</source>
-        <translation>Erarbeiteter Betrag der noch nicht gereift ist</translation>
+        <translation>Отчеканенные монеты, которые еще не успели созреть</translation>
     </message>
     <message>
         <source>Balances</source>
-        <translation>Kontostände</translation>
+        <translation>Балансы</translation>
     </message>
     <message>
         <source>Total:</source>
-        <translation>Gesamtbetrag:</translation>
+        <translation>Всего:</translation>
     </message>
     <message>
         <source>Your current total balance</source>
-        <translation>Aktueller Gesamtbetrag aus obigen Kategorien</translation>
+        <translation>Ваш текущий общий баланс</translation>
     </message>
     <message>
         <source>Your current balance in watch-only addresses</source>
-        <translation>Ihr aktueller Kontostand beobachteter Adressen</translation>
+        <translation>Ваш текущий баланс на сторонних адресах</translation>
     </message>
     <message>
         <source>Spendable:</source>
-        <translation>Verfügbar:</translation>
+        <translation>Доступно к расходу:</translation>
     </message>
     <message>
         <source>Recent transactions</source>
-        <translation>Letzte Transaktionen</translation>
+        <translation>Последние транзакции</translation>
     </message>
     <message>
         <source>Unconfirmed transactions to watch-only addresses</source>
-        <translation>Unbestätigte Transaktionen von beobachteten Adressen</translation>
+        <translation>Неподтверждённые транзакции на сторонних адресах</translation>
     </message>
     <message>
         <source>Mined balance in watch-only addresses that has not yet matured</source>
-        <translation>Erarbeiteter Betrag in beobachteten Adressen der noch nicht gereift ist</translation>
+        <translation>Отчеканенные монеты на сторонних адресах, которые еще не успели созреть</translation>
     </message>
     <message>
         <source>Current total balance in watch-only addresses</source>
-        <translation>Aktueller Gesamtbetrag in beobachteten Adressen aus obigen Kategorien</translation>
+        <translation>Текущий общий баланс на сторонних адресах</translation>
     </message>
 </context>
 <context>
     <name>PaymentServer</name>
     <message>
         <source>Payment request error</source>
-        <translation>fehlerhafte Zahlungsanforderung</translation>
+        <translation>Ошибка запроса платежа</translation>
     </message>
     <message>
         <source>Cannot start donu: click-to-pay handler</source>
-        <translation>Kann Donu nicht starten: Klicken-zum-Bezahlen-Handler</translation>
+        <translation>Не удаётся запустить Donu: обработчик click-to-pay</translation>
     </message>
     <message>
         <source>URI handling</source>
-        <translation>URI-Verarbeitung</translation>
+        <translation>Обработка URI</translation>
     </message>
     <message>
         <source>Payment request fetch URL is invalid: %1</source>
-        <translation>Abruf-URL der Zahlungsanforderung ist ungültig: %1</translation>
+        <translation>URL запроса получения платежа недействителен: %1</translation>
     </message>
     <message>
         <source>Invalid payment address %1</source>
-        <translation>Ungültige Zahlungsadresse %1</translation>
+        <translation>Неверный платёжный адрес %1</translation>
     </message>
     <message>
         <source>URI cannot be parsed! This can be caused by an invalid Donu address or malformed URI parameters.</source>
-        <translation>URI kann nicht analysiert werden! Dies kann durch eine ungültige Donu-Adresse oder fehlerhafte URI-Parameter verursacht werden.</translation>
+        <translation>Не удаётся проверить URI! Возможные причины: неверный Donu-адрес или некорректные параметрами URI</translation>
     </message>
     <message>
         <source>Payment request file handling</source>
-        <translation>Zahlungsanforderungsdatei-Verarbeitung</translation>
+        <translation>Обработка файла запроса платежа</translation>
     </message>
     <message>
         <source>Payment request file cannot be read! This can be caused by an invalid payment request file.</source>
-        <translation>Zahlungsanforderungsdatei kann nicht gelesen werden! Dies kann durch eine ungültige Zahlungsanforderungsdatei verursacht werden.</translation>
+        <translation>Файл запроса платежа не читается!</translation>
     </message>
     <message>
         <source>Payment request rejected</source>
-        <translation>Zahlungsanforderung abgelehnt</translation>
+        <translation>Запрос платежа отклонен</translation>
     </message>
     <message>
         <source>Payment request network doesn't match client network.</source>
-        <translation>Netzwerk der Zahlungsanforderung stimmt nicht mit dem Client-Netzwerk überein.</translation>
+        <translation>Сеть платежей и сеть кошелька не совпадают</translation>
     </message>
     <message>
         <source>Payment request expired.</source>
-        <translation>Zahlungsanforderung abgelaufen.</translation>
+        <translation>Запроса платежа устарел</translation>
     </message>
     <message>
         <source>Payment request is not initialized.</source>
-        <translation>Zahlungsanforderung ist nicht initialisiert.</translation>
+        <translation>Запрос платежа не принят</translation>
     </message>
     <message>
         <source>Unverified payment requests to custom payment scripts are unsupported.</source>
-        <translation>Unverifizierte Zahlungsanforderungen an benutzerdefinierte Zahlungsskripte werden nicht unterstützt.</translation>
+        <translation>Сеть не поддерживает кастомные платёжные сценарии</translation>
     </message>
     <message>
         <source>Invalid payment request.</source>
-        <translation>Ungültige Zahlungsanforderung.</translation>
+        <translation>Неверный запрос платежа</translation>
     </message>
     <message>
         <source>Requested payment amount of %1 is too small (considered dust).</source>
-        <translation>Angeforderter Zahlungsbetrag in Höhe von %1 ist zu niedrig und wurde als "Staub" eingestuft.</translation>
+        <translation>Запрашиваемая сумма платежа в %1 слишком мала (распознана как «пыль»)</translation>
     </message>
     <message>
         <source>Refund from %1</source>
-        <translation>Rücküberweisung von %1</translation>
+        <translation>Возврат от %1</translation>
     </message>
     <message>
         <source>Payment request %1 is too large (%2 bytes, allowed %3 bytes).</source>
-        <translation>Zahlungsanforderung %1 ist zu groß (%2 Byte, erlaubt sind %3 Byte).</translation>
+        <translation>Запрос платежа %1 слишком большой (%2 байтов, допускается %3 байтов)</translation>
     </message>
     <message>
         <source>Error communicating with %1: %2</source>
-        <translation>Kommunikationsfehler mit %1: %2</translation>
+        <translation>Ошибка связи с %1: %2</translation>
     </message>
     <message>
         <source>Payment request cannot be parsed!</source>
-        <translation>Zahlungsanforderung kann nicht verarbeitet werden!</translation>
+        <translation>Не удаётся проверить запрос платежа!</translation>
     </message>
     <message>
         <source>Bad response from server %1</source>
-        <translation>Fehlerhafte Antwort vom Server: %1</translation>
+        <translation>Сервер %1 не отвечает</translation>
     </message>
     <message>
         <source>Network request error</source>
-        <translation>fehlerhafte Netzwerkanfrage</translation>
+        <translation>Ошибка сети</translation>
     </message>
     <message>
         <source>Payment acknowledged</source>
-        <translation>Zahlung bestätigt</translation>
+        <translation>Платёж подтверждён</translation>
     </message>
 </context>
 <context>
     <name>PeerTableModel</name>
     <message>
         <source>User Agent</source>
-        <translation>User-Agent</translation>
+        <translation>Юзер-агент</translation>
     </message>
     <message>
         <source>Node/Service</source>
-        <translation>Knoten/Dienst</translation>
+        <translation>Узел/служба</translation>
     </message>
     <message>
         <source>NodeId</source>
-        <translation>Knoten Identität</translation>
+        <translation>ID узла</translation>
     </message>
     <message>
         <source>Ping</source>
-        <translation>Ping</translation>
+        <translation>Пинг</translation>
     </message>
     <message>
         <source>Sent</source>
-        <translation>Übertragen</translation>
+        <translation>Отправлено</translation>
     </message>
     <message>
         <source>Received</source>
-        <translation>Empfangen</translation>
+        <translation>Получено</translation>
     </message>
 </context>
 <context>
     <name>QObject</name>
     <message>
         <source>Amount</source>
-        <translation>Betrag</translation>
+        <translation>Сумма</translation>
     </message>
     <message>
         <source>Enter a Donu address (e.g. %1)</source>
-        <translation>Donu-Adresse eingeben (z.B. %1)</translation>
+        <translation>Введите Donu-адрес (напр. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
-        <translation>%1 d</translation>
+        <translation>%1 дн</translation>
     </message>
     <message>
         <source>%1 h</source>
-        <translation>%1 h</translation>
+        <translation>%1 ч</translation>
     </message>
     <message>
         <source>%1 m</source>
-        <translation>%1 m</translation>
+        <translation>%1 мин</translation>
     </message>
     <message>
         <source>%1 s</source>
-        <translation>%1 s</translation>
+        <translation>%1 сек</translation>
     </message>
     <message>
         <source>None</source>
-        <translation>Keine</translation>
+        <translation>Нет</translation>
     </message>
     <message>
         <source>N/A</source>
-        <translation>k.A.</translation>
+        <translation>Нет данных</translation>
     </message>
     <message>
         <source>%1 ms</source>
-        <translation>%1 ms</translation>
+        <translation>%1 мс</translation>
     </message>
-    <message numerus="yes">
         <source>%n second(s)</source>
-        <translation><numerusform>%n Sekunde</numerusform><numerusform>%n Sekunden</numerusform></translation>
+        <translation>%n сек</translation>
     </message>
-    <message numerus="yes">
         <source>%n minute(s)</source>
-        <translation><numerusform>%n Minute</numerusform><numerusform>%n Minuten</numerusform></translation>
+        <translation>%n мин</translation>
     </message>
     <message numerus="yes">
         <source>%n hour(s)</source>
