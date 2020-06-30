@@ -2728,236 +2728,235 @@
         <source>Label</source>
         <translation>Метка</translation>
     </message>
-    <message numerus="yes">
         <source>Open for %n more block(s)</source>
-        <translation><numerusform>Offen für %n weiteren Block</numerusform><numerusform>Offen für %n weitere Blöcke</numerusform></translation>
+        <translation>Открыть на ещё %n блок(-а, -ов)</translation>
     </message>
     <message>
         <source>Open until %1</source>
-        <translation>Offen bis %1</translation>
+        <translation>Открыть до %1</translation>
     </message>
     <message>
         <source>Offline</source>
-        <translation>Offline</translation>
+        <translation>Не в сети</translation>
     </message>
     <message>
         <source>Unconfirmed</source>
-        <translation>Unbestätigt</translation>
+        <translation>Неподтверждённая</translation>
     </message>
     <message>
         <source>Abandoned</source>
-        <translation>Eingestellt</translation>
+        <translation>Заброшенная</translation>
     </message>
     <message>
         <source>Confirming (%1 of %2 recommended confirmations)</source>
-        <translation>Wird bestätigt (%1 von %2 empfohlenen Bestätigungen)</translation>
+        <translation>Подтверждается (%1 из %2 рекомендуемых подтверждений)</translation>
     </message>
     <message>
         <source>Confirmed (%1 confirmations)</source>
-        <translation>Bestätigt (%1 Bestätigungen)</translation>
+        <translation>Подтверждена (подтверждений: %1)</translation>
     </message>
     <message>
         <source>Conflicted</source>
-        <translation>in Konflikt stehend</translation>
+        <translation>Конфликт</translation>
     </message>
     <message>
         <source>Immature (%1 confirmations, will be available after %2)</source>
-        <translation>Unreif (%1 Bestätigungen, wird verfügbar sein nach %2)</translation>
+        <translation>Незрелая (подтверждений: %1, станет доступна после %2)</translation>
     </message>
     <message>
         <source>This block was not received by any other nodes and will probably not be accepted!</source>
-        <translation>Dieser Block wurde vom Netzwerk nicht angenommen und wird wahrscheinlich nicht bestätigt werden!</translation>
+        <translation>Этот блок не был принят ни одним узлом!</translation>
     </message>
     <message>
         <source>Generated but not accepted</source>
-        <translation>Generiert, aber nicht akzeptiert</translation>
+        <translation>Сгенерирована, но не принята</translation>
     </message>
     <message>
         <source>Received with</source>
-        <translation>Empfangen über</translation>
+        <translation>Входящая</translation>
     </message>
     <message>
         <source>Received from</source>
-        <translation>Empfangen von</translation>
+        <translation>Получена от</translation>
     </message>
     <message>
         <source>Sent to</source>
-        <translation>Überwiesen an</translation>
+        <translation>Исходящая</translation>
     </message>
     <message>
         <source>Payment to yourself</source>
-        <translation>Eigenüberweisung</translation>
+        <translation>Платёж само себе</translation>
     </message>
     <message>
         <source>Mined</source>
-        <translation>Erarbeitet</translation>
+        <translation>Отчеканена</translation>
     </message>
     <message>
         <source>watch-only</source>
-        <translation>beobachtet</translation>
+        <translation>сторонний адрес (watch-only)</translation>
     </message>
     <message>
         <source>(n/a)</source>
-        <translation>(k.A.)</translation>
+        <translation>(н/д)</translation>
     </message>
     <message>
         <source>(no label)</source>
-        <translation>(keine Bezeichnung)</translation>
+        <translation>(нет метки)</translation>
     </message>
     <message>
         <source>Transaction status. Hover over this field to show number of confirmations.</source>
-        <translation>Transaktionsstatus. Fahren Sie mit der Maus über dieses Feld, um die Anzahl der Bestätigungen zu sehen.</translation>
+        <translation>Статус транзакции. Для отображения количества подтверждений наведите курсор на это поле</translation>
     </message>
     <message>
         <source>Date and time that the transaction was received.</source>
-        <translation>Datum und Zeit als die Transaktion empfangen wurde.</translation>
+        <translation>Дата и время получения транзакции</translation>
     </message>
     <message>
         <source>Type of transaction.</source>
-        <translation>Art der Transaktion</translation>
+        <translation>Тип транзакции</translation>
     </message>
     <message>
         <source>Whether or not a watch-only address is involved in this transaction.</source>
-        <translation>Zeigt an, ob eine beobachtete Adresse in diese Transaktion involviert ist.</translation>
+        <translation>Указывает, участвует ли watch-only-адрес в этой транзакции</translation>
     </message>
     <message>
         <source>User-defined intent/purpose of the transaction.</source>
-        <translation>Benutzerdefinierte Absicht bzw. Verwendungszweck der Transaktion</translation>
+        <translation>Цель транзакции</translation>
     </message>
     <message>
         <source>Amount removed from or added to balance.</source>
-        <translation>Der Betrag, der dem Kontostand abgezogen oder hinzugefügt wurde.</translation>
+        <translation>Сумма, поступившая или убывшая с баланса</translation>
     </message>
 </context>
 <context>
     <name>TransactionView</name>
     <message>
         <source>All</source>
-        <translation>Alle</translation>
+        <translation>Все</translation>
     </message>
     <message>
         <source>Today</source>
-        <translation>Heute</translation>
+        <translation>Сегодня</translation>
     </message>
     <message>
         <source>This week</source>
-        <translation>Diese Woche</translation>
+        <translation>На этой неделе</translation>
     </message>
     <message>
         <source>This month</source>
-        <translation>Diesen Monat</translation>
+        <translation>В этом месяце</translation>
     </message>
     <message>
         <source>Last month</source>
-        <translation>Letzten Monat</translation>
+        <translation>В прошлом месяце</translation>
     </message>
     <message>
         <source>This year</source>
-        <translation>Dieses Jahr</translation>
+        <translation>В этом году</translation>
     </message>
     <message>
         <source>Range...</source>
-        <translation>Zeitraum...</translation>
+        <translation>Период...</translation>
     </message>
     <message>
         <source>Received with</source>
-        <translation>Empfangen über</translation>
+        <translation>Входящая</translation>
     </message>
     <message>
         <source>Sent to</source>
-        <translation>Überwiesen an</translation>
+        <translation>Исходящая</translation>
     </message>
     <message>
         <source>To yourself</source>
-        <translation>Eigenüberweisung</translation>
+        <translation>Само себе</translation>
     </message>
     <message>
         <source>Mined</source>
-        <translation>Erarbeitet</translation>
+        <translation>Отчеканена</translation>
     </message>
     <message>
         <source>Other</source>
-        <translation>Andere</translation>
+        <translation>Другое</translation>
     </message>
     <message>
         <source>Enter address, transaction id, or label to search</source>
-        <translation>Zu suchende Adresse, Transaktion oder Bezeichnung eingeben</translation>
+        <translation>Для поиска введите адрес, id транзакции или метку</translation>
     </message>
     <message>
         <source>Min amount</source>
-        <translation>Mindestbetrag</translation>
+        <translation>Минимальная сумма</translation>
     </message>
     <message>
         <source>Abandon transaction</source>
-        <translation>Transaktion einstellen</translation>
+        <translation>Заброшенная транзакция</translation>
     </message>
     <message>
         <source>Increase transaction fee</source>
-        <translation>Transaktionsgebühr erhöhen</translation>
+        <translation>Увеличить комиссию за транзакцию</translation>
     </message>
     <message>
         <source>Copy address</source>
-        <translation>Adresse kopieren</translation>
+        <translation>Копировать адрес</translation>
     </message>
     <message>
         <source>Copy label</source>
-        <translation>Bezeichnung kopieren</translation>
+        <translation>Копировать метку</translation>
     </message>
     <message>
         <source>Copy amount</source>
-        <translation>Betrag kopieren</translation>
+        <translation>Копировать сумму</translation>
     </message>
     <message>
         <source>Copy transaction ID</source>
-        <translation>Transaktionskennung kopieren</translation>
+        <translation>Копировать ID транзакции</translation>
     </message>
     <message>
         <source>Copy raw transaction</source>
-        <translation>Rohe Transaktion kopieren</translation>
+        <translation>Копировать raw-транзакцию</translation>
     </message>
     <message>
         <source>Copy full transaction details</source>
-        <translation>Vollständige Transaktionsdetails kopieren</translation>
+        <translation>Копировать все детали транзакции</translation>
     </message>
     <message>
         <source>Edit label</source>
-        <translation>Bezeichnung bearbeiten</translation>
+        <translation>Редактировать метку</translation>
     </message>
     <message>
         <source>Show transaction details</source>
-        <translation>Transaktionsdetails anzeigen</translation>
+        <translation>Отобразить детали транзакции</translation>
     </message>
     <message>
         <source>Export Transaction History</source>
-        <translation>Transaktionsverlauf exportieren</translation>
+        <translation>Экспорт истории транзакций</translation>
     </message>
     <message>
         <source>Comma separated file (*.csv)</source>
-        <translation>Kommagetrennte-Datei (*.csv)</translation>
+        <translation>Текст, разделённый запятыми (*.csv)</translation>
     </message>
     <message>
         <source>Confirmed</source>
-        <translation>Bestätigt</translation>
+        <translation>Подтверждённая</translation>
     </message>
     <message>
         <source>Watch-only</source>
-        <translation>Nur beobachten</translation>
+        <translation>Сторонний адрес (watch-only)</translation>
     </message>
     <message>
         <source>Date</source>
-        <translation>Datum</translation>
+        <translation>Дата</translation>
     </message>
     <message>
         <source>Type</source>
-        <translation>Typ</translation>
+        <translation>Тип</translation>
     </message>
     <message>
         <source>Label</source>
-        <translation>Bezeichnung</translation>
+        <translation>Метка</translation>
     </message>
     <message>
         <source>Address</source>
-        <translation>Adresse</translation>
+        <translation>Адрес</translation>
     </message>
     <message>
         <source>ID</source>
@@ -2965,150 +2964,150 @@
     </message>
     <message>
         <source>Exporting Failed</source>
-        <translation>Exportieren fehlgeschlagen</translation>
+        <translation>Экспорт не удался</translation>
     </message>
     <message>
         <source>There was an error trying to save the transaction history to %1.</source>
-        <translation>Beim Speichern des Transaktionsverlaufs nach %1 ist ein Fehler aufgetreten.</translation>
+        <translation>При попытке сохранения истории транзакций в %1 произошла ошибка</translation>
     </message>
     <message>
         <source>Exporting Successful</source>
-        <translation>Exportieren erfolgreich</translation>
+        <translation>Экспорт успешно выполнен</translation>
     </message>
     <message>
         <source>The transaction history was successfully saved to %1.</source>
-        <translation>Speichern des Transaktionsverlaufs nach %1 war erfolgreich.</translation>
+        <translation>История транзакций успешно сохранена в %1</translation>
     </message>
     <message>
         <source>Range:</source>
-        <translation>Zeitraum:</translation>
+        <translation>Период:</translation>
     </message>
     <message>
         <source>to</source>
-        <translation>bis</translation>
+        <translation>в</translation>
     </message>
 </context>
 <context>
     <name>UnitDisplayStatusBarControl</name>
     <message>
         <source>Unit to show amounts in. Click to select another unit.</source>
-        <translation>Die Einheit in der Beträge angezeigt werden. Klicken, um eine andere Einheit auszuwählen.</translation>
+        <translation>Единица, в которой отображаются суммы. Кликните для выбора другой единицы</translation>
     </message>
 </context>
 <context>
     <name>WalletFrame</name>
     <message>
         <source>No wallet has been loaded.</source>
-        <translation>Es wurde keine Wallet geladen.</translation>
+        <translation>Кошелёк не был загружен</translation>
     </message>
 </context>
 <context>
     <name>WalletModel</name>
     <message>
         <source>Send Coins</source>
-        <translation>Donus überweisen</translation>
+        <translation>Отправить монеты</translation>
     </message>
     <message>
         <source>Fee bump error</source>
-        <translation>Fee bump Fehler</translation>
+        <translation>Ошибка увеличения комиссии</translation>
     </message>
     <message>
         <source>Increasing transaction fee failed</source>
-        <translation>Transaktionsgebühr-Erhöhung fehlgeschlagen</translation>
+        <translation>Не удалось увеличить комиссию</translation>
     </message>
     <message>
         <source>Do you want to increase the fee?</source>
-        <translation>Möchten Sie die Gebühr erhöhen?</translation>
+        <translation>Хотите увеличить комиссию?</translation>
     </message>
     <message>
         <source>Current fee:</source>
-        <translation>Aktuelle Gebühr:</translation>
+        <translation>Текущее значение комиссии:</translation>
     </message>
     <message>
         <source>Increase:</source>
-        <translation>Erhöhung:</translation>
+        <translation>Увеличить:</translation>
     </message>
     <message>
         <source>New fee:</source>
-        <translation>Neue Gebühr:</translation>
+        <translation>Новое значение комиссии:</translation>
     </message>
     <message>
         <source>Confirm fee bump</source>
-        <translation>Bestätigen Sie die fee bump</translation>
+        <translation>Подтвердить увеличение комиссии</translation>
     </message>
     <message>
         <source>Can't sign transaction.</source>
-        <translation>Signierung der Transaktion fehlgeschlagen.</translation>
+        <translation>Не удаётся подписать транзакцию</translation>
     </message>
     <message>
         <source>Could not commit transaction</source>
-        <translation>Konnte Transaktion nicht übergeben</translation>
+        <translation>Не удалось выполнить транзакцию</translation>
     </message>
 </context>
 <context>
     <name>WalletView</name>
     <message>
         <source>&amp;Export</source>
-        <translation>E&amp;xportieren</translation>
+        <translation>&amp;Экспорт</translation>
     </message>
     <message>
         <source>Export the data in the current tab to a file</source>
-        <translation>Daten der aktuellen Ansicht in eine Datei exportieren</translation>
+        <translation>Экспортировать данные в текущей вкладке в файл</translation>
     </message>
     <message>
         <source>Backup Wallet</source>
-        <translation>Wallet sichern</translation>
+        <translation>Создать резервную копию кошелька</translation>
     </message>
     <message>
         <source>Wallet Data (*.dat)</source>
-        <translation>Wallet-Daten (*.dat)</translation>
+        <translation>Данные кошелька (*.dat)</translation>
     </message>
     <message>
         <source>Backup Failed</source>
-        <translation>Sicherung fehlgeschlagen</translation>
+        <translation>Не удалось создать резервную копию кошелька</translation>
     </message>
     <message>
         <source>There was an error trying to save the wallet data to %1.</source>
-        <translation>Beim Speichern der Wallet-Daten nach %1 ist ein Fehler aufgetreten.</translation>
+        <translation>При попытке сохранения данных кошелька в %1 произошла ошибка</translation>
     </message>
     <message>
         <source>Backup Successful</source>
-        <translation>Sicherung erfolgreich</translation>
+        <translation>Резервное копирование выполнено успешно</translation>
     </message>
     <message>
         <source>The wallet data was successfully saved to %1.</source>
-        <translation>Speichern der Wallet-Daten nach %1 war erfolgreich.</translation>
+        <translation>Данные кошелька успешно сохранены в %1</translation>
     </message>
 </context>
 <context>
     <name>bitcoin-core</name>
     <message>
         <source>Options:</source>
-        <translation>Optionen:</translation>
+        <translation>Опции:</translation>
     </message>
     <message>
         <source>Specify data directory</source>
-        <translation>Datenverzeichnis festlegen</translation>
+        <translation>Указать директорию данных</translation>
     </message>
     <message>
         <source>Connect to a node to retrieve peer addresses, and disconnect</source>
-        <translation>Mit dem angegebenen Knoten verbinden, um Adressen von Gegenstellen abzufragen, danach trennen</translation>
+        <translation>Подключитесь к узлу для запроса адресов пиров, а затем отключитесь</translation>
     </message>
     <message>
         <source>Specify your own public address</source>
-        <translation>Die eigene öffentliche Adresse angeben</translation>
+        <translation>Укажите свой публичный IP-адрес</translation>
     </message>
     <message>
         <source>Accept command line and JSON-RPC commands</source>
-        <translation>Kommandozeilen- und JSON-RPC-Befehle annehmen</translation>
+        <translation>Принять командную строку и команды JSON-RPC</translation>
     </message>
     <message>
         <source>Distributed under the MIT software license, see the accompanying file %s or %s</source>
-        <translation>Veröffentlicht unter der MIT-Softwarelizenz, siehe beiligende Datei %s oder %s.</translation>
+        <translation>Данное ПО распространяется по лицензии MIT (см. сопроводительный файл %s или %s)</translation>
     </message>
     <message>
         <source>If &lt;category&gt; is not supplied or if &lt;category&gt; = 1, output all debugging information.</source>
-        <translation>Wenn &lt;category&gt; nicht angegeben wird oder &lt;category&gt;=1, jegliche Debugginginformationen ausgeben.</translation>
+        <translation>Если категория не указана или если категория = 1, выведите всю отладочную информацию</translation>
     </message>
     <message>
         <source>Prune configured below the minimum of %d MiB.  Please use a higher number.</source>
