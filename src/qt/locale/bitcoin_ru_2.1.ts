@@ -3107,7 +3107,7 @@
     </message>
     <message>
         <source>If &lt;category&gt; is not supplied or if &lt;category&gt; = 1, output all debugging information.</source>
-        <translation>Если категория не указана или если категория = 1, выведите всю отладочную информацию</translation>
+        <translation>Если категория не указана или если категория = 1, выведите всю информацию отладки</translation>
     </message>
     <message>
         <source>Prune configured below the minimum of %d MiB.  Please use a higher number.</source>
