@@ -1309,7 +1309,7 @@
     </message>
     <message>
         <source>Cannot start donu: click-to-pay handler</source>
-        <translation>Не удаётся запустить Donu: обработчик click-to-pay</translation>
+        <translation>Не удаётся запустить обработчик 'donu: click-to-pay'</translation>
     </message>
     <message>
         <source>URI handling</source>
@@ -2046,7 +2046,7 @@
     </message>
     <message>
         <source>Custom change address</source>
-        <translation>Адрес для сдачи</translation>
+        <translation>Мой адрес для сдачи:</translation>
     </message>
     <message>
         <source>Transaction Fee:</source>
@@ -2222,82 +2222,82 @@
     </message>
     <message>
         <source>The total exceeds your balance when the %1 transaction fee is included.</source>
-        <translation>Сумма платежа превысит ваш баланс с учётом %1 в качестве комиссии</translation>
+        <translation>Общая сумма платежа превысит ваш баланс с учётом комиссии %1</translation>
     </message>
     <message>
         <source>Duplicate address found: addresses should only be used once each.</source>
-        <translation>Doppelte Adresse entdeckt: Adressen dürfen jeweils nur einmal vorkommen.</translation>
+        <translation>Найден повторяющийся адрес!</translation>
     </message>
     <message>
         <source>Transaction creation failed!</source>
-        <translation>Transaktionserstellung fehlgeschlagen!</translation>
+        <translation>Создание транзакции завершилось неудачей!</translation>
     </message>
     <message>
         <source>The transaction was rejected with the following reason: %1</source>
-        <translation>Die Transaktion wurde aus folgendem Grund abgelehnt: %1</translation>
+        <translation>Транзакция была отменена по следующей причине: %1</translation>
     </message>
     <message>
         <source>A fee higher than %1 is considered an absurdly high fee.</source>
-        <translation>Eine höhere Gebühr als %1 wird als unsinnig hohe Gebühr angesehen.</translation>
+        <translation>Комиссия более чем в %1 считается абсурдно высокой</translation>
     </message>
     <message>
         <source>Payment request expired.</source>
-        <translation>Zahlungsanforderung abgelaufen.</translation>
+        <translation>Срок запроса платежа истёк</translation>
     </message>
     <message>
         <source>Pay only the required fee of %1</source>
-        <translation>Nur die notwendige Gebühr in Höhe von %1 zahlen</translation>
+        <translation>Оплатить стандартную комиссию в размере %1</translation>
     </message>
     <message numerus="yes">
         <source>Estimated to begin confirmation within %n block(s).</source>
-        <translation><numerusform>Voraussichtlicher Beginn der Bestätigung innerhalb von %n Block</numerusform><numerusform>Voraussichtlicher Beginn der Bestätigung innerhalb von %n Blöcken.</numerusform></translation>
+        <translation>Подтверждение начнётся в течение %n блока(-ов)</translation>
     </message>
     <message>
         <source>Warning: Invalid Donu address</source>
-        <translation>Warnung: Ungültige Donu-Adresse</translation>
+        <translation>Предупреждение: неверный Donu-адрес</translation>
     </message>
     <message>
         <source>Warning: Unknown change address</source>
-        <translation>Warnung: Unbekannte Wechselgeld-Adresse</translation>
+        <translation>WПредупреждение: неизвестный адрес для сдачи</translation>
     </message>
     <message>
         <source>Confirm custom change address</source>
-        <translation>Bestätige benutzerdefinierte Wechselgeld-Adresse</translation>
+        <translation>Подтвердите выбор адреса для сдачи</translation>
     </message>
     <message>
         <source>The address you selected for change is not part of this wallet. Any or all funds in your wallet may be sent to this address. Are you sure?</source>
-        <translation>Die ausgewählte Wechselgeld-Adresse ist nicht Bestandteil dieses Wallets. Einige oder alle Mittel aus Ihrem Wallet könnten an diese Adresse gesendet werden. Wollen Sie das wirklich?</translation>
+        <translation>Выбранный для сдачи адрес не относится к вашему кошельку. Вы уверены, что хотите отправлять ваши средства на него?</translation>
     </message>
     <message>
         <source>(no label)</source>
-        <translation>(keine Bezeichnung)</translation>
+        <translation>(нет метки)</translation>
     </message>
 </context>
 <context>
     <name>SendCoinsEntry</name>
     <message>
         <source>A&amp;mount:</source>
-        <translation>Betra&amp;g:</translation>
+        <translation>&amp;Сумма:</translation>
     </message>
     <message>
         <source>Pay &amp;To:</source>
-        <translation>E&amp;mpfänger:</translation>
+        <translation>&amp;Адрес получателя:</translation>
     </message>
     <message>
         <source>&amp;Label:</source>
-        <translation>&amp;Bezeichnung:</translation>
+        <translation>&amp;Метка:</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
-        <translation>Bereits verwendete Adresse auswählen</translation>
+        <translation>Выбрать из ранее использованных адресов</translation>
     </message>
     <message>
         <source>This is a normal payment.</source>
-        <translation>Dies ist eine normale Überweisung.</translation>
+        <translation>Привести в соответствие</translation>
     </message>
     <message>
         <source>The Donu address to send the payment to</source>
-        <translation>Die Zahlungsadresse der Überweisung</translation>
+        <translation>Donu-адрес для отправки платежа</translation>
     </message>
     <message>
         <source>Alt+A</source>
@@ -2305,7 +2305,7 @@
     </message>
     <message>
         <source>Paste address from clipboard</source>
-        <translation>Adresse aus der Zwischenablage einfügen</translation>
+        <translation>Вставить адрес из буфера обмена</translation>
     </message>
     <message>
         <source>Alt+P</source>
@@ -2313,92 +2313,92 @@
     </message>
     <message>
         <source>Remove this entry</source>
-        <translation>Diesen Eintrag entfernen</translation>
+        <translation>Очистить адресное поле</translation>
     </message>
     <message>
         <source>The fee will be deducted from the amount being sent. The recipient will receive less DONU than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
-        <translation>Die Gebühr wird vom zu überweisenden Betrag abgezogen. Der Empfänger wird also weniger Donus erhalten, als Sie im Betrags-Feld eingegeben haben. Falls mehrere Empfänger ausgewählt wurden, wird die Gebühr gleichmäßig verteilt.</translation>
+        <translation>Комиссия будет вычтена из отправляемой суммы, и получатель получит меньше DONU, чем указано вами в поле суммы. Если выбрано несколько получателей, комиссия распределится между ними поровну</translation>
     </message>
     <message>
         <source>S&amp;ubtract fee from amount</source>
-        <translation>Gebühr vom Betrag ab&amp;ziehen</translation>
+        <translation>&amp;Вычесть комиссию из суммы</translation>
     </message>
     <message>
         <source>Use available balance</source>
-        <translation>Benutze verfügbaren Kontostand</translation>
+        <translation>Использовать доступный баланс</translation>
     </message>
     <message>
         <source>Message:</source>
-        <translation>Nachricht:</translation>
+        <translation>Сообщение:</translation>
     </message>
     <message>
         <source>This is an unauthenticated payment request.</source>
-        <translation>Dies ist keine beglaubigte Zahlungsanforderung.</translation>
+        <translation>Подлинность запроса платежа не установлена</translation>
     </message>
     <message>
         <source>This is an authenticated payment request.</source>
-        <translation>Dies ist eine beglaubigte Zahlungsanforderung.</translation>
+        <translation>Подлинность запроса платежа установлена</translation>
     </message>
     <message>
         <source>Enter a label for this address to add it to the list of used addresses</source>
-        <translation>Adressbezeichnung eingeben, die dann zusammen mit der Adresse der Liste bereits verwendeter Adressen hinzugefügt wird.</translation>
+        <translation>Присвойте метку этому адресу, чтобы добавить его в список</translation>
     </message>
     <message>
         <source>A message that was attached to the donu: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Donu network.</source>
-        <translation>Eine an die "donu:"-URI angefügte Nachricht, die zusammen mit der Transaktion gespeichert wird. Hinweis: Diese Nachricht wird nicht über das Donu-Netzwerk gesendet.</translation>
+        <translation>Данное сообщение, прикреплённое к URI 'donu:', будет сохранено вместе с транзакцией исключительно для вашего сведения и не будет отправлено через сеть Donu</translation>
     </message>
     <message>
         <source>Pay To:</source>
-        <translation>Empfänger:</translation>
+        <translation>Адрес получателя:</translation>
     </message>
     <message>
         <source>Memo:</source>
-        <translation>Memo:</translation>
+        <translation>Мемо:</translation>
     </message>
     <message>
         <source>Enter a label for this address to add it to your address book</source>
-        <translation>Geben Sie eine Bezeichnung für diese Adresse ein, um sie zu Ihrem Adressbuch hinzuzufügen</translation>
+        <translation>Присвойте метку этому адресу, чтобы добавить его в адресную книгу</translation>
     </message>
 </context>
 <context>
     <name>SendConfirmationDialog</name>
     <message>
         <source>Yes</source>
-        <translation>Ja</translation>
+        <translation>Да</translation>
     </message>
 </context>
 <context>
     <name>ShutdownWindow</name>
     <message>
         <source>%1 is shutting down...</source>
-        <translation>%1 wird beendet...</translation>
+        <translation>%1 завершает работу...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
-        <translation>Fahren Sie den Computer nicht herunter, bevor dieses Fenster verschwindet.</translation>
+        <translation>Не выключайте компьютер до исчезновения этого окна!</translation>
     </message>
 </context>
 <context>
     <name>SignVerifyMessageDialog</name>
     <message>
         <source>Signatures - Sign / Verify a Message</source>
-        <translation>Signaturen - eine Nachricht signieren / verifizieren</translation>
+        <translation>Подписи - Подписать/Проверить сообщение</translation>
     </message>
     <message>
         <source>&amp;Sign Message</source>
-        <translation>Nachricht &amp;signieren</translation>
+        <translation>&amp;Подписать сообщение</translation>
     </message>
     <message>
         <source>You can sign messages/agreements with your addresses to prove you can receive DONU sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
-        <translation>Sie können Nachrichten/Vereinbarungen mit Hilfe Ihrer Adressen signieren, um zu beweisen, dass Sie Donus empfangen können, die an diese Adressen überwiesen werden. Seien Sie vorsichtig und signieren Sie nichts Vages oder Willkürliches, um Ihre Indentität vor Phishingangriffen zu schützen. Signieren Sie nur vollständig-detaillierte Aussagen, mit denen Sie auch einverstanden sind.</translation>
+        <translation>Вы можете подписывать сообщения или соглашения, прикрепляемые к вашим адресам, для доказательства владения ими. Однако, чтобы не стать жертвой фишинговых атак, внимательно читайте подписываемые вами документы</translation>
     </message>
     <message>
         <source>The Donu address to sign the message with</source>
-        <translation>Die Donu-Adresse mit der die Nachricht signiert wird</translation>
+        <translation>Donu-адрес, сообщение к которому будет подписано</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
-        <translation>Bereits verwendete Adresse auswählen</translation>
+        <translation>Выбрать ранее использованный адрес</translation>
     </message>
     <message>
         <source>Alt+A</source>
@@ -2406,7 +2406,7 @@
     </message>
     <message>
         <source>Paste address from clipboard</source>
-        <translation>Adresse aus der Zwischenablage einfügen</translation>
+        <translation>Вставить адрес из буфера обмена</translation>
     </message>
     <message>
         <source>Alt+P</source>
@@ -2414,35 +2414,35 @@
     </message>
     <message>
         <source>Enter the message you want to sign here</source>
-        <translation>Zu signierende Nachricht hier eingeben</translation>
+        <translation>Введите подписываемое сообщение сюда</translation>
     </message>
     <message>
         <source>Signature</source>
-        <translation>Signatur</translation>
+        <translation>Подпись</translation>
     </message>
     <message>
         <source>Copy the current signature to the system clipboard</source>
-        <translation>Aktuelle Signatur in die Zwischenablage kopieren</translation>
+        <translation>Скопировать текущую подпись в буфер обмена</translation>
     </message>
     <message>
         <source>Sign the message to prove you own this Donu address</source>
-        <translation>Die Nachricht signieren, um den Besitz dieser Donu-Adresse zu beweisen</translation>
+        <translation>Подписать сообщение для доказательства владения Donu-адресом</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
-        <translation>&amp;Nachricht signieren</translation>
+        <translation>Подписать &amp;сообщение</translation>
     </message>
     <message>
         <source>Reset all sign message fields</source>
-        <translation>Alle "Nachricht signieren"-Felder zurücksetzen</translation>
+        <translation>Очистить все поля меню подписи сообщений</translation>
     </message>
     <message>
         <source>Clear &amp;All</source>
-        <translation>&amp;Zurücksetzen</translation>
+        <translation>&amp;Очистить всё</translation>
     </message>
     <message>
         <source>&amp;Verify Message</source>
-        <translation>Nachricht &amp;verifizieren</translation>
+        <translation>&amp;Проверить сообщение</translation>
     </message>
     <message>
         <source>Enter the receiver's address, message (ensure you copy line breaks, spaces, tabs, etc. exactly) and signature below to verify the message. Be careful not to read more into the signature than what is in the signed message itself, to avoid being tricked by a man-in-the-middle attack. Note that this only proves the signing party receives with the address, it cannot prove sendership of any transaction!</source>
