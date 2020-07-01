@@ -3099,7 +3099,7 @@
     </message>
     <message>
         <source>Accept command line and JSON-RPC commands</source>
-        <translation>Принять командную строку и команды JSON-RPC</translation>
+        <translation>Принимать командную строку и команды JSON-RPC</translation>
     </message>
     <message>
         <source>Distributed under the MIT software license, see the accompanying file %s or %s</source>
@@ -3111,35 +3111,35 @@
     </message>
     <message>
         <source>Prune configured below the minimum of %d MiB.  Please use a higher number.</source>
-        <translation>Kürzungsmodus wurde kleiner als das Minimum in Höhe von %d MiB konfiguriert. Bitte verwenden Sie einen größeren Wert.</translation>
+        <translation>Prune установлен ниже допустимого минимума в %d MiB. Используйте большее значение</translation>
     </message>
     <message>
         <source>Prune: last wallet synchronisation goes beyond pruned data. You need to -reindex (download the whole blockchain again in case of pruned node)</source>
-        <translation>Prune (Kürzung): Die letzte Syncronisation der Wallet liegt vor gekürzten (gelöschten) Blöcken. Es ist ein -reindex (download der gesamten Blockkette) notwendig.</translation>
+        <translation>Prune: последняя синхронизация кошелька выходит за рамки сокращённых данных. Используйте -reindex, чтобы снова загрузить весь блокчейн</translation>
     </message>
     <message>
         <source>Rescans are not possible in pruned mode. You will need to use -reindex which will download the whole blockchain again.</source>
-        <translation>Rescans sind im pruned mode nicht möglich. Ein -reindex ist notwendig, welcher die gesmate Blockkette erneut herunterlädt.</translation>
+        <translation>Повторное сканирование  в сокращённом режиме невозможно. Используйте -reindex, чтобы снова загрузить весь блокчейн</translation>
     </message>
     <message>
         <source>Error: A fatal internal error occurred, see debug.log for details</source>
-        <translation>Fehler: Ein schwerer interner Fehler ist aufgetreten, siehe debug.log für Details.</translation>
+        <translation>Ошибка: произошла критическая внутренняя ошибка, для получения деталей см. debug.log</translation>
     </message>
     <message>
         <source>Fee (in %s/kB) to add to transactions you send (default: %s)</source>
-        <translation>Gebühr (in %s/kB), die von Ihnen gesendeten Transaktionen hinzugefügt wird (Standard: %s)</translation>
+        <translation>Оплатите комиссию (в размере %s/кБ) для добавления отправленной транзакции (по умолчанию: %s)</translation>
     </message>
     <message>
         <source>Pruning blockstore...</source>
-        <translation>Kürze Blockspeicher...</translation>
+        <translation>Сокращение хранилища блоков...</translation>
     </message>
     <message>
         <source>Run in the background as a daemon and accept commands</source>
-        <translation>Als Hintergrunddienst ausführen und Befehle annehmen</translation>
+        <translation>Запустить в фоновом режиме и принимать команды</translation>
     </message>
     <message>
         <source>Unable to start HTTP server. See debug log for details.</source>
-        <translation>Kann HTTP Server nicht starten. Siehe debug log für Details.</translation>
+        <translation>Невозможно запустить HTTP-сервер. Обратитесь к журналу отладки за подробной информацией </translation>
     </message>
     <message>
         <source>Donu Core</source>
@@ -3147,75 +3147,75 @@
     </message>
     <message>
         <source>The %s developers</source>
-        <translation>Die %s-Entwickler</translation>
+        <translation>Разработчики %s</translation>
     </message>
     <message>
         <source>A fee rate (in %s/kB) that will be used when fee estimation has insufficient data (default: %s)</source>
-        <translation>Eine Transaktionsgebühr (in %s/kB) wird genutzt, wenn für die Gebührenschützung zu wenig Daten vorliegen (Standardwert: %s)</translation>
+        <translation>Величина комиссии (в размере %s/кБ), которая будет использоваться, если для расчёта величины комиссии сетью недостаточно данных (по умолчанию: %s)</translation>
     </message>
     <message>
         <source>Accept relayed transactions received from whitelisted peers even when not relaying transactions (default: %d)</source>
-        <translation>Immer übermittelte Transaktionen von freigegebenen Peers akzeptieren, auch wenn keine Transaktionen übermittelt werden (Standard: %d)</translation>
+        <translation>Всегда принимать передаваемые транзакции от пиров из доверенного списка (по умолчанию: %d)</translation>
     </message>
     <message>
         <source>Add a node to connect to and attempt to keep the connection open (see the `addnode` RPC command help for more info)</source>
-        <translation>Mit dem angegebenen Knoten verbinden und versuchen die Verbindung aufrecht zu erhalten (Siehe die "addnode" RPC Kommando Hilfe für mehr Information)</translation>
+        <translation>Добавить узел для подключения и поддерживать соединение активным (для дополнительной информации см. Справку о командах `addnode` RPC)</translation>
     </message>
     <message>
         <source>Bind to given address and always listen on it. Use [host]:port notation for IPv6</source>
-        <translation>An die angegebene Adresse binden und immer abhören. Für IPv6 "[Host]:Port"-Notation verwenden</translation>
+        <translation>Привязать к данному адресу и всегда слушать его. Используйте примечание [host]:port для IPv6</translation>
     </message>
     <message>
         <source>Cannot obtain a lock on data directory %s. %s is probably already running.</source>
-        <translation>Datenverzeichnis %s kann nicht gesperrt werden. Evtl. wurde %s bereits gestartet.</translation>
+        <translation>Не удаётся замкнуться на каталог данных %s. Возможно, %s уже запущен</translation>
     </message>
     <message>
         <source>Cannot provide specific connections and have addrman find outgoing connections at the same.</source>
-        <translation>Kann keine Verbindungen herstellen und addrman gleichzeitig ausgehende Verbindungen suchen lassen.</translation>
+        <translation>Не удаётся предоставить конкретные соединения и одновременно заставить addrman находить исходящие соединения</translation>
     </message>
     <message>
         <source>Connect only to the specified node(s); -connect=0 disables automatic connections (the rules for this peer are the same as for -addnode)</source>
-        <translation>Stellt lediglich die Verbindungen zum/zu den spezifischen Knoten her; -connect=0 deaktiviert die automatische Verbindungsherstellung (Die Regel für diesen Knoten ist die selbe wie für -addnode)</translation>
+        <translation>Подключаться только к указанным узлам; -connect=0 отключает автоматические соединения (правила для этого узла такие же, как и для -addnode)</translation>
     </message>
     <message>
         <source>Delete all wallet transactions and only recover those parts of the blockchain through -rescan on startup</source>
-        <translation>Alle Wallet-Transaktionen löschen und nur diese Teilbereiche der Blockkette durch -rescan beim Starten wiederherstellen</translation>
+        <translation>Удалить все транзакции кошелька и восстановить только данные части блокчейна через -rescan при запуске</translation>
     </message>
     <message>
         <source>Error reading %s! All keys read correctly, but transaction data or address book entries might be missing or incorrect.</source>
-        <translation>Lesen von %s fehlgeschlagen! Alle Schlüssel wurden korrekt gelesen, Transaktionsdaten bzw. Adressbucheinträge fehlen aber möglicherweise oder sind inkorrekt.</translation>
+        <translation>Ошибка чтения %s! Все ключи читаются корректно, но данные транзакций или записи адресной книги, возможно, отсутствуют или содержат ошибки</translation>
     </message>
     <message>
         <source>Exclude debugging information for a category. Can be used in conjunction with -debug=1 to output debug logs for all categories except one or more specified categories.</source>
-        <translation>Debugging-Informationen für eine Kategorie ausschließen. Kann in Verbindung mit -debug = 1 verwendet werden, um Debug-Logs für alle Kategorien auszugeben, mit Ausnahme einer oder mehrerer spezifizierter Kategorien.</translation>
+        <translation>Исключить отладочную информацию для указанной категории. Может использоваться вместе с -debug=1 для вывода журналов отладки для всех категорий с исключением указанных</translation>
     </message>
     <message>
         <source>Execute command when a wallet transaction changes (%s in cmd is replaced by TxID)</source>
-        <translation>Befehl ausführen wenn sich eine Wallet-Transaktion verändert (%s im Befehl wird durch die Transaktions-ID ersetzt)</translation>
+        <translation>Выполнить команду при изменении транзакции кошелька (%s в cmd заменяется на TxID)</translation>
     </message>
     <message>
         <source>Extra transactions to keep in memory for compact block reconstructions (default: %u)</source>
-        <translation>Zusätzliche Transaktionen für kompakten Block-Nachbau im Speicher vorhalten (default: %u)</translation>
+        <translation>Дополнительные транзакции, подлежащие хранению в памяти для компактного распределения блоков (по умолчанию: %u)</translation>
     </message>
     <message>
         <source>If this block is in the chain assume that it and its ancestors are valid and potentially skip their script verification (0 to verify all, default: %s, testnet: %s)</source>
-        <translation>Sofern dieser Block Bestandteil der Blockchain ist, nehme an, dass er und seine Vorgänger gültig sind und überspringe ggf. dessen Skriptverifikation (0 um alle zu verifizieren, default: %s, testnet: %s)</translation>
+        <translation>Если этот блок находится в цепочке, допускать, что он и предыдущие блоки действительны и потенциально могут не проходить проверку скрипта (0 для проверки всех, по умолчанию: %s, тестовая сеть: %s)</translation>
     </message>
     <message>
         <source>Maximum allowed median peer time offset adjustment. Local perspective of time may be influenced by peers forward or backward by this amount. (default: %u seconds)</source>
-        <translation>Maximal zulässige mediane Peer-Zeit-Offset-Einstellung. Lokale Perspektive der Zeit kann von Peers vorwärts oder rückwärts um diesen Betrag beeinflusst werden. (Voreinstellung: %u Sekunden)</translation>
+        <translation>Корректировка максимально допустимого смещения времени пиров. Посредством этого показателя пиры влияют на локальную временную перспективу (по умолчанию: %u сек)</translation>
     </message>
     <message>
         <source>Maximum total fees (in %s) to use in a single wallet transaction or raw transaction; setting this too low may abort large transactions (default: %s)</source>
-        <translation>Maximale Gesamtgebühr (in %s) in einer Börsentransaktion; wird dies zu niedrig gesetzten können große Transaktionen abgebrochen werden (Standard: %s)</translation>
+        <translation>Максимальная комиссия (в размере %s) для одной транзакции кошелька или raw-транзакции; слишком низкое значение может сделать невозможной отправку больших транзакции (по умолчанию: %s)</translation>
     </message>
     <message>
         <source>Please check that your computer's date and time are correct! If your clock is wrong, %s will not work properly.</source>
-        <translation>Bitte korrigieren Sie die Datums- und Uhrzeiteinstellungen Ihres Computers, da %s ansonsten nicht ordnungsgemäß funktionieren wird.</translation>
+        <translation>Проверьте правильность даты и времени на вашем компьютере! Иначе %s не будет работать правильно</translation>
     </message>
     <message>
         <source>Please contribute if you find %s useful. Visit %s for further information about the software.</source>
-        <translation>Wenn sie %s nützlich finden, sind Helfer sehr gern gesehen. Besuchen Sie %s um mehr über das Softwareprojekt zu erfahren.</translation>
+        <translation>Мы приветствуем любую помощь в деле дальнейшего улучшения %s. Для дополнительной информации посетите %s </translation>
     </message>
     <message>
         <source>Query for peer addresses via DNS lookup, if low on addresses (default: 1 unless -connect used)</source>
