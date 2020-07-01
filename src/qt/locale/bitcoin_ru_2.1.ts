@@ -3735,111 +3735,111 @@
     </message>
     <message>
         <source>Transaction amount too small</source>
-        <translation>Transaktionsbetrag zu niedrig</translation>
+        <translation>Сумма транзакции слишком мала</translation>
     </message>
     <message>
         <source>Transaction too large for fee policy</source>
-        <translation>Transaktion ist für die Gebührenrichtlinie zu groß</translation>
+        <translation>Слишком большая транзакция для расчёта комиссии</translation>
     </message>
     <message>
         <source>Transaction too large</source>
-        <translation>Transaktion zu groß</translation>
+        <translation>Слишком большая транзакция</translation>
     </message>
     <message>
         <source>Unable to bind to %s on this computer (bind returned error %s)</source>
-        <translation>Kann auf diesem Computer nicht an %s binden (bind meldete Fehler %s)</translation>
+        <translation>Невозможно выполнить привязку к %s на этом компьютере (ошибка %s)</translation>
     </message>
     <message>
         <source>Unable to generate initial keys</source>
-        <translation>Anfänglicher Schlüssel kann nicht generiert werden.</translation>
+        <translation>Невозможно сгенерировать ключи</translation>
     </message>
     <message>
         <source>Upgrade wallet to latest format on startup</source>
-        <translation>Wallet beim Starten auf das neueste Format aktualisieren</translation>
+        <translation>Обновить кошелек до последней версии при запуске</translation>
     </message>
     <message>
         <source>Username for JSON-RPC connections</source>
-        <translation>Benutzername für JSON-RPC-Verbindungen</translation>
+        <translation>Имя пользователя для соединений JSON-RPC</translation>
     </message>
     <message>
         <source>Verifying wallet(s)...</source>
-        <translation>Verifiziere Wallet(s)...</translation>
+        <translation>Проверка кошелька(-ов)...</translation>
     </message>
     <message>
         <source>Wallet %s resides outside wallet directory %s</source>
-        <translation>Brieftasche %s liegt außerhalb des Datenverzechnisses %s</translation>
+        <translation>Кошелёк %s находится вне директории %s</translation>
     </message>
     <message>
         <source>Warning</source>
-        <translation>Warnung</translation>
+        <translation>Предупреждение</translation>
     </message>
     <message>
         <source>Warning: unknown new rules activated (versionbit %i)</source>
-        <translation>Warnung: Unbekannte neue Regeln aktiviert (Versionsbit %i)</translation>
+        <translation>Предупреждение: активированы неизвестные правила (versionbit %i)</translation>
     </message>
     <message>
         <source>Whether to operate in a blocks only mode (default: %u)</source>
-        <translation>Legt fest ob nur Blöcke Modus aktiv sein soll (Standard: %u)</translation>
+        <translation>Работать ли в режиме «только блоки» (по умолчанию: %u)</translation>
     </message>
     <message>
         <source>You need to rebuild the database using -reindex to change -txindex</source>
-        <translation>Sie müssen die Datenbank mit Hilfe von -reindex neu aufbauen, um -txindex zu ändern</translation>
+        <translation>Вам нужно перестроить базу данных, используя -reindex для изменения -txindex</translation>
     </message>
     <message>
         <source>Zapping all transactions from wallet...</source>
-        <translation>Lösche alle Transaktionen aus Wallet...</translation>
+        <translation>Стереть все транзакции на кошельке...</translation>
     </message>
     <message>
         <source>ZeroMQ notification options:</source>
-        <translation>ZeroMQ-Benachrichtigungsoptionen:</translation>
+        <translation>Опции уведомлений ZeroMQ:</translation>
     </message>
     <message>
         <source>Password for JSON-RPC connections</source>
-        <translation>Passwort für JSON-RPC-Verbindungen</translation>
+        <translation>Пароль для соединений JSON-RPC</translation>
     </message>
     <message>
         <source>Execute command when the best block changes (%s in cmd is replaced by block hash)</source>
-        <translation>Befehl ausführen wenn der beste Block wechselt (%s im Befehl wird durch den Hash des Blocks ersetzt)</translation>
+        <translation>Выполнить команду при изменении лучшего блока (%s в cmd заменяется хэшем блока)</translation>
     </message>
     <message>
         <source>Allow DNS lookups for -addnode, -seednode and -connect</source>
-        <translation>Erlaube DNS-Abfragen für -addnode, -seednode und -connect</translation>
+        <translation>Разрешить DNS-поиск для -addnode, -seednode и -connect</translation>
     </message>
     <message>
         <source>(1 = keep tx meta data e.g. account owner and payment request information, 2 = drop tx meta data)</source>
-        <translation>(1 = TX-Metadaten wie z.B. Accountbesitzer und Zahlungsanforderungsinformationen behalten, 2 = TX-Metadaten verwerfen)</translation>
+        <translation>(1 = сохранять метаданные транзакции (например, владельца аккаунта и информацию о запросе платежа), 2 = удалять метаданные транзакции)</translation>
     </message>
     <message>
         <source>-maxtxfee is set very high! Fees this large could be paid on a single transaction.</source>
-        <translation>-maxtxfee ist auf einen sehr hohen Wert festgelegt! Gebühren dieser Höhe könnten für eine einzelne Transaktion bezahlt werden.</translation>
+        <translation>Настройки -maxtxfee очень высоки! Такие высокие комиссии могут быть уплачены за единственную транзакцию</translation>
     </message>
     <message>
         <source>Bind to given address to listen for JSON-RPC connections. This option is ignored unless -rpcallowip is also passed. Port is optional and overrides -rpcport. Use [host]:port notation for IPv6. This option can be specified multiple times (default: 127.0.0.1 and ::1 i.e., localhost, or if -rpcallowip has been specified, 0.0.0.0 and :: i.e., all addresses)</source>
-        <translation>An die angegebene Adresse binden und auf JSON-RPC-Verbindungen abhören. Diese Option wird ignoriert wenn '-rpcallowip' nicht auch angegeben ist. Die Angabe des Ports ist optional und überschreibt den Parameter '-rpcport'. Benutzen Sie die [host]:port Annotation für IPv6. Diese Option kann mehrmals angegeben werden. (Standard: 127.0.0.1 und ::1, z.B. localhost; Wenn '-rpcallowip' angegeben wurde werden alle Adressen verwendet, also 0.0.0.0 und ::)</translation>
+        <translation>Привязать к указанному адресу для прослушивания соединений JSON-RPC. Эта опция игнорируется, пока -rpcallowip также неактивна. Порт не является обязательным и доминирует над -rpcport. Используйте примечание [host]:port для IPv6. Эту опцию можно указывать несколько раз (по умолчанию: 127.0.0.1 и ::1 i.e., локальный хост, или, если указан -rpcallowip, 0.0.0.0 и :: i.e., все адреса)</translation>
     </message>
     <message>
         <source>Do not keep transactions in the mempool longer than &lt;n&gt; hours (default: %u)</source>
-        <translation>Die Transaktion nicht länger im Speicherpool behalten als &lt;n&gt; Stunden (Standard: %u)</translation>
+        <translation>Не хранить транзакции в мемпуле дольше &lt;n&gt; часов (по умолчанию: %u)</translation>
     </message>
     <message>
         <source>Equivalent bytes per sigop in transactions for relay and mining (default: %u)</source>
-        <translation>Maximale Datengröße in "Data Carrier"-Transaktionen die weitergeleitet und erarbeitet werden (Standard: %u)</translation>
+        <translation>Максимальный размер данных в транзакциях , которые передаются и обрабатываются (по умолчанию: %u)</translation>
     </message>
     <message>
         <source>Error loading %s: You can't enable HD on an already existing non-HD wallet</source>
-        <translation>Fehler beim Herunterladen von %s: Sie können keine hierarchisch deterministische Schlüsselgeneration (HD) auf eine bereits existierende nicht-HD Brieftasche (Wallet) aktivieren.</translation>
+        <translation>Ошибка загрузки %s: данный кошелёк не поддерживает функцию HD</translation>
     </message>
     <message>
         <source>Error loading wallet %s. -wallet parameter must only specify a filename (not a path).</source>
-        <translation>Fehler beim Laden der Brieftasche %s. Der Parameter -wallet darf nur ein Dateiname sein (kein Dateipfad).</translation>
+        <translation>Ошибка загрузки кошелька %s. Параметр -wallet должен указывать имя файла, а не путь</translation>
     </message>
     <message>
         <source>Fees (in %s/kB) smaller than this are considered zero fee for transaction creation (default: %s)</source>
-        <translation>Niedrigere Gebühren (in %s/Kb) als diese werden bei der Transaktionserstellung als gebührenfrei angesehen (Standard: %s)</translation>
+        <translation>Комиссии (в размере %s/кБ) меньше заданного значения будут приниматься нулевыми за создание транзакций (по умолчанию: %s)</translation>
     </message>
     <message>
         <source>Force relay of transactions from whitelisted peers even if they violate local relay policy (default: %d)</source>
-        <translation>Leite Transaktionen von Peers auf der Positivliste auf jeden Fall weiter, auch wenn sie die lokale Weiterleitungsregeln verletzen (Standardeinstellung: %d)</translation>
+        <translation>Принудительная передача транзакций от пиров из доверенного списка, даже если они нарушают политику локальных передач (по умолчанию: %d)</translation>
     </message>
     <message>
         <source>How thorough the block verification of -checkblocks is (0-4, default: %u)</source>
