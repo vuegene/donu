@@ -3475,87 +3475,87 @@
     </message>
     <message>
         <source>Rebuild chain state and block index from the blk*.dat files on disk</source>
-        <translation>Blockkettenindex aus aktuellen Dateien blk000??.dat beim Starten wiederaufbauen</translation>
+        <translation>Восстановить состояние цепи и индекс блоков из файлов blk*.dat на диске</translation>
     </message>
     <message>
         <source>Rebuild chain state from the currently indexed blocks</source>
-        <translation>Blockkettenzustand aus aktuelle indizierten Blöcken wiederaufbauen</translation>
+        <translation>Восстановить состояние цепи из недавно проиндексированных блоков</translation>
     </message>
     <message>
         <source>Replaying blocks...</source>
-        <translation>Blöcke werden nochmal neu verarbeitet ...</translation>
+        <translation>Повторное воспроизведение блоков...</translation>
     </message>
     <message>
         <source>Rewinding blocks...</source>
-        <translation>Verifiziere Blöcke...</translation>
+        <translation>Перемотка блоков назад...</translation>
     </message>
     <message>
         <source>Send transactions with full-RBF opt-in enabled (RPC only, default: %u)</source>
-        <translation>Wähle alle zu sendenden Transaktionen als full-RBF opt-in aktiviert (Ausschließlich RPC, Standard: %u)</translation>
+        <translation>Включена опция отправки транзакции с full-RBF модулем (только через RPC, по умолчанию: %u)</translation>
     </message>
     <message>
         <source>Set database cache size in megabytes (%d to %d, default: %d)</source>
-        <translation>Größe des Datenbankcaches in Megabyte festlegen (%d bis %d, Standard: %d)</translation>
+        <translation>Установить размер кэша базы данных в мегабайтах (от %d до %d, по умолчанию: %d)</translation>
     </message>
     <message>
         <source>Specify wallet file (within data directory)</source>
-        <translation>Wallet-Datei angeben (innerhalb des Datenverzeichnisses)</translation>
+        <translation>Указать файл кошелька (в пределах директории данных)</translation>
     </message>
     <message>
         <source>The source code is available from %s.</source>
-        <translation>Der Quellcode ist von %s verfügbar.</translation>
+        <translation>Исходный код доступен с %s</translation>
     </message>
     <message>
         <source>Transaction fee and change calculation failed</source>
-        <translation>Transaktionsgebühr- und Wechselgeldberechnung fehlgeschlagen</translation>
+        <translation>Не удалось рассчитать комиссию и сдачу</translation>
     </message>
     <message>
         <source>Unable to bind to %s on this computer. %s is probably already running.</source>
-        <translation>Kann auf diesem Computer nicht an %s binden. Evtl. wurde %s bereits gestartet.</translation>
+        <translation>Невозможно привязаться к %s на этом компьютере. Возможно, %s уже запущен</translation>
     </message>
     <message>
         <source>Unsupported argument -benchmark ignored, use -debug=bench.</source>
-        <translation>Nicht unterstütztes Argument -benchmark wurde ignoriert, bitte -debug=bench verwenden.</translation>
+        <translation>Неподдерживаемый аргумент -benchmark отклонён, необходимо использовать -debug=bench</translation>
     </message>
     <message>
         <source>Unsupported argument -debugnet ignored, use -debug=net.</source>
-        <translation>Nicht unterstütztes Argument -debugnet wurde ignoriert, bitte -debug=net verwenden.</translation>
+        <translation>Неподдерживаемый аргумент -debugnet отклонён, необходимо использовать -debug=net</translation>
     </message>
     <message>
         <source>Unsupported argument -tor found, use -onion.</source>
-        <translation>Nicht unterstütztes Argument -tor gefunden, bitte -onion verwenden.</translation>
+        <translation>Обнаружен неподдерживаемый аргумент -tor, необходимо использовать -onion</translation>
     </message>
     <message>
         <source>Upgrading UTXO database</source>
-        <translation>Aktualisierung der UTXO Datenbank</translation>
+        <translation>Обновление базы UTXO</translation>
     </message>
     <message>
         <source>Use UPnP to map the listening port (default: %u)</source>
-        <translation>UPnP verwenden, um eine Portweiterleitung einzurichten (Standard: %u)</translation>
+        <translation>Используйте UPnP для отображения прослушиваемого порта (по умолчанию: %u)</translation>
     </message>
     <message>
         <source>Use the test chain</source>
-        <translation>Die Testchain verwenden</translation>
+        <translation>Использовать тестовую цепь</translation>
     </message>
     <message>
         <source>User Agent comment (%s) contains unsafe characters.</source>
-        <translation>Der User Agent Kommentar  (%s) enthält unsichere Zeichen.</translation>
+        <translation>Клиентский комментарий (%s) содержит небезопасные символы</translation>
     </message>
     <message>
         <source>Verifying blocks...</source>
-        <translation>Verifiziere Blöcke...</translation>
+        <translation>Проверка блоков...</translation>
     </message>
     <message>
         <source>Wallet debugging/testing options:</source>
-        <translation>Wallet Debugging-/Testoptionen:</translation>
+        <translation>Опции отладки/тестирования кошелька:</translation>
     </message>
     <message>
         <source>Wallet needed to be rewritten: restart %s to complete</source>
-        <translation>Wallet musste neu geschrieben werden: starten Sie %s zur Fertigstellung neu</translation>
+        <translation>Необходимо переписать кошелёк: перезапустите %s, чтобы завершить процесс</translation>
     </message>
     <message>
         <source>Wallet options:</source>
-        <translation>Wallet-Optionen:</translation>
+        <translation>Опции кошелька:</translation>
     </message>
     <message>
         <source>Allow JSON-RPC connections from specified source. Valid for &lt;ip&gt; are a single IP (e.g. 1.2.3.4), a network/netmask (e.g. 1.2.3.4/255.255.255.0) or a network/CIDR (e.g. 1.2.3.4/24). This option can be specified multiple times</source>
