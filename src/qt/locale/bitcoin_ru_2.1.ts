@@ -3839,23 +3839,23 @@
     </message>
     <message>
         <source>Force relay of transactions from whitelisted peers even if they violate local relay policy (default: %d)</source>
-        <translation>Принудительная передача транзакций от пиров из доверенного списка, даже если они нарушают политику локальных передач (по умолчанию: %d)</translation>
+        <translation>Принудительная передача транзакций от пиров из доверенного списка, даже если они нарушают политику передач (по умолчанию: %d)</translation>
     </message>
     <message>
         <source>How thorough the block verification of -checkblocks is (0-4, default: %u)</source>
-        <translation>Legt fest, wie gründlich die Blockverifikation von -checkblocks ist (0-4, Standard: %u)</translation>
+        <translation>Тщательность проверки блоков опцией -checkblocks (0-4, по умолчанию: %u)</translation>
     </message>
     <message>
         <source>Maintain a full transaction index, used by the getrawtransaction rpc call (default: %u)</source>
-        <translation>Einen vollständigen Transaktionsindex führen, der vom RPC-Befehl "getrawtransaction" genutzt wird (Standard: %u)</translation>
+        <translation>Поддерживать полный индекс транзакции, используемый вызовом RPC getrawtransaction (по умолчанию: %u)</translation>
     </message>
     <message>
         <source>Number of seconds to keep misbehaving peers from reconnecting (default: %u)</source>
-        <translation>Anzahl Sekunden, während denen sich nicht konform verhaltenden Gegenstellen die Wiederverbindung verweigert wird (Standard: %u)</translation>
+        <translation>Количество секунд до следующей попытки подключения неправильно работающих пиров (по умолчанию: %u)</translation>
     </message>
     <message>
         <source>Output debugging information (default: %u, supplying &lt;category&gt; is optional)</source>
-        <translation>Debugginginformationen ausgeben (Standard: %u, &lt;category&gt; anzugeben ist optional)</translation>
+        <translation>Вывести информацию отладки (по умолчанию: %u, указывать категорию необязательно)</translation>
     </message>
     <message>
         <source>Sets the serialization of raw transaction or block hex returned in non-verbose mode, non-segwit(0) or segwit(1) (default: %d)</source>
