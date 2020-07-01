@@ -3255,7 +3255,7 @@
     </message>
     <message>
         <source>Use UPnP to map the listening port (default: 1 when listening and no -proxy)</source>
-        <translation>Используйте UPnP для отображения прослушиваемого порта (по умолчанию: 1 при прослушивании и без прокси)</translation>
+        <translation>Используйте UPnP для отображения прослушиваемого порта (по умолчанию: 1 при прослушивании и без -proxy)</translation>
     </message>
     <message>
         <source>Username and hashed password for JSON-RPC connections. The field &lt;userpw&gt; comes in the format: &lt;USERNAME&gt;:&lt;SALT&gt;$&lt;HASH&gt;. A canonical python script is included in share/rpcuser. The client then connects normally using the rpcuser=&lt;USERNAME&gt;/rpcpassword=&lt;PASSWORD&gt; pair of arguments. This option can be specified multiple times</source>
@@ -3295,7 +3295,7 @@
     </message>
     <message>
         <source>Accept connections from outside (default: 1 if no -proxy or -connect)</source>
-        <translation>Принимать соединения извне (по умолчанию: 1, если без прокси, или -connect)</translation>
+        <translation>Принимать соединения извне (по умолчанию: 1, если без -proxy, или -connect)</translation>
     </message>
     <message>
         <source>Append comment to the user agent string</source>
@@ -3559,179 +3559,179 @@
     </message>
     <message>
         <source>Allow JSON-RPC connections from specified source. Valid for &lt;ip&gt; are a single IP (e.g. 1.2.3.4), a network/netmask (e.g. 1.2.3.4/255.255.255.0) or a network/CIDR (e.g. 1.2.3.4/24). This option can be specified multiple times</source>
-        <translation>JSON-RPC-Verbindungen von der angegeben Quelle erlauben. Gültig für &lt;ip&gt; ist eine einzelne IP-Adresse (z.B. 1.2.3.4), ein Netzwerk bzw. eine Netzmaske (z.B. 1.2.3.4/255.255.255.0), oder die CIDR-Notation (z.B. 1.2.3.4/24). Kann mehrmals angegeben werden.</translation>
+        <translation>Разрешить соединения JSON-RPC из указанного источника. Допустимыми являются: одиночный IP (например, 1.2.3.4), сеть/маска подсети (например, 1.2.3.4/255.255.255.0) или сеть/CIDR (например, 1.2.3.4/24). Эта опция может быть указана несколько раз</translation>
     </message>
     <message>
         <source>Bind to given address and whitelist peers connecting to it. Use [host]:port notation for IPv6</source>
-        <translation>An die angegebene Adresse binden und Gegenstellen, die sich dorthin verbinden, immer zulassen. Für IPv6 "[Host]:Port"-Notation verwenden</translation>
+        <translation>Привязать к данному адресу и пирам из доверенного списка, подключённым к нему. Использовать примечание [host]:port для IPv6</translation>
     </message>
     <message>
         <source>Create new files with system default permissions, instead of umask 077 (only effective with disabled wallet functionality)</source>
-        <translation>Neue Dateien mit Standard-Systemrechten erzeugen, anstatt mit umask 077 (nur mit deaktivierter Walletfunktion nutzbar)</translation>
+        <translation>Создавать новые файлы с системными разрешениями по умолчанию вместо umask 077 (работает только при отключённой функциональности кошелька)</translation>
     </message>
     <message>
         <source>Discover own IP addresses (default: 1 when listening and no -externalip or -proxy)</source>
-        <translation>Eigene IP-Adressen ermitteln (Standard: 1, wenn abgehört wird und nicht -externalip oder -proxy)</translation>
+        <translation>Найти собственные IP-адреса (по умолчанию: 1 при прослушивании и без -externalip или -proxy)</translation>
     </message>
     <message>
         <source>Error: Listening for incoming connections failed (listen returned error %s)</source>
-        <translation>Fehler: Abhören nach eingehenden Verbindungen fehlgeschlagen (listen meldete Fehler %s)</translation>
+        <translation>Ошибка: прослушивание входящих соединений не выполнено (ошибка %s)</translation>
     </message>
     <message>
         <source>Execute command when a relevant alert is received or we see a really long fork (%s in cmd is replaced by message)</source>
-        <translation>Befehl ausführen wenn ein relevanter Alarm empfangen wird oder wir einen wirklich langen Fork entdecken (%s im Befehl wird durch die Nachricht ersetzt)</translation>
+        <translation>Выполнить команду при получении соответствующего предупреждения или обнаружении очень длинного форка (%s в cmd заменяется сообщением)</translation>
     </message>
     <message>
         <source>Fees (in %s/kB) smaller than this are considered zero fee for relaying, mining and transaction creation (default: %s)</source>
-        <translation>Niedrigere Gebühren (in %s/Kb) als diese werden bei der Transaktionserstellung als gebührenfrei angesehen (Standard: %s)</translation>
+        <translation>Комиссии (в размере %s/кБ) меньше заданного значения будут приниматься нулевыми за передачу, майнинг и создание транзакций (по умолчанию: %s)</translation>
     </message>
     <message>
         <source>If paytxfee is not set, include enough fee so transactions begin confirmation on average within n blocks (default: %u)</source>
-        <translation>Wenn -paytxfee nicht festgelegt wurde Gebühren einschließen, so dass mit der Bestätigung von Transaktionen im Schnitt innerhalb von n Blöcken begonnen wird (Standard: %u)</translation>
+        <translation>Если -paytxfee не установлен, устанавливайте достаточную комиссию, чтобы транзакции начинали подтверждаться в течение n блоков (по умолчанию: %u)</translation>
     </message>
     <message>
         <source>Invalid amount for -maxtxfee=&lt;amount&gt;: '%s' (must be at least the minrelay fee of %s to prevent stuck transactions)</source>
-        <translation>Ungültiger Betrag für -maxtxfee=&lt;amount&gt;: '%s' (muss mindestens die minimale Weiterleitungsgebühr in Höhe von %s sein, um zu verhindern dass Transaktionen nicht bearbeitet werden)</translation>
+        <translation>Недопустимая сумма для -maxtxfee=&lt;amount&gt;: '%s' (должна быть не менее %s, чтобы предотвратить зависание транзакций)</translation>
     </message>
     <message>
         <source>Maximum size of data in data carrier transactions we relay and mine (default: %u)</source>
-        <translation>Maximale Datengröße in "Data Carrier"-Transaktionen die weitergeleitet und erarbeitet werden (Standard: %u)</translation>
+        <translation>Максимальный размер данных в транзакциях, который мы передаем и обрабатываем (по умолчанию: %u)</translation>
     </message>
     <message>
         <source>Randomize credentials for every proxy connection. This enables Tor stream isolation (default: %u)</source>
-        <translation>Zufällige Anmeldedaten für jede Proxyverbindung verwenden. Dies aktiviert Tor-Datenflussisolation (Standard: %u)</translation>
+        <translation>Используйте случайные учётные данные для каждого прокси-соединения. Это обеспечивает изоляцию трафика Tor (по умолчанию: %u)</translation>
     </message>
     <message>
         <source>The transaction amount is too small to send after the fee has been deducted</source>
-        <translation>Der Transaktionsbetrag ist zum senden zu niedrig, nachdem die Gebühr abgezogen wurde.</translation>
+        <translation>Сумма транзакции после вычета комиссии слишком мала для отправки</translation>
     </message>
     <message>
         <source>Whitelisted peers cannot be DoS banned and their transactions are always relayed, even if they are already in the mempool, useful e.g. for a gateway</source>
-        <translation>Erlaubte Gegenstellen werden nicht für DoS-Attacken gesperrt und ihre Transkationen werden immer weitergeleitet, auch wenn sie sich bereits im Speicherpool befinden, was z.B. für Gateways sinnvoll ist.</translation>
+        <translation>Пиры из доверенного списка не уязвимы перед DoS-атакам, и их транзакции всегда отправляются, даже если они уже находятся в мемпуле (что полезно, например, для шлюзов)</translation>
     </message>
     <message>
         <source>You need to rebuild the database using -reindex to go back to unpruned mode.  This will redownload the entire blockchain</source>
-        <translation>Sie müssen die Datenbank mit Hilfe von -reindex neu aufbauen, um zum ungekürzten Modus zurückzukehren. Dies erfordert, dass die gesamte Blockkette erneut heruntergeladen wird.</translation>
+        <translation>Вы должны перестроить базу данных, используя -reindex, чтобы вернуться в полноценный режим. Это потребует перезагрузки всего блокчейна</translation>
     </message>
     <message>
         <source>(default: %u)</source>
-        <translation>(Standard: %u)</translation>
+        <translation>(по умолчанию: %u)</translation>
     </message>
     <message>
         <source>Accept public REST requests (default: %u)</source>
-        <translation>Öffentliche REST-Anfragen annehmen (Standard: %u)</translation>
+        <translation>Принимать публичные REST-запросы (по умолчанию: %u)</translation>
     </message>
     <message>
         <source>Automatically create Tor hidden service (default: %d)</source>
-        <translation>Automatisch versteckten Tor-Dienst erstellen (Standard: %d)</translation>
+        <translation>Автоматически создавать скрытый сервис Tor (по умолчанию: %u)</translation>
     </message>
     <message>
         <source>Connect through SOCKS5 proxy</source>
-        <translation>Über einen SOCKS5-Proxy &amp;verbinden</translation>
+        <translation>Выполнить подключение через прокси-сервер SOCKS5</translation>
     </message>
     <message>
         <source>Error loading %s: You can't disable HD on an already existing HD wallet</source>
-        <translation>Fehler beim Laden von %s: Sie können die hierarchisch deterministische Schlüsselgeneration (HD) für eine bereits existierende HD-Brieftasche nicht deaktivieren</translation>
+        <translation>Ошибка загрузки %s: невозможно отключить HD-функцию на уже существующем HD-кошельке</translation>
     </message>
     <message>
         <source>Error reading from database, shutting down.</source>
-        <translation>Fehler beim lesen der Datenbank, Ausführung wird beendet.</translation>
+        <translation>Ошибка чтения с базы данных, выполняется закрытие</translation>
     </message>
     <message>
         <source>Error upgrading chainstate database</source>
-        <translation>Fehler bei der Aktualisierung einer Kettenstatus-Datenbank</translation>
+        <translation>Ошибка обновления базы данных состояния цепи</translation>
     </message>
     <message>
         <source>Imports blocks from external blk000??.dat file on startup</source>
-        <translation>Blöcke beim Starten aus externer Datei blk000??.dat importieren</translation>
+        <translation>Импортирует блоки из внешнего файла blk000??.dat при запуске</translation>
     </message>
     <message>
         <source>Information</source>
-        <translation>Hinweis</translation>
+        <translation>Информация</translation>
     </message>
     <message>
         <source>Invalid -onion address or hostname: '%s'</source>
-        <translation>Ungültige Onion-Adresse oder ungültiger Hostname: '%s'</translation>
+        <translation>Неверный -onion адрес или имя хоста: '%s'</translation>
     </message>
     <message>
         <source>Invalid -proxy address or hostname: '%s'</source>
-        <translation>Ungültige Proxy-Adresse oder ungültiger Hostname: '%s'</translation>
+        <translation>Неверный -proxy адрес или имя хоста: '%s'</translation>
     </message>
     <message>
         <source>Invalid amount for -paytxfee=&lt;amount&gt;: '%s' (must be at least %s)</source>
-        <translation>Ungültiger Betrag für -paytxfee=&lt;amount&gt;: '%s' (muss mindestens %s sein)</translation>
+        <translation>Неверная сумма для -paytxfee=&lt;amount&gt;: '%s' (должно быть не менее %s)</translation>
     </message>
     <message>
         <source>Invalid netmask specified in -whitelist: '%s'</source>
-        <translation>Ungültige Netzmaske angegeben in -whitelist: '%s'</translation>
+        <translation>Неверная маска подсети, указанная в -whitelist: '%s'</translation>
     </message>
     <message>
         <source>Keep at most &lt;n&gt; unconnectable transactions in memory (default: %u)</source>
-        <translation>Maximal &lt;n&gt; nicht-verbindbare Transaktionen im Speicher halten (Standard: %u)</translation>
+        <translation>Хранить в памяти не более &lt;n&gt; транзакций, потерявших соединение (по умолчанию: %u)</translation>
     </message>
     <message>
         <source>Need to specify a port with -whitebind: '%s'</source>
-        <translation>Angabe eines Ports benötigt für -whitebind: '%s'</translation>
+        <translation>Необходимо указать порт с -whitebind: '%s'</translation>
     </message>
     <message>
         <source>Node relay options:</source>
-        <translation>Knoten-Weiterleitungsoptionen:</translation>
+        <translation>Опции переключения узлов:</translation>
     </message>
     <message>
         <source>RPC server options:</source>
-        <translation>RPC-Serveroptionen:</translation>
+        <translation>Опции RPC-сервера:</translation>
     </message>
     <message>
         <source>Reducing -maxconnections from %d to %d, because of system limitations.</source>
-        <translation>Reduziere -maxconnections von %d zu %d, aufgrund von Systemlimitierungen.</translation>
+        <translation>Сокращение -maxconnections с %d до %d из-за системных ограничений</translation>
     </message>
     <message>
         <source>Rescan the block chain for missing wallet transactions on startup</source>
-        <translation>Blockkette beim Starten erneut nach fehlenden Wallet-Transaktionen durchsuchen</translation>
+        <translation>При запуске пересканировать цепочку блоков на наличие пропущенных транзакций</translation>
     </message>
     <message>
         <source>Send trace/debug info to console instead of debug.log file</source>
-        <translation>Rückverfolgungs- und Debuginformationen an die Konsole senden, anstatt sie in debug.log zu schreiben</translation>
+        <translation>Отправить на консоль информацию отладки вместо файла debug.log</translation>
     </message>
     <message>
         <source>Show all debugging options (usage: --help -help-debug)</source>
-        <translation>Zeige alle Debuggingoptionen (Benutzung: --help -help-debug)</translation>
+        <translation>Показать все опции отладки (использование: --help -help-debug)</translation>
     </message>
     <message>
         <source>Shrink debug.log file on client startup (default: 1 when no -debug)</source>
-        <translation>Protokolldatei debug.log beim Starten des Clients kürzen (Standard: 1, wenn kein -debug)</translation>
+        <translation>Сжимать файл debug.log при запуске кошелька (по умолчанию: 1 без -debug)</translation>
     </message>
     <message>
         <source>Signing transaction failed</source>
-        <translation>Signierung der Transaktion fehlgeschlagen</translation>
+        <translation>Не удалось подписать транзакцию</translation>
     </message>
     <message>
         <source>Specified -walletdir "%s" does not exist</source>
-        <translation>Angegebenes Verzeichniss "%s" existiert nicht</translation>
+        <translation>Указанный -walletdir "%s" не существует</translation>
     </message>
     <message>
         <source>Specified -walletdir "%s" is a relative path</source>
-        <translation>Angegebenes Verzeichniss "%s" ist ein relativer Pfad</translation>
+        <translation>Указанный -walletdir "%s" является относительным путём</translation>
     </message>
     <message>
         <source>Specified -walletdir "%s" is not a directory</source>
-        <translation>Angegebenes Verzeichniss "%s" ist kein Verzeichniss</translation>
+        <translation>Указанный -walletdir "%s" не является директорией</translation>
     </message>
     <message>
         <source>The transaction amount is too small to pay the fee</source>
-        <translation>Der Transaktionsbetrag ist zu niedrig, um die Gebühr zu bezahlen.</translation>
+        <translation>Сумма транзакции слишком мала для оплаты комиссии</translation>
     </message>
     <message>
         <source>This is experimental software.</source>
-        <translation>Dies ist experimentelle Software.</translation>
+        <translation>Это экспериментальное ПО</translation>
     </message>
     <message>
         <source>Tor control port password (default: empty)</source>
-        <translation>TOR Kontrollport Passwort (Standard: leer)</translation>
+        <translation>Пароль порта управления Tor (по умолчанию: пусто)</translation>
     </message>
     <message>
         <source>Tor control port to use if onion listening enabled (default: %s)</source>
-        <translation>Zu benutzender TOR Kontrollport wenn Onion Auflistung aktiv ist (Standard: %s)</translation>
+        <translation>Порт управления Tor, используемый при включённом прослушивании onion (по умолчанию: %s)</translation>
     </message>
     <message>
         <source>Transaction amount too small</source>
