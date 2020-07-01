@@ -3219,259 +3219,259 @@
     </message>
     <message>
         <source>Query for peer addresses via DNS lookup, if low on addresses (default: 1 unless -connect used)</source>
-        <translation>Adressen von Gegenstellen via DNS-Namensauflösung finden, falls zu wenige Adressen verfügbar sind (Standard: 1, außer bei -connect)</translation>
+        <translation>Запросить адреса пиров с помощью DNS-поиска, если адресов мало (по умолчанию: 1, если не используется -connect)</translation>
     </message>
     <message>
         <source>Reduce storage requirements by enabling pruning (deleting) of old blocks. This allows the pruneblockchain RPC to be called to delete specific blocks, and enables automatic pruning of old blocks if a target size in MiB is provided. This mode is incompatible with -txindex and -rescan. Warning: Reverting this setting requires re-downloading the entire blockchain. (default: 0 = disable pruning blocks, 1 = allow manual pruning via RPC, &gt;%u = automatically prune block files to stay under the specified target size in MiB)</source>
-        <translation>Speicherplatzanforderung durch Kürzen (Pruning) alter Blöcke reduzieren. Dies erlaubt das Aufrufen des sogenannten Pruneblockchain RPC zum Löschen spezifischer Blöcke und und aktiviert das automatische Pruning alter Blöcke, sofern eine Zielgröße in MIB angegeben wird. Dieser Modus ist nicht mit -txindex und -resacan kompatibel. Warnung: Das Rücksetzen dieser Einstellung erfordert das erneute Herunterladen der gesamten Blockchain. (Standard: 0 = deaktiviert das Pruning, 1 = erlaubt manuelles Pruning via RPC, &gt;%u = automatisches Pruning der Blockdateien, um angegebene Maximalgröße nicht zu überschreiten)</translation>
+        <translation>Уменьшите используемый объём памяти, включив сокращение (удаление) старых блоков. Это позволяет вызывать соответствующую функцию RPC для ручного или автоматического удаления блоков посредством установки лимита размера в MiB. Этот режим несовместим с -txindex и -rescan. Предупреждение: для отмены этого параметра потребуется повторная загрузка всего блокчейна (по умолчанию: 0 = удаление блоков отключено, 1 = ручное удаление через RPC, &gt;%u = автоматическое удаление блоков через установку лимита размера в MiB)</translation>
     </message>
     <message>
         <source>Set lowest fee rate (in %s/kB) for transactions to be included in block creation. (default: %s)</source>
-        <translation>Niedrigste Gebühr (in %s/kB) für Transaktionen einstellen, die bei der Blockerzeugung berücksichtigt werden sollen. (default: %s)</translation>
+        <translation>Установить минимально необходимую комиссию (в размере %s/кБ) для принятия транзакций в обработку (по умолчанию: %s)</translation>
     </message>
     <message>
         <source>Set the number of script verification threads (%u to %d, 0 = auto, &lt;0 = leave that many cores free, default: %d)</source>
-        <translation>Maximale Anzahl an Skript-Verifizierungs-Threads festlegen (%u bis %d, 0 = automatisch, &lt;0 = so viele Kerne frei lassen, Standard: %d)</translation>
+        <translation>Установить число потоков проверки скриптов (от %u до %d, 0 = автоматически, &lt;0 = оставьте столько ядер свободными, по умолчанию: %d)</translation>
     </message>
     <message>
         <source>The block database contains a block which appears to be from the future. This may be due to your computer's date and time being set incorrectly. Only rebuild the block database if you are sure that your computer's date and time are correct</source>
-        <translation>Die Block-Datenbank enthält einen Block, der in der Zukunft auftaucht. Dies kann daran liegen, dass die Systemzeit Ihres Computers falsch eingestellt ist. Stellen Sie die Block-Datenbank nur wieder her, wenn Sie sich sicher sind, dass Ihre Systemzeit korrekt eingestellt ist.</translation>
+        <translation>Обнаружен  блок с будущей датой. Это может быть связано с неправильной настройкой даты и времени на вашем компьютере. Если вы уверены, что дата и время вашего компьютера установлены верно, восстановите базу блоков</translation>
     </message>
     <message>
         <source>This is a pre-release test build - use at your own risk - do not use for mining or merchant applications</source>
-        <translation>Dies ist eine Vorab-Testversion - Verwendung auf eigene Gefahr - nicht für Mining- oder Handelsanwendungen nutzen!</translation>
+        <translation>Это тестовая сборка программы, и все риски от её использования ложатся на вас. Не рекомендуется использование для майнинга или коммерческих приложений</translation>
     </message>
     <message>
         <source>This is the transaction fee you may discard if change is smaller than dust at this level</source>
-        <translation>Dies ist die Transaktionsgebühr, die ggf. abgeschrieben wird, wenn das Wechselgeld "Staub" ist in dieser Stufe.</translation>
+        <translation>Вы можете не платить комиссию за перевод сдачи, если её сумма меньше значения «пыли»</translation>
     </message>
     <message>
         <source>Unable to replay blocks. You will need to rebuild the database using -reindex-chainstate.</source>
-        <translation>Fehler beim verarbeiten von Blöcken. Sie müssen die Datenbank mit Hilfe des Arguments '-reindex-chainstate' neuladen. </translation>
+        <translation>Невозможно воспроизвести блоки. Вам нужно будет перестроить базу данных, используя -reindex-chaintate</translation>
     </message>
     <message>
         <source>Unable to rewind the database to a pre-fork state. You will need to redownload the blockchain</source>
-        <translation>Sie müssen die Datenbank mit Hilfe von -reindex neu aufbauen, um zum ungekürzten Modus zurückzukehren. Dies erfordert, dass die gesamte Blockkette erneut heruntergeladen wird.</translation>
+        <translation>Невозможно откатить базу данных назад до предфоркового состояния. Вам нужно будет повторно загрузить блокчейн</translation>
     </message>
     <message>
         <source>Use UPnP to map the listening port (default: 1 when listening and no -proxy)</source>
-        <translation>UPnP verwenden, um eine Portweiterleitung einzurichten (Standard: 1, wenn abgehört wird und -proxy nicht gesetzt ist)</translation>
+        <translation>Используйте UPnP для отображения прослушиваемого порта (по умолчанию: 1 при прослушивании и без прокси)</translation>
     </message>
     <message>
         <source>Username and hashed password for JSON-RPC connections. The field &lt;userpw&gt; comes in the format: &lt;USERNAME&gt;:&lt;SALT&gt;$&lt;HASH&gt;. A canonical python script is included in share/rpcuser. The client then connects normally using the rpcuser=&lt;USERNAME&gt;/rpcpassword=&lt;PASSWORD&gt; pair of arguments. This option can be specified multiple times</source>
-        <translation>Benutzername und gehashtes Passwort für JSON-RPC Verbindungen. Das Feld &lt;userpw&gt; kommt im Format: &lt;USERNAME&gt;:&lt;SALT&gt;$&lt;HASH&gt;. Ein kanonisches Pythonskript ist in share/rpcuser inbegriffen. Der client benutzt wie gehabt, die rpcuser/rpcpassword Parameter. Diese Option kann mehrere Male spezifiziert werden</translation>
+        <translation>Имя пользователя и хешированный пароль для соединений JSON-RPC. Поле userpw имеет формат: &lt;USERNAME&gt;:&lt;SALT&gt;$&lt;HASH&gt;. Канонический скрипт на python включён в share/rpcuser. Затем клиент подключается обычным образом, используя пару аргументов rpcuser=&lt;USERNAME&gt;/rpcpassword=&lt;PASSWORD&gt;. Эта опция может быть указана несколько раз</translation>
     </message>
     <message>
         <source>Wallet will not create transactions that violate mempool chain limits (default: %u)</source>
-        <translation>Das Wallet erzeugt keine Transaktionen, die das Mempool Chain Limit überschreiten (Standardeinstellung: %u)</translation>
+        <translation>Кошелёк не будет создавать транзакции, которые нарушают лимиты цепочки мемпула (по умолчанию: %u)</translation>
     </message>
     <message>
         <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
-        <translation>Warnung: Das Netzwerk scheint nicht vollständig übereinzustimmen! Einige Miner scheinen Probleme zu haben.</translation>
+        <translation>Предупреждение: в сети отсутствует полное согласие! Похоже, некоторые майнеры испытывают проблемы</translation>
     </message>
     <message>
         <source>Warning: We do not appear to fully agree with our peers! You may need to upgrade, or other nodes may need to upgrade.</source>
-        <translation>Warnung: Wir scheinen nicht vollständig mit unseren Gegenstellen übereinzustimmen! Sie oder die anderen Knoten müssen unter Umständen Ihre Client-Software aktualisieren.</translation>
+        <translation>Предупреждение: отсутствует согласие между пирами! Возможно, вам или другим узлам требуется обновление</translation>
     </message>
     <message>
         <source>Whether to save the mempool on shutdown and load on restart (default: %u)</source>
-        <translation>Gibt an, ob der mempool beim Beenden gespeichert und beim Starten wieder geladen werden soll (Standard: %u)</translation>
+        <translation>Сохранять мемпул при выключении или загружать его при следующем запуске (по умолчанию: %u)</translation>
     </message>
     <message>
         <source>%d of last 100 blocks have unexpected version</source>
-        <translation>%d der letzten 100 Blöcke haben eine unerwartete Version</translation>
+        <translation>%d из последних 100 блоков имеют незнакомую версию</translation>
     </message>
     <message>
         <source>%s corrupt, salvage failed</source>
-        <translation>%s beschädigt, Datenrettung fehlgeschlagen</translation>
+        <translation>%s повреждён, восстановление не удалось</translation>
     </message>
     <message>
         <source>-maxmempool must be at least %d MB</source>
-        <translation>-maxmempool muss mindestens %d MB betragen</translation>
+        <translation>-maxmempool должен быть не менее %d МБ</translation>
     </message>
     <message>
         <source>&lt;category&gt; can be:</source>
-        <translation>&lt;category&gt; kann sein:</translation>
+        <translation>&lt;категория:</translation>
     </message>
     <message>
         <source>Accept connections from outside (default: 1 if no -proxy or -connect)</source>
-        <translation>Eingehende Verbindungen annehmen (Standard: 1, wenn nicht -proxy oder -connect)</translation>
+        <translation>Принимать соединения извне (по умолчанию: 1, если без прокси, или -connect)</translation>
     </message>
     <message>
         <source>Append comment to the user agent string</source>
-        <translation>Hänge ein Kommentar zur User Agent-Zeichenkette an</translation>
+        <translation>Добавить комментарий в строку клиента</translation>
     </message>
     <message>
         <source>Attempt to recover private keys from a corrupt wallet on startup</source>
-        <translation>Es wird versucht, private Schlüssel beim Starten aus einem beschädigtem Wallet wiederherzustellen</translation>
+        <translation>Попытаться восстановить приватные ключи из повреждённого кошелька при запуске</translation>
     </message>
     <message>
         <source>Block creation options:</source>
-        <translation>Blockerzeugungsoptionen:</translation>
+        <translation>Опции создания блоков:</translation>
     </message>
     <message>
         <source>Cannot resolve -%s address: '%s'</source>
-        <translation>Kann Adresse in -%s nicht auflösen: '%s'</translation>
+        <translation>Невозможно разрешить адрес -%s: '%s'</translation>
     </message>
     <message>
         <source>Chain selection options:</source>
-        <translation>Chain Auswahloptionen:</translation>
+        <translation>Опции селекции цепи:</translation>
     </message>
     <message>
         <source>Change index out of range</source>
-        <translation>Position des Wechselgelds außerhalb des Bereichs</translation>
+        <translation>Установить индекс вне диапазона</translation>
     </message>
     <message>
         <source>Connection options:</source>
-        <translation>Verbindungsoptionen:</translation>
+        <translation>Опции соединения:</translation>
     </message>
     <message>
         <source>Copyright (C) %i-%i</source>
-        <translation>Copyright (C) %i-%i</translation>
+        <translation>Авторские права © %i-%i</translation>
     </message>
     <message>
         <source>Corrupted block database detected</source>
-        <translation>Beschädigte Blockdatenbank erkannt</translation>
+        <translation>Обнаружена повреждённая база блоков</translation>
     </message>
     <message>
         <source>Debugging/Testing options:</source>
-        <translation>Debugging-/Testoptionen:</translation>
+        <translation>Опции отладки/тестирования:</translation>
     </message>
     <message>
         <source>Do not load the wallet and disable wallet RPC calls</source>
-        <translation>Die Wallet nicht laden und Wallet-RPC-Aufrufe deaktivieren</translation>
+        <translation>Не загружать кошелёк и отключить вызовы RPC</translation>
     </message>
     <message>
         <source>Do you want to rebuild the block database now?</source>
-        <translation>Möchten Sie die Blockdatenbank jetzt neu aufbauen?</translation>
+        <translation>Хотите восстановить базу блоков?</translation>
     </message>
     <message>
         <source>Enable publish hash block in &lt;address&gt;</source>
-        <translation>Aktiviere das Veröffentlichen des Hash-Blocks in &lt;address&gt;</translation>
+        <translation>Разрешить публикацию хэша блока в адресе</translation>
     </message>
     <message>
         <source>Enable publish hash transaction in &lt;address&gt;</source>
-        <translation>Aktiviere das Veröffentlichen der Hash-Transaktion in &lt;address&gt;</translation>
+        <translation>Разрешить публикацию хэша транзакции в адресе</translation>
     </message>
     <message>
         <source>Enable publish raw block in &lt;address&gt;</source>
-        <translation>Aktiviere das Veröffentlichen des Raw-Blocks in &lt;address&gt;</translation>
+        <translation>Разрешить публикацию raw-блока в адресе</translation>
     </message>
     <message>
         <source>Enable publish raw transaction in &lt;address&gt;</source>
-        <translation>Aktiviere das Veröffentlichen der Roh-Transaktion in &lt;address&gt;</translation>
+        <translation>Разрешить публикацию raw-транзакции в адресе</translation>
     </message>
     <message>
         <source>Enable transaction replacement in the memory pool (default: %u)</source>
-        <translation>Maximal &lt;n&gt; nicht-verbindbare Transaktionen im Speicher halten (Standard: %u)</translation>
+        <translation>Разрешить замену транзакции в мемпуле (по умолчанию: %u)</translation>
     </message>
     <message>
         <source>Error creating %s: You can't create non-HD wallets with this version.</source>
-        <translation>Fehler beim Laden von %s: Sie können HD nicht aktivieren da sie derzeit eine nicht HD Brieftasche besitzen.</translation>
+        <translation>Ошибка создания %s: с этой версией вы можете создавать только HD-кошельки</translation>
     </message>
     <message>
         <source>Error initializing block database</source>
-        <translation>Fehler beim Initialisieren der Blockdatenbank</translation>
+        <translation>Ошибка инициализации базы блоков</translation>
     </message>
     <message>
         <source>Error initializing wallet database environment %s!</source>
-        <translation>Fehler beim Initialisieren der Wallet-Datenbankumgebung %s!</translation>
+        <translation>Ошибка инициализации среды базы данных кошелька %s!</translation>
     </message>
     <message>
         <source>Error loading %s</source>
-        <translation>Fehler beim Laden von %s</translation>
+        <translation>Ошибка загрузки %s</translation>
     </message>
     <message>
         <source>Error loading %s: Wallet corrupted</source>
-        <translation>Fehler beim Laden von %s: Das Wallet ist beschädigt</translation>
+        <translation>Ошибка загрузки %s: кошелёк повреждён</translation>
     </message>
     <message>
         <source>Error loading %s: Wallet requires newer version of %s</source>
-        <translation>Fehler beim Laden von %s: Das Wallet benötigt eine neuere Version von %s</translation>
+        <translation>Ошибка загрузки %s: кошелёк требует более поздней версии %s</translation>
     </message>
     <message>
         <source>Error loading block database</source>
-        <translation>Fehler beim Laden der Blockdatenbank</translation>
+        <translation>Ошибка загрузки базы блоков</translation>
     </message>
     <message>
         <source>Error opening block database</source>
-        <translation>Fehler beim Öffnen der Blockdatenbank</translation>
+        <translation>Ошибка при открытии базы блоков</translation>
     </message>
     <message>
         <source>Error: Disk space is low!</source>
-        <translation>Fehler: Zu wenig freier Speicherplatz auf dem Datenträger!</translation>
+        <translation>Ошибка: место на диске заканчивается!</translation>
     </message>
     <message>
         <source>Failed to listen on any port. Use -listen=0 if you want this.</source>
-        <translation>Fehler, es konnte kein Port abgehört werden. Wenn dies so gewünscht wird -listen=0 verwenden.</translation>
+        <translation>Не удалось прослушать ни один порт. При необходимости используйте -listen=0</translation>
     </message>
     <message>
         <source>Failed to rescan the wallet during initialization</source>
-        <translation>Durchsuchen des Wallets während der Initialisation fehlgeschlagen. </translation>
+        <translation>Не удалось пересканировать кошелёк во время инициализации</translation>
     </message>
     <message>
         <source>Importing...</source>
-        <translation>Importiere...</translation>
+        <translation>Выполняется импорт...</translation>
     </message>
     <message>
         <source>Incorrect or no genesis block found. Wrong datadir for network?</source>
-        <translation>Fehlerhafter oder kein Genesis-Block gefunden. Falsches Datenverzeichnis für das Netzwerk?</translation>
+        <translation>Генезис-блок отсутствует или указан неверно. Неправильная ли директория данных для сети?</translation>
     </message>
     <message>
         <source>Initialization sanity check failed. %s is shutting down.</source>
-        <translation>Initialisierungsplausibilitätsprüfung fehlgeschlagen. %s wird beendet.</translation>
+        <translation>Проверка работоспособности при инициализации не удалась. %s завершает работу</translation>
     </message>
     <message>
         <source>Invalid amount for -%s=&lt;amount&gt;: '%s'</source>
-        <translation>Ungültiger Betrag für -%s=&lt;amount&gt;: '%s'</translation>
+        <translation>Недопустимая сумма для -%s=&lt;amount&gt;: '%s'</translation>
     </message>
     <message>
         <source>Invalid amount for -discardfee=&lt;amount&gt;: '%s'</source>
-        <translation>Ungültiger Betrag für -discardfee=&lt;amount&gt;: '%s'</translation>
+        <translation>Недопустимая сумма для -discardfee=&lt;amount&gt;: '%s'</translation>
     </message>
     <message>
         <source>Invalid amount for -fallbackfee=&lt;amount&gt;: '%s'</source>
-        <translation>Ungültiger Betrag für -fallbackfee=&lt;amount&gt;: '%s'</translation>
+        <translation>Недопустимая сумма для -fallbackfee=&lt;amount&gt;: '%s'</translation>
     </message>
     <message>
         <source>Keep the transaction memory pool below &lt;n&gt; megabytes (default: %u)</source>
-        <translation>Halten Sie den Transaktionsspeicherpool unter &lt;n&gt; Megabytes (Voreinstellung: %u)</translation>
+        <translation>Удерживать мемпул транзакций ниже &lt;n&gt; МБ (по умолчанию: %u)</translation>
     </message>
     <message>
         <source>Loading P2P addresses...</source>
-        <translation>Lade P2P-Adressen...</translation>
+        <translation>Загрузка P2P-адресов...</translation>
     </message>
     <message>
         <source>Loading banlist...</source>
-        <translation>Lade Sperrliste...</translation>
+        <translation>Загрузка банлиста...</translation>
     </message>
     <message>
         <source>Location of the auth cookie (default: data dir)</source>
-        <translation>Dateiort für das Auth-Cookie (Standard: Datenverzeichnis)</translation>
+        <translation>Расположение файла cookie для аутентификации (по умолчанию: data dir)</translation>
     </message>
     <message>
         <source>Not enough file descriptors available.</source>
-        <translation>Nicht genügend Datei-Deskriptoren verfügbar.</translation>
+        <translation>Недостаточное количество дескрипторов файла</translation>
     </message>
     <message>
         <source>Only connect to nodes in network &lt;net&gt; (ipv4, ipv6 or onion)</source>
-        <translation>Nur zu Knoten des Netzwerktyps &lt;net&gt; verbinden (ipv4, ipv6 oder onion)</translation>
+        <translation>Подключаться только к узлам в сети &lt;net&gt; (ipv4, ipv6 или onion)</translation>
     </message>
     <message>
         <source>Print this help message and exit</source>
-        <translation>Drucke diese Hilfemeldung und beende</translation>
+        <translation>Распечатать эту памятку и выйти</translation>
     </message>
     <message>
         <source>Print version and exit</source>
-        <translation>Gibt die Versionsnummer aus und beendet das Programm</translation>
+        <translation>Распечатать версию и выйти</translation>
     </message>
     <message>
         <source>Prune cannot be configured with a negative value.</source>
-        <translation>Kürzungsmodus kann nicht mit einem negativen Wert konfiguriert werden.</translation>
+        <translation>Сокращение не может быть настроено с отрицательным значением</translation>
     </message>
     <message>
         <source>Prune mode is incompatible with -txindex.</source>
-        <translation>Kürzungsmodus ist nicht mit -txindex kompatibel.</translation>
+        <translation>Режим сокращения несовместим с -txindex</translation>
     </message>
     <message>
         <source>Rebuild chain state and block index from the blk*.dat files on disk</source>
