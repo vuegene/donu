@@ -3855,23 +3855,23 @@
     </message>
     <message>
         <source>Output debugging information (default: %u, supplying &lt;category&gt; is optional)</source>
-        <translation>Вывести информацию отладки (по умолчанию: %u, указывать категорию необязательно)</translation>
+        <translation>Вывести информацию отладки (по умолчанию: %u, категорию указывать необязательно)</translation>
     </message>
     <message>
         <source>Sets the serialization of raw transaction or block hex returned in non-verbose mode, non-segwit(0) or segwit(1) (default: %d)</source>
-        <translation>Setzt die Serialisierung von Rohtransaktionen oder Block Hex-Daten auf non-verbose mode, nicht-Segwit(0) oder Segwit(1) (default: %d)</translation>
+        <translation>Sets the serialization of raw transaction or block hex returned in non-verbose mode, non-segwit(0) or segwit(1) (default: %d)</translation>
     </message>
     <message>
         <source>Specify directory to hold wallets (default: &lt;datadir&gt;/wallets if it exists, otherwise &lt;datadir&gt;)</source>
-        <translation>Spezifiziere das Verzeichnis für das Wallet (Standard:&lt;datadir&gt;/wallets wenn es vorhanden ist, sonst &lt;datadir&gt;)</translation>
+        <translation>Указать каталог для хранения кошельков (по умолчанию: &lt;datadir&gt;/wallets, если он существует, иначе &lt;datadir&gt;)</translation>
     </message>
     <message>
         <source>Specify location of debug log file: this can be an absolute path or a path relative to the data directory (default: %s)</source>
-        <translation>Verzeichniss für das Debug Logfile: Es kann sich um einen absoluten oder relativen Pfad zum Datenverzeichniss handeln (Standard: %s)</translation>
+        <translation>Указать местоположение файла журнала отладки: это может быть как абсолютный, так и относительный путь (по умолчанию: %s)</translation>
     </message>
     <message>
         <source>Support filtering of blocks and transaction with bloom filters (default: %u)</source>
-        <translation>Unterstütze Blöcke und Transaktionen mit  Bloomfiltern zu filtern (default: %u)</translation>
+        <translation>Поддержка фильтрации блоков и транзакций с помощью фильтров Блума (по умолчанию: %u)</translation>
     </message>
     <message>
         <source>The fee rate (in %s/kB) that indicates your tolerance for discarding change by adding it to the fee (default: %s). Note: An output is discarded if it is dust at this rate, but we will always discard up to the dust relay fee and a discard fee above that is limited by the fee estimate for the longest target</source>
@@ -3879,203 +3879,203 @@
     </message>
     <message>
         <source>This is the transaction fee you may pay when fee estimates are not available.</source>
-        <translation>Das ist die Transaktionsgebühr, welche du zahlen müsstest, wenn die Gebührenschätzungen nicht verfügbar sind.</translation>
+        <translation>Это комиссия за транзакцию, которую вы заплатите, если расчёт комиссии сетью недоступен</translation>
     </message>
     <message>
         <source>This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit %s and cryptographic software written by Eric Young and UPnP software written by Thomas Bernard.</source>
-        <translation>Dieses Produkt enthält Software, die vom OpenSSL-Projekt zur Verwendung im OpenSSL-Toolkit %s entwickelt wird, von Eric Young geschriebene kryptographische Software und von Thomas Bernard geschriebene UPnP-Software.</translation>
+        <translation>Этот продукт включает в себя ПО, разработанное проектом OpenSSL для использования в инструментарии OpenSSL %s и криптографическом ПО, написанном Эриком Янгом, и UPnP ПО, написанное Томасом Бернардом</translation>
     </message>
     <message>
         <source>Total length of network version string (%i) exceeds maximum length (%i). Reduce the number or size of uacomments.</source>
-        <translation>Gesamtlänge des Netzwerkversionstrings (%i) erreicht die maximale Länge (%i). Reduzieren Sie die Nummer oder die Größe von uacomments.</translation>
+        <translation>Общая длина строки версии сети (%i) превышает максимально допустимую длину (%i). Уменьшите количество или размер комментариев</translation>
     </message>
     <message>
         <source>Tries to keep outbound traffic under the given target (in MiB per 24h), 0 = no limit (default: %d)</source>
-        <translation>Versucht ausgehenden Datenverkehr unter dem gegebenen Wert zu halten (in MiB pro 24h), 0 = kein Limit (default: %d)</translation>
+        <translation>Сохраняет исходящий трафик ниже заданной цели (в MiB за 24 часа), 0 = без ограничений (по умолчанию: %d)</translation>
     </message>
     <message>
         <source>Unsupported argument -socks found. Setting SOCKS version isn't possible anymore, only SOCKS5 proxies are supported.</source>
-        <translation>Nicht unterstützter Parameter -socks gefunden. Das Festlegen der SOCKS-Version ist nicht mehr möglich, nur noch SOCKS5-Proxies werden unterstützt.</translation>
+        <translation>Найден неподдерживаемый аргумент -socks. Установка версии SOCKS больше невозможна, поддерживаются только прокси SOCKS5</translation>
     </message>
     <message>
         <source>Unsupported argument -whitelistalwaysrelay ignored, use -whitelistrelay and/or -whitelistforcerelay.</source>
-        <translation>Das Argument -whitelistalwaysrelay wird nicht unterstützt und deswegen ignoriert. Benutze -whitelistrelay und/oder -whitelistforcerelay.</translation>
+        <translation>Аргумент -whelelistallayrelay не поддерживается, используйте -whitelistrelay и/или -whitelistforcerelay</translation>
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: %s)</source>
-        <translation>Separaten SOCKS5-Proxy verwenden, um Gegenstellen über versteckte Tor-Dienste zu erreichen (Standard: %s)</translation>
+        <translation>Использовать отдельный прокси-сервер SOCKS5 для связи с пирами через скрытые сервисы Tor (по умолчанию: %s)</translation>
     </message>
     <message>
         <source>Warning: Unknown block versions being mined! It's possible unknown rules are in effect</source>
-        <translation>Warnung: Unbekannte Blockversion wird durch Mining erzeugt! Es ist möglich, dass unbekannte Regeln in Kraft sind.</translation>
+        <translation>Внимание: генерируются неизвестные версии блоков! Возможно, действуют неизвестные правила</translation>
     </message>
     <message>
         <source>Whitelist peers connecting from the given IP address (e.g. 1.2.3.4) or CIDR notated network (e.g. 1.2.3.0/24). Can be specified multiple times.</source>
-        <translation>Gegenstellen die sich von der angegebenen IP-Adresse (e.g. 1.2.3.4) oder CIDR Notation (eg. 1.2.3.0/24) aus verbinden immer zulassen. Kann mehrmals angegeben werden.</translation>
+        <translation>Пиры из доверенного списка подключаются с заданного IP-адреса (например, 1.2.3.4) или сети CIDR (например, 1.2.3.0/24). Можно указать несколько раз</translation>
     </message>
     <message>
         <source>%s is set very high!</source>
-        <translation>%s wurde sehr hoch eingestellt!</translation>
+        <translation>Значение %s установлено слишком высоко!</translation>
     </message>
     <message>
         <source>(default: %s)</source>
-        <translation>(Standard: %s)</translation>
+        <translation>(по умолчанию: %s)</translation>
     </message>
     <message>
         <source>Always query for peer addresses via DNS lookup (default: %u)</source>
-        <translation>Adressen von Gegenstellen immer über DNS-Namensauflösung abfragen (Standard: %u)</translation>
+        <translation>Всегда запрашивать адреса пиров через DNS-поиск (по умолчанию: %u)</translation>
     </message>
     <message>
         <source>Error loading wallet %s. -wallet filename must be a regular file.</source>
-        <translation>Fehler beim Laden der Brieftasche %s. -wallet Dateiname muss eine normale Datei sein.</translation>
+        <translation>Ошибка загрузки кошелька %s. Имя файла -wallet должно быть обычным файлом</translation>
     </message>
     <message>
         <source>Error loading wallet %s. Duplicate -wallet filename specified.</source>
-        <translation>Fehler beim Laden der Brieftasche %s. -wallet Dateiname doppelt angegeben.</translation>
+        <translation>Ошибка загрузки кошелька %s. Задано повторяющееся имя файла -wallet</translation>
     </message>
     <message>
         <source>Error loading wallet %s. Invalid characters in -wallet filename.</source>
-        <translation>Fehler beim Laden der Brieftasche %s. -wallet Dateiname enthält ungültige Buchstaben.</translation>
+        <translation>Ошибка загрузки кошелька %s. Недопустимые символы в имени файла -wallet</translation>
     </message>
     <message>
         <source>How many blocks to check at startup (default: %u, 0 = all)</source>
-        <translation>Wieviele Blöcke beim Starten geprüft werden sollen (Standard: %u, 0 = alle)</translation>
+        <translation>Сколько блоков проверять при запуске (по умолчанию: %u, 0 = все)</translation>
     </message>
     <message>
         <source>Include IP addresses in debug output (default: %u)</source>
-        <translation>IP-Adressen in Debugausgabe einschließen (Standard: %u)</translation>
+        <translation>Включать IP-адреса в выходные данные отладки (по умолчанию: %u)</translation>
     </message>
     <message>
         <source>Keypool ran out, please call keypoolrefill first</source>
-        <translation>Der Keypool ist erschöpft. Bitte rufen Sie zunächst keypoolrefill auf.</translation>
+        <translation>Хранилище ключей переполнено, вызовите команду keypoolrefill</translation>
     </message>
     <message>
         <source>Listen for JSON-RPC connections on &lt;port&gt; (default: %u or testnet: %u)</source>
-        <translation>&lt;port&gt; nach JSON-RPC-Verbindungen abhören (Standard: %u oder Testnetz: %u)</translation>
+        <translation>Прослушивать соединения JSON-RPC на порте (по умолчанию: %u или тестовая сеть: %u)</translation>
     </message>
     <message>
         <source>Listen for connections on &lt;port&gt; (default: %u or testnet: %u)</source>
-        <translation>&lt;port&gt; nach Verbindungen abhören (Standard: %u oder Testnetz: %u)</translation>
+        <translation>Прослушивать соединения на порте (по умолчанию: %u или тестовая сеть: %u)</translation>
     </message>
     <message>
         <source>Maintain at most &lt;n&gt; connections to peers (default: %u)</source>
-        <translation>Maximal &lt;n&gt; Verbindungen zu Gegenstellen aufrechterhalten (Standard: %u)</translation>
+        <translation>Поддерживать не более &lt;n&gt; соединений с пирами (по умолчанию:% u)</translation>
     </message>
     <message>
         <source>Make the wallet broadcast transactions</source>
-        <translation>Die Wallet soll Transaktionen übertragen/broadcasten</translation>
+        <translation>Совершать broadcast-транзакции</translation>
     </message>
     <message>
         <source>Maximum per-connection receive buffer, &lt;n&gt;*1000 bytes (default: %u)</source>
-        <translation>Maximale Größe des Empfangspuffers pro Verbindung, &lt;n&gt; * 1000 Byte (Standard: %u)</translation>
+        <translation>Максимальный размер буфера приёма для одного соединения, &lt;n&gt;*1000 байтов (по умолчанию: %u)</translation>
     </message>
     <message>
         <source>Maximum per-connection send buffer, &lt;n&gt;*1000 bytes (default: %u)</source>
-        <translation>Maximale Größe des Sendepuffers pro Verbindung, &lt;n&gt; * 1000 Byte (Standard: %u)</translation>
+        <translation>Максимальный размер буфера отправки для одного соединения, &lt;n&gt;*1000 байтов (по умолчанию: %u)</translation>
     </message>
     <message>
         <source>Prepend debug output with timestamp (default: %u)</source>
-        <translation>Debugausgaben einen Zeitstempel voranstellen (Standard: %u)</translation>
+        <translation>Предварительный вывод отладки с отметкой времени (по умолчанию: %u)</translation>
     </message>
     <message>
         <source>Relay and mine data carrier transactions (default: %u)</source>
-        <translation>"Data Carrier"-Transaktionen weiterleiten und erarbeiten (Standard: %u)</translation>
+        <translation>Передавать и обрабатывать транзакции данных (по умолчанию: %u)</translation>
     </message>
     <message>
         <source>Relay non-P2SH multisig (default: %u)</source>
-        <translation>Nicht-"P2SH-Multisig" weiterleiten (Standard: %u)</translation>
+        <translation>Передавать не-P2SH мультиподписи (по умолчанию: %u)</translation>
     </message>
     <message>
         <source>Set key pool size to &lt;n&gt; (default: %u)</source>
-        <translation>Größe des Schlüsselpools festlegen auf &lt;n&gt; (Standard: %u)</translation>
+        <translation>Установить объём хранилища ключей в размере &lt;n&gt; (по умолчанию: %u)</translation>
     </message>
     <message>
         <source>Set maximum BIP141 block weight (default: %d)</source>
-        <translation>Maximales BIP141 Blockgewicht festlegen (Standard: %d)</translation>
+        <translation>Установить максимальный вес блока BIP141 (по умолчанию: %u)</translation>
     </message>
     <message>
         <source>Set the number of threads to service RPC calls (default: %d)</source>
-        <translation>Maximale Anzahl an Threads zur Verarbeitung von RPC-Anfragen festlegen (Standard: %d)</translation>
+        <translation>Установить число потоков для обслуживания вызовов RPC (по умолчанию: %d)</translation>
     </message>
     <message>
         <source>Specify configuration file (default: %s)</source>
-        <translation>Konfigurationsdatei festlegen (Standard: %s)</translation>
+        <translation>Указать файл конфигурации (по умолчанию: %s)</translation>
     </message>
     <message>
         <source>Specify connection timeout in milliseconds (minimum: 1, default: %d)</source>
-        <translation>Verbindungzeitüberschreitung in Millisekunden festlegen (Minimum: 1, Standard: %d)</translation>
+        <translation>Указать время ожидания соединения в миллисекундах (минимум: 1, по умолчанию: %d)</translation>
     </message>
     <message>
         <source>Specify pid file (default: %s)</source>
-        <translation>PID-Datei festlegen (Standard: %s)</translation>
+        <translation>Указать файл pid (по умолчанию: %s)</translation>
     </message>
     <message>
         <source>Spend unconfirmed change when sending transactions (default: %u)</source>
-        <translation>Unbestätigtes Wechselgeld darf beim Senden von Transaktionen ausgegeben werden (Standard: %u)</translation>
+        <translation>Тратить сдачу без подтверждений (по умолчанию: %u)</translation>
     </message>
     <message>
         <source>Starting network threads...</source>
-        <translation>Netzwerk-Threads werden gestartet...</translation>
+        <translation>Запуск сетевых потоков...</translation>
     </message>
     <message>
         <source>The wallet will avoid paying less than the minimum relay fee.</source>
-        <translation>Das Wallet verhindert Zahlungen, die die Mindesttransaktionsgebühr nicht berücksichtigen.</translation>
+        <translation>Кошелёк не будет отправлять сумму, не превышающую минимальный размер комиссии</translation>
     </message>
     <message>
         <source>This is the minimum transaction fee you pay on every transaction.</source>
-        <translation>Dies ist die kleinstmögliche Gebühr, die beim Senden einer Transaktion fällig wird.</translation>
+        <translation>Это минимальный размер комиссии за транзакцию</translation>
     </message>
     <message>
         <source>This is the transaction fee you will pay if you send a transaction.</source>
-        <translation>Dies ist die Gebühr, die beim Senden einer Transaktion fällig wird.</translation>
+        <translation>Это комиссия, которую вы заплатите за транзакцию</translation>
     </message>
     <message>
         <source>Threshold for disconnecting misbehaving peers (default: %u)</source>
-        <translation>Schwellenwert, um Verbindungen zu sich nicht konform verhaltenden Gegenstellen zu beenden (Standard: %u)</translation>
+        <translation>Порог для отключения неправильно работающих пиров (по умолчанию: %u)</translation>
     </message>
     <message>
         <source>Transaction amounts must not be negative</source>
-        <translation>Transaktionsbeträge dürfen nicht negativ sein.</translation>
+        <translation>Сумма транзакции не может быть отрицательной</translation>
     </message>
     <message>
         <source>Transaction has too long of a mempool chain</source>
-        <translation>Die Speicherpoolkette der Transaktion ist zu lang.</translation>
+        <translation>У транзакции слишком длинная цепочка мемпула</translation>
     </message>
     <message>
         <source>Transaction must have at least one recipient</source>
-        <translation>Die Transaktion muss mindestens einen Empfänger enthalten.</translation>
+        <translation>У транзакции должен быть хотя бы один получатель</translation>
     </message>
     <message>
         <source>Unknown network specified in -onlynet: '%s'</source>
-        <translation>Unbekannter Netztyp in -onlynet angegeben: '%s'</translation>
+        <translation>В -onlynet указана неизвестная сеть: '%s'</translation>
     </message>
     <message>
         <source>Insufficient funds</source>
-        <translation>Unzureichender Kontostand</translation>
+        <translation>Недостаточно средств</translation>
     </message>
     <message>
         <source>Loading block index...</source>
-        <translation>Lade Blockindex...</translation>
+        <translation>Загрузка индекса блоков...</translation>
     </message>
     <message>
         <source>Loading wallet...</source>
-        <translation>Lade Wallet...</translation>
+        <translation>Загрузка кошелька...</translation>
     </message>
     <message>
         <source>Cannot downgrade wallet</source>
-        <translation>Wallet kann nicht auf eine ältere Version herabgestuft werden</translation>
+        <translation>Невозможно выполнить переход на более раннюю версию кошелька</translation>
     </message>
     <message>
         <source>Rescanning...</source>
-        <translation>Durchsuche erneut...</translation>
+        <translation>Пересканирование...</translation>
     </message>
     <message>
         <source>Done loading</source>
-        <translation>Laden abgeschlossen</translation>
+        <translation>Загрузка завершена</translation>
     </message>
     <message>
         <source>Error</source>
-        <translation>Fehler</translation>
+        <translation>Ошибка</translation>
     </message>
 </context>
 </TS>
