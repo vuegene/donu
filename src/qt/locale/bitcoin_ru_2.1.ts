@@ -4097,8 +4097,64 @@
         <translation>Монето-дни</translation>
     </message>
     <message>
-        <source>MintProbability</source>
-        <translation>Вероятность награды</translation>
+        <source>Original transaction id.</source>
+        <translation>ID транзакции</translation>
+    </message>
+    <message>
+        <source>Destination address of the output.</source>
+        <translation>Адрес получения</translation>
+    </message>
+    <message>
+        <source>Age of the transaction in days.</source>
+        <translation>Возраст транзакции в днях</translation>
+    </message>
+    <message>
+        <source>Balance of the output.</source>
+        <translation>Баланс выхода</translation>
+    </message>
+    <message>
+        <source>Coin age in the output.</source>
+        <translation>Возраст монет в выходе</translation>
+    </message>
+    <message>
+        <source>Chance to mint a block within given time interval.</source>
+        <translation>Вероятность отчеканить блок в течение заданного промежутка времени</translation>
+    </message>
+    <message>
+        <source>You have %1 chance to find a POS block if you mint %2 at current difficulty.</source>
+        <translation>%1 - вероятность отчеканить блок и получить награду в течение %2 при текущей сложности</translation>
+    </message>
+    <message>
+        <source>Display minting probability within</source>
+        <translation>Отобразить вероятность награды в течение</translation>
+    </message>
+    <message>
+        <source>10 min</source>
+        <translation>10 минут</translation>
+    </message>
+    <message>
+        <source>24 hours</source>
+        <translation>24 часов</translation>
+    </message>
+    <message>
+        <source>30 days</source>
+        <translation>30 дней</translation>
+    </message>
+    <message>
+        <source>90 days</source>
+        <translation>90 дней</translation>
+    </message>
+    <message>
+        <source>transaction is too young</source>
+        <translation>незрелая транзакция</translation>
+    </message>
+    <message>
+        <source>transaction is mature</source>
+        <translation>достаточно зрелая транзакция</translation>
+    </message>
+    <message>
+        <source>transaction has reached maximum probability</source>
+        <translation>максимально зрелая транзакция</translation>
     </message>
 </context>
 </TS>
