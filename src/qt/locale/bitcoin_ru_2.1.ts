@@ -3415,7 +3415,7 @@
     </message>
     <message>
         <source>Incorrect or no genesis block found. Wrong datadir for network?</source>
-        <translation>Генезис-блок отсутствует или указан неверно. Неправильная ли директория данных для сети?</translation>
+        <translation>Генезис-блок отсутствует или указан неверно. Неправильная директория данных для сети?</translation>
     </message>
     <message>
         <source>Initialization sanity check failed. %s is shutting down.</source>
