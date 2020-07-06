@@ -979,7 +979,7 @@
     </message>
     <message>
         <source>&amp;Main</source>
-        <translation>&amp;Главное</translation>
+        <translation>&amp;Основные</translation>
     </message>
     <message>
         <source>Automatically start %1 after logging in to the system.</source>
@@ -1055,7 +1055,7 @@
     </message>
     <message>
         <source>W&amp;allet</source>
-        <translation>К&amp;ошелёк</translation>
+        <translation>&amp;Кошелёк</translation>
     </message>
     <message>
         <source>Expert</source>
@@ -1070,8 +1070,8 @@
         <translation>При запрете траты неподтверждённой сдачи она не может быть использована, пока транзакция, к которой она относится, не получит хотя бы одно подтверждение. Это также влияет на подсчёт вашего баланса</translation>
     </message>
     <message>
-        <source>&amp;Тратить неподтверждённую сдачу</source>
-        <translation>&amp;Unbestätigtes Wechselgeld darf ausgegeben werden</translation>
+        <source>&amp;Spend unconfirmed change</source>
+        <translation>&amp;Тратить неподтверждённую сдачу</translation>
     </message>
     <message>
         <source>Automatically open the Donu client port on the router. This only works when your router supports UPnP and it is enabled.</source>
@@ -1127,7 +1127,7 @@
     </message>
     <message>
         <source>Connect to the Donu network through a separate SOCKS5 proxy for Tor hidden services.</source>
-        <translation>Über einen separaten SOCKS5 Proxy für Tor Services mit dem Donu Netzwerk verbinden.</translation>
+        <translation>Подключиться к сети Donu через отдельный прокси-сервер SOCKS5 для Tor</translation>
     </message>
     <message>
         <source>&amp;Window</source>
@@ -2006,7 +2006,7 @@
     </message>
     <message>
         <source>Inputs...</source>
-        <translation>Выбрать...</translation>
+        <translation>Выбрать вручную...</translation>
     </message>
     <message>
         <source>automatically selected</source>
@@ -2248,7 +2248,6 @@
         <source>Pay only the required fee of %1</source>
         <translation>Оплатить стандартную комиссию в размере %1</translation>
     </message>
-    <message numerus="yes">
         <source>Estimated to begin confirmation within %n block(s).</source>
         <translation>Подтверждение начнётся в течение %n блока(-ов)</translation>
     </message>
@@ -2258,7 +2257,7 @@
     </message>
     <message>
         <source>Warning: Unknown change address</source>
-        <translation>WПредупреждение: неизвестный адрес для сдачи</translation>
+        <translation>Предупреждение: неизвестный адрес для сдачи</translation>
     </message>
     <message>
         <source>Confirm custom change address</source>
@@ -2581,7 +2580,7 @@
         <translation>, пока не передана</translation>
     </message>
         <source>, broadcast through %n node(s)</source>
-        <translation>передана через %n узла(-ов)</translation>
+        <translation>, передана через %n узла(-ов)</translation>
     </message>
     <message>
         <source>Date</source>
@@ -2769,7 +2768,7 @@
     </message>
     <message>
         <source>Generated but not accepted</source>
-        <translation>Сгенерирована, но не принята</translation>
+        <translation>Сгенерирован, но не принят</translation>
     </message>
     <message>
         <source>Received with</source>
@@ -2888,7 +2887,7 @@
     </message>
     <message>
         <source>Abandon transaction</source>
-        <translation>Заброшенная транзакция</translation>
+        <translation>Отказаться от транзакции</translation>
     </message>
     <message>
         <source>Increase transaction fee</source>
@@ -4125,8 +4124,8 @@
         <translation>%1 - вероятность отчеканить блок и получить награду в течение %2 при текущей сложности</translation>
     </message>
     <message>
-        <source>Display minting probability within</source>
-        <translation>Отобразить вероятность награды в течение</translation>
+        <source>Display minting probability within :</source>
+        <translation>Отобразить вероятность награды в течение:</translation>
     </message>
     <message>
         <source>10 min</source>
