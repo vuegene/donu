@@ -945,7 +945,7 @@
     </message>
     <message>
         <source>Unknown. Syncing Headers (%1)...</source>
-        <translation>Неизвестно. Синхронизациия заголовок (%1)...</translation>
+        <translation>Неизвестно. Синхронизациия заголовков (%1)...</translation>
     </message>
 </context>
 <context>
@@ -1099,7 +1099,7 @@
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
-        <translation>IP &amp;прокси:</translation>
+        <translation>IP &amp;прокси-сервера:</translation>
     </message>
     <message>
         <source>&amp;Port:</source>
@@ -1107,7 +1107,7 @@
     </message>
     <message>
         <source>Port of the proxy (e.g. 9050)</source>
-        <translation>Порт прокси: (напр. 9050)</translation>
+        <translation>Порт прокси-сервера: (напр. 9050)</translation>
     </message>
     <message>
         <source>Used for reaching peers via:</source>
@@ -1253,8 +1253,8 @@
         <translation>На подтверждении:</translation>
     </message>
     <message>
-        <source>Транзакции, находящиеся в процессе подтверждения и пока недоступные к расходу</source>
-        <translation>Betrag aus unbestätigten Transaktionen, der noch nicht im aktuell verfügbaren Kontostand enthalten ist</translation>
+        <source>Total of transactions that have yet to be confirmed, and do not yet count toward the spendable balance</source>
+        <translation>Транзакции, находящиеся в процессе подтверждения и пока недоступные к расходу</translation>
     </message>
     <message>
         <source>Immature:</source>
@@ -2094,7 +2094,7 @@
     </message>
     <message>
         <source>Custom:</source>
-        <translation>Особая:</translation>
+        <translation>Пользовательская:</translation>
     </message>
     <message>
         <source>(Smart fee not initialized yet. This usually takes a few blocks...)</source>
@@ -2550,7 +2550,7 @@
     </message>
     <message>
         <source>0/unconfirmed, %1</source>
-        <translation>%1/неподтверждённая</translation>
+        <translation>0/неподтверждённая, %1</translation>
     </message>
     <message>
         <source>in memory pool</source>
@@ -2605,7 +2605,7 @@
     </message>
     <message>
         <source>To</source>
-        <translation>К</translation>
+        <translation>Для</translation>
     </message>
     <message>
         <source>own address</source>
@@ -2773,23 +2773,23 @@
     </message>
     <message>
         <source>Received with</source>
-        <translation>Входящая</translation>
+        <translation>Получено</translation>
     </message>
     <message>
         <source>Received from</source>
-        <translation>Получена от</translation>
+        <translation>Получено от</translation>
     </message>
     <message>
         <source>Sent to</source>
-        <translation>Исходящая</translation>
+        <translation>Отправлено</translation>
     </message>
     <message>
         <source>Payment to yourself</source>
-        <translation>Платёж само себе</translation>
+        <translation>Платёж самому себе</translation>
     </message>
     <message>
         <source>Mined</source>
-        <translation>Отчеканена</translation>
+        <translation>Награда</translation>
     </message>
     <message>
         <source>watch-only</source>
@@ -2860,19 +2860,19 @@
     </message>
     <message>
         <source>Received with</source>
-        <translation>Входящая</translation>
+        <translation>Получено</translation>
     </message>
     <message>
         <source>Sent to</source>
-        <translation>Исходящая</translation>
+        <translation>Отправлено</translation>
     </message>
     <message>
         <source>To yourself</source>
-        <translation>Само себе</translation>
+        <translation>Самому себе</translation>
     </message>
     <message>
         <source>Mined</source>
-        <translation>Отчеканена</translation>
+        <translation>Награда</translation>
     </message>
     <message>
         <source>Other</source>
@@ -2984,7 +2984,7 @@
     </message>
     <message>
         <source>to</source>
-        <translation>в</translation>
+        <translation>до</translation>
     </message>
 </context>
 <context>
@@ -4068,6 +4068,37 @@
     <message>
         <source>Error</source>
         <translation>Ошибка</translation>
+    </message>
+</context>
+<context>
+    <name>MintingPage</name>
+    <message>
+        <source>Minting</source>
+        <translation>Чеканка</translation>
+    </message>
+    <message>
+        <source>Transaction</source>
+        <translation>Транзакция</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Адрес</translation>
+    </message>
+    <message>
+        <source>Age</source>
+        <translation>Возраст</translation>
+    </message>
+    <message>
+        <source>Balance</source>
+        <translation>Объём</translation>
+    </message>
+    <message>
+        <source>CoinDay</source>
+        <translation>Монето-дни</translation>
+    </message>
+    <message>
+        <source>MintProbability</source>
+        <translation>Вероятность награды</translation>
     </message>
 </context>
 </TS>
