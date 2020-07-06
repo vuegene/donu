@@ -4074,7 +4074,7 @@
     <name>MintingPage</name>
     <message>
         <source>Minting</source>
-        <translation>Чеканка</translation>
+        <translation>Минтинг</translation>
     </message>
     <message>
         <source>Transaction</source>
