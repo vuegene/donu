@@ -448,6 +448,7 @@
         <source>Processing blocks on disk...</source>
         <translation>Выполняется обработка блоков на диске...</translation>
     </message>
+    <message>
         <source>Processed %n block(s) of transaction history.</source>
         <translation>%n блок(-а, -ов) обработано</translation>
     </message>
@@ -890,9 +891,11 @@
         <source>Error</source>
         <translation>Ошибка</translation>
     </message>
+    <message>
         <source>%n GB of free space available</source>
         <translation>%n ГБ свободно на диске</translation>
     </message>
+    <message>
         <source>(of %n GB needed)</source>
         <translation>(из необходимых %n ГБ)</translation>
     </message>
@@ -1457,18 +1460,23 @@
         <source>%1 ms</source>
         <translation>%1 мс</translation>
     </message>
+    <message>
         <source>%n second(s)</source>
         <translation>%n секунд(-а, -ы)</translation>
     </message>
+    <message>
         <source>%n minute(s)</source>
         <translation>%n минут(-а, -ы)</translation>
     </message>
+    <message>
         <source>%n hour(s)</source>
         <translation>%n час(-а, -ов)</translation>
     </message>
+    <message>
         <source>%n day(s)</source>
         <translation>%n суток</translation>
     </message>
+    <message>
         <source>%n week(s)</source>
         <translation>%n недел(-я, -и, -ь)</translation>
     </message>
@@ -1476,6 +1484,7 @@
         <source>%1 and %2</source>
         <translation>%1 и %2</translation>
     </message>
+    <message>
         <source>%n year(s)</source>
         <translation>%n год(-а)</translation>
     </message>
@@ -2561,7 +2570,7 @@
     </message>
     <message>
         <source>abandoned</source>
-        <translation>заброшенная</translation>
+        <translation>отвергнуто</translation>
     </message>
     <message>
         <source>%1/unconfirmed</source>
@@ -2579,6 +2588,7 @@
         <source>, has not been successfully broadcast yet</source>
         <translation>, пока не передана</translation>
     </message>
+    <message>
         <source>, broadcast through %n node(s)</source>
         <translation>, передана через %n узла(-ов)</translation>
     </message>
@@ -2622,6 +2632,7 @@
         <source>Credit</source>
         <translation>Кредит</translation>
     </message>
+    <message>
         <source>matures in %n more block(s)</source>
         <translation>созреет через %n блок(-а, -ов)</translation>
     </message>
@@ -2727,6 +2738,7 @@
         <source>Label</source>
         <translation>Метка</translation>
     </message>
+    <message>
         <source>Open for %n more block(s)</source>
         <translation>Открыть на ещё %n блок(-а, -ов)</translation>
     </message>
@@ -2744,7 +2756,7 @@
     </message>
     <message>
         <source>Abandoned</source>
-        <translation>Заброшенная</translation>
+        <translation>Отвергнуто</translation>
     </message>
     <message>
         <source>Confirming (%1 of %2 recommended confirmations)</source>
@@ -3594,7 +3606,7 @@
     </message>
     <message>
         <source>Maximum size of data in data carrier transactions we relay and mine (default: %u)</source>
-        <translation>Максимальный размер данных в транзакциях, который мы передаем и обрабатываем (по умолчанию: %u)</translation>
+        <translation>Максимальный размер данных в транзакциях, который мы передаём и обрабатываем (по умолчанию: %u)</translation>
     </message>
     <message>
         <source>Randomize credentials for every proxy connection. This enables Tor stream isolation (default: %u)</source>
@@ -4089,7 +4101,7 @@
     </message>
     <message>
         <source>Balance</source>
-        <translation>Объём</translation>
+        <translation>Баланс</translation>
     </message>
     <message>
         <source>CoinDay</source>
@@ -4097,7 +4109,7 @@
     </message>
     <message>
         <source>Original transaction id.</source>
-        <translation>ID транзакции</translation>
+        <translation>id транзакции</translation>
     </message>
     <message>
         <source>Destination address of the output.</source>
