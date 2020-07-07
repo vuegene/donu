@@ -437,6 +437,7 @@
         <source>&amp;Command-line options</source>
         <translation>&amp;Опции командной строки</translation>
     </message>
+    <message>
         <source>%n active connection(s) to Donu network</source>
         <translation>%n активных подключений к сети Donu</translation>
     </message>
@@ -2257,6 +2258,7 @@
         <source>Pay only the required fee of %1</source>
         <translation>Оплатить стандартную комиссию в размере %1</translation>
     </message>
+    <message>
         <source>Estimated to begin confirmation within %n block(s).</source>
         <translation>Подтверждение начнётся в течение %n блока(-ов)</translation>
     </message>
@@ -2541,6 +2543,7 @@
 </context>
 <context>
     <name>TransactionDesc</name>
+    <message>
         <source>Open for %n more block(s)</source>
         <translation>Открыть на ещё %n блок(-а, -ов)</translation>
     </message>
