@@ -225,7 +225,7 @@
     </message>
     <message>
         <source>Warning: The Caps Lock key is on!</source>
-        <translation>Warnung: Внимание: клавиша CapsLock включена!</translation>
+        <translation>Внимание: клавиша CapsLock включена!</translation>
     </message>
 </context>
 <context>
