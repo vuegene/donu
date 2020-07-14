@@ -136,6 +136,10 @@
         <translation>Показать пароль</translation>
     </message>
     <message>
+        <source>Unlock for minting only</source>
+        <translation>Разблокировать только для минтинга</translation>
+    </message>
+    <message>
         <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;ten or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
         <translation>Введите новый пароль для кошелька.&lt;br/&gt; Пожалуйста, используйте пароль из &lt;b&gt; десяти или более произвольных символов&lt;/b&gt; или &lt;b&gt;восьми или более слов&lt;/b&gt;</translation>
     </message>
@@ -1183,7 +1187,7 @@
     </message>
     <message>
         <source>&amp;Cancel</source>
-        <translation>&amp;Отменить</translation>
+        <translation>&amp;Отмена</translation>
     </message>
     <message>
         <source>default</source>
