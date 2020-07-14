@@ -133,7 +133,7 @@
     </message>
     <message>
         <source>Show password</source>
-        <translation>Показать пароль</translation>
+        <translation>Отобразить пароль</translation>
     </message>
     <message>
         <source>Unlock for minting only</source>
